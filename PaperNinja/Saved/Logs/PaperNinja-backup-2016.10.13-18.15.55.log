@@ -1,0 +1,1351 @@
+﻿Log file open, 09/29/16 19:41:43
+LogInit:Display: Running engine for game: PaperNinja
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(638972420) SRandInit(638972421).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.076459
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: D:/DevelopmentKit/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.09.29-10.41.43:513][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.29-10.41.43:514][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.09.29-10.41.43:525][  0]LogInit: Computer: NARAMLOPTOP
+[2016.09.29-10.41.43:525][  0]LogInit: User: sylve
+[2016.09.29-10.41.43:525][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.09.29-10.41.43:525][  0]LogInit: High frequency timer resolution =2.728068 MHz
+[2016.09.29-10.41.43:525][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.09.29-10.41.43:525][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.29-10.41.43:525][  0]LogMemory: Process Physical Memory: 191.31 MB used, 191.31 MB peak
+[2016.09.29-10.41.43:525][  0]LogMemory: Process Virtual Memory: 195.27 MB used, 195.27 MB peak
+[2016.09.29-10.41.43:525][  0]LogMemory: Physical Memory: 4177.74 MB used, 8112.01 MB total
+[2016.09.29-10.41.43:525][  0]LogMemory: Virtual Memory: 554.26 MB used, 134217728.00 MB total
+[2016.09.29-10.41.43:584][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2016.09.29-10.41.43:621][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2016.09.29-10.41.43:621][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2016.09.29-10.41.43:621][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2016.09.29-10.41.43:621][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2016.09.29-10.41.43:717][  0]LogD3D11RHI: D3D11 adapters:
+[2016.09.29-10.41.43:737][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 765M' (Feature Level 11_0)
+[2016.09.29-10.41.43:737][  0]LogD3D11RHI:       1991/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.09.29-10.41.43:744][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.09.29-10.41.43:744][  0]LogD3D11RHI:       112/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.09.29-10.41.43:748][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.09.29-10.41.43:748][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.09.29-10.41.43:749][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.09.29-10.41.43:753][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.09.29-10.41.43:753][  0]LogD3D11RHI:     GPU DeviceId: 0x11e2 (for the marketing name, search the web for "GPU Device Id")
+[2016.09.29-10.41.43:753][  0]LogWindows: EnumDisplayDevices:
+[2016.09.29-10.41.43:754][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2016.09.29-10.41.43:754][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.09.29-10.41.43:754][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.09.29-10.41.43:755][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2016.09.29-10.41.43:755][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 765M
+[2016.09.29-10.41.43:755][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2016.09.29-10.41.43:755][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.09.29-10.41.43:755][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.09.29-10.41.43:768][  0]LogD3D11RHI: Async texture creation enabled
+[2016.09.29-10.41.43:778][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.09.29-10.41.43:779][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Intermediate/Shaders/WorkingDirectory/11396/).
+[2016.09.29-10.41.43:779][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sylve/AppData/Local/Temp/UnrealShaderWorkingDir/511D587E48B4E3396C89F3A3010F007F/'.
+[2016.09.29-10.41.43:779][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.09.29-10.41.44:836][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.09.29-10.41.44:845][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.09.29-10.41.44:857][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.09.29-10.41.44:873][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.09.29-10.41.44:883][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.09.29-10.41.44:891][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.09.29-10.41.44:900][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.09.29-10.41.44:908][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.09.29-10.41.44:916][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.09.29-10.41.44:927][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.09.29-10.41.44:935][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.09.29-10.41.44:955][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.09.29-10.41.44:956][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.09.29-10.41.44:958][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.09.29-10.41.44:982][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.09.29-10.41.44:989][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.09.29-10.41.44:997][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.09.29-10.41.45:005][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.09.29-10.41.45:013][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.09.29-10.41.45:013][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.09.29-10.41.45:107][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.09.29-10.41.45:169][  0]LogDerivedDataCache: Loaded boot cache 0.06s 48MB C:/Users/sylve/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.29-10.41.45:170][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/sylve/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.09.29-10.41.45:170][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.09.29-10.41.45:170][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.09.29-10.41.45:170][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.09.29-10.41.45:170][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.09.29-10.41.45:187][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.09.29-10.41.45:200][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sylve/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.09.29-10.41.45:419][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.29-10.41.45:420][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.09.29-10.41.45:581][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.09.29-10.41.45:581][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.09.29-10.41.45:581][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.09.29-10.41.45:833][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
+[2016.09.29-10.41.45:876][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.040597 seconds
+[2016.09.29-10.41.45:881][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.09.29-10.41.45:881][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.09.29-10.41.45:881][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.09.29-10.41.45:888][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.09.29-10.41.46:075][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.29-10.41.46:075][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.29-10.41.46:973][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.09.29-10.41.47:289][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.09.29-10.41.47:290][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.09.29-10.41.47:301][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.09.29-10.41.47:313][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.09.29-10.41.47:584][  0]LogEngine: Initializing Engine...
+[2016.09.29-10.41.47:588][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.29-10.41.47:590][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.09.29-10.41.47:730][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.09.29-10.41.47:745][  0]LogInit: XAudio2 using '스피커(2- High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.29-10.41.47:774][  0]LogInit: FAudioDevice initialized.
+[2016.09.29-10.41.47:805][  0]LogDerivedDataCache: Saved boot cache 0.03s 48MB C:/Users/sylve/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.29-10.41.47:813][  0]LogInit: Texture streaming: Enabled
+[2016.09.29-10.41.47:859][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.09.29-10.41.47:915][  0]LogInit: Transaction tracking system initialized
+[2016.09.29-10.41.47:933][  0]BlueprintLog: New page: 에디터 로드
+[2016.09.29-10.41.48:008][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2016.09.29-10.41.48:078][  0]LogConsoleResponse:Display: 
+[2016.09.29-10.41.48:192][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.09.29-10.41.48:192][  0]LogCook:Display: Mobile HDR setting 1
+[2016.09.29-10.41.48:306][  0]LogFileCache: Scanning file cache for directory 'D:/sylve/Documents/Unreal Projects/PaperNinja/Content/' took 0.02s
+[2016.09.29-10.41.48:306][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.09.29-10.41.48:306][  0]Cmd: MAP LOAD FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Maps/Stage01/PNStage01_Top.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.29-10.41.48:307][  0]LightingResults: New page: 라이팅 빌드
+[2016.09.29-10.41.48:309][  0]MapCheck: New page: 맵 체크
+[2016.09.29-10.41.48:309][  0]LightingResults: New page: 라이팅 빌드
+[2016.09.29-10.41.48:325][  0]LogAIModule: Creating AISystem for world PNStage01_Top
+[2016.09.29-10.41.48:330][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.09.29-10.41.48:331][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.29-10.41.48:436][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 105.765ms.
+[2016.09.29-10.41.48:436][  0]LogFileHelpers: Loading map 'PNStage01_Top' took 0.130
+[2016.09.29-10.41.48:562][  0]LogCollectionManager: Loaded 0 collections in 0.001381 seconds
+[2016.09.29-10.41.48:604][  0]LogFileCache: Scanning file cache for directory 'D:/sylve/Documents/Unreal Projects/PaperNinja/Saved/Collections/' took 0.01s
+[2016.09.29-10.41.48:604][  0]LogFileCache: Scanning file cache for directory 'D:/sylve/Documents/Unreal Projects/PaperNinja/Content/Developers/sylve/Collections/' took 0.01s
+[2016.09.29-10.41.48:604][  0]LogFileCache: Scanning file cache for directory 'D:/sylve/Documents/Unreal Projects/PaperNinja/Content/Collections/' took 0.01s
+[2016.09.29-10.41.48:604][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.09.29-10.41.48:612][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2047 classes and 369 folders.
+[2016.09.29-10.41.48:616][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.09.29-10.41.48:616][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.09.29-10.41.48:616][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2016.09.29-10.41.48:620][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.09.29-10.41.48:712][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.09.29-10.41.48:717][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.09.29-10.41.48:778][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.09.29-10.41.48:784][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2016.09.29-10.41.48:809][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.09.29-10.41.48:810][  0]LogLoad: Full Startup: 6.19 seconds (BP compile: 0.00 seconds)
+[2016.09.29-10.41.48:810][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.09.29-10.41.48:810][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.09.29-10.41.48:829][  0]LogOcInput: OculusInput pre-init called
+[2016.09.29-10.41.48:863][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.09.29-10.41.49:092][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.09.29-10.41.49:150][  1]LogAssetRegistry: Asset discovery search completed in 3.3388 seconds
+[2016.09.29-10.41.49:150][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.09.29-10.41.49:150][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2016.09.29-10.42.52:655][707]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_Bonfire.fbx)
+[2016.09.29-10.42.52:722][707]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2016.09.29-10.42.52:722][707]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2016.09.29-10.42.52:722][707]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2016.09.29-10.42.52:722][707]LogFbx: ItemName: Geometry, ItemCount : 1
+[2016.09.29-10.42.52:722][707]LogFbx: ItemName: Material, ItemCount : 1
+[2016.09.29-10.42.52:722][707]LogFbx: ItemName: Texture, ItemCount : 1
+[2016.09.29-10.42.52:722][707]LogFbx: ItemName: Model, ItemCount : 1
+[2016.09.29-10.42.52:722][707]LogFbx: ItemName: Video, ItemCount : 1
+[2016.09.29-10.42.52:743][707]LogFbx: Loading FBX Scene from G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_Bonfire.fbx
+[2016.09.29-10.42.52:770][707]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.29-10.42.59:086][707]LogFbx: Loading FBX Scene from G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_Bonfire.fbx
+[2016.09.29-10.42.59:094][707]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.29-10.42.59:097][707]LogLinker:Warning: '/Game/Architecture/lambert2' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:097][707]LogLinker:Warning: '/Game/Architecture/lambert2' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:102][707]LogLinker:Warning: '/Game/Architecture/T_Kagaribi_AL' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:102][707]LogLinker:Warning: '/Game/Architecture/T_Kagaribi_AL' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:102][707]LogUObjectGlobals:Warning: 'Texture /Game/Architecture/T_Kagaribi_AL.T_Kagaribi_AL' 오브젝트를 찾는 데 실패했습니다.
+[2016.09.29-10.42.59:102][707]LogStreaming:Warning: Failed to read file 'D:/Data/Maya/Paper_Ninja/Props/kagaribi/sourceimages/T_Kagaribi_AL.tga' error.
+[2016.09.29-10.42.59:102][707]LogStreaming:Warning: Failed to read file 'G:\ENSW\PaperNinja_Resource\Props/Meshes/D:\Data\Maya\Paper_Ninja\Props\kagaribi\sourceimages\T_Kagaribi_AL.tga' error.
+[2016.09.29-10.42.59:103][707]LogStreaming:Warning: Failed to read file 'G:\ENSW\PaperNinja_Resource\Props/Meshes/T_Kagaribi_AL.tga' error.
+[2016.09.29-10.42.59:103][707]LogFbxMaterialImport:Warning: Unable to find TEXTure file T_Kagaribi_AL.tga. Tried:
+ - D:/Data/Maya/Paper_Ninja/Props/kagaribi/sourceimages/T_Kagaribi_AL.tga
+ - G:\ENSW\PaperNinja_Resource\Props/Meshes/D:\Data\Maya\Paper_Ninja\Props\kagaribi\sourceimages\T_Kagaribi_AL.tga
+ - G:\ENSW\PaperNinja_Resource\Props/Meshes/T_Kagaribi_AL.tga
+[2016.09.29-10.42.59:106][707]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2016.09.29-10.42.59:133][707]LogFbx:Warning: Triangulating static mesh kagaribi2
+[2016.09.29-10.42.59:305][707]LogStaticMesh: SM_Bonfire 스태틱 메시 빌드중...
+[2016.09.29-10.42.59:346][707]LogStaticMesh: Built static mesh [0.04s] /Game/Architecture/SM_Bonfire.SM_Bonfire
+[2016.09.29-10.42.59:367][707]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_Box01.fbx)
+[2016.09.29-10.42.59:385][707]LogFbx: Loading FBX Scene from G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_Box01.fbx
+[2016.09.29-10.42.59:392][707]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.29-10.42.59:395][707]LogLinker:Warning: '/Game/Architecture/phong1' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:395][707]LogLinker:Warning: '/Game/Architecture/phong1' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:399][707]LogLinker:Warning: '/Game/Architecture/T_Carton' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:399][707]LogLinker:Warning: '/Game/Architecture/T_Carton' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:399][707]LogUObjectGlobals:Warning: 'Texture /Game/Architecture/T_Carton.T_Carton' 오브젝트를 찾는 데 실패했습니다.
+[2016.09.29-10.42.59:400][707]LogStreaming:Warning: Failed to read file 'C:/Users/kwkm/maya/Objects/Carton_Box/Carton_Box/sourceimages/T_Carton.tga' error.
+[2016.09.29-10.42.59:400][707]LogStreaming:Warning: Failed to read file 'G:\ENSW\PaperNinja_Resource\Props/Meshes/..\..\..\..\Users\kwkm\maya\Objects\Carton_Box\Carton_Box\sourceimages\T_Carton.tga' error.
+[2016.09.29-10.42.59:400][707]LogStreaming:Warning: Failed to read file 'G:\ENSW\PaperNinja_Resource\Props/Meshes/T_Carton.tga' error.
+[2016.09.29-10.42.59:400][707]LogFbxMaterialImport:Warning: Unable to find TEXTure file T_Carton.tga. Tried:
+ - C:/Users/kwkm/maya/Objects/Carton_Box/Carton_Box/sourceimages/T_Carton.tga
+ - G:\ENSW\PaperNinja_Resource\Props/Meshes/..\..\..\..\Users\kwkm\maya\Objects\Carton_Box\Carton_Box\sourceimages\T_Carton.tga
+ - G:\ENSW\PaperNinja_Resource\Props/Meshes/T_Carton.tga
+[2016.09.29-10.42.59:400][707]LogLinker:Warning: '/Game/Architecture/Carton_Bitmap2Material2_Specular' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:400][707]LogLinker:Warning: '/Game/Architecture/Carton_Bitmap2Material2_Specular' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:400][707]LogUObjectGlobals:Warning: 'Texture /Game/Architecture/Carton_Bitmap2Material2_Specular.Carton_Bitmap2Material2_Specular' 오브젝트를 찾는 데 실패했습니다.
+[2016.09.29-10.42.59:401][707]LogStreaming:Warning: Failed to read file 'C:/Users/kwkm/maya/Objects/Carton_Box/Carton_Box/sourceimages/Bitmap2Mat/Carton_Bitmap2Material2_Specular.tga' error.
+[2016.09.29-10.42.59:401][707]LogStreaming:Warning: Failed to read file 'G:\ENSW\PaperNinja_Resource\Props/Meshes/..\..\..\..\Users\kwkm\maya\Objects\Carton_Box\Carton_Box\sourceimages\Bitmap2Mat\Carton_Bitmap2Material2_Specular.tga' error.
+[2016.09.29-10.42.59:401][707]LogStreaming:Warning: Failed to read file 'G:\ENSW\PaperNinja_Resource\Props/Meshes/Carton_Bitmap2Material2_Specular.tga' error.
+[2016.09.29-10.42.59:401][707]LogFbxMaterialImport:Warning: Unable to find TEXTure file Carton_Bitmap2Material2_Specular.tga. Tried:
+ - C:/Users/kwkm/maya/Objects/Carton_Box/Carton_Box/sourceimages/Bitmap2Mat/Carton_Bitmap2Material2_Specular.tga
+ - G:\ENSW\PaperNinja_Resource\Props/Meshes/..\..\..\..\Users\kwkm\maya\Objects\Carton_Box\Carton_Box\sourceimages\Bitmap2Mat\Carton_Bitmap2Material2_Specular.tga
+ - G:\ENSW\PaperNinja_Resource\Props/Meshes/Carton_Bitmap2Material2_Specular.tga
+[2016.09.29-10.42.59:404][707]LogMaterial: Missing cached shader map for material phong1, compiling. 
+[2016.09.29-10.42.59:415][707]LogFbx:Warning: Triangulating static mesh pCube9
+[2016.09.29-10.42.59:432][707]LogStaticMesh: SM_Box01 스태틱 메시 빌드중...
+[2016.09.29-10.42.59:437][707]LogStaticMesh: Built static mesh [0.01s] /Game/Architecture/SM_Box01.SM_Box01
+[2016.09.29-10.42.59:454][707]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_Coin.fbx)
+[2016.09.29-10.42.59:474][707]LogFbx: Loading FBX Scene from G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_Coin.fbx
+[2016.09.29-10.42.59:481][707]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.29-10.42.59:484][707]LogLinker:Warning: '/Game/Architecture/blinn1' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:484][707]LogLinker:Warning: '/Game/Architecture/blinn1' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:488][707]LogLinker:Warning: '/Game/Architecture/wadou' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:488][707]LogLinker:Warning: '/Game/Architecture/wadou' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:488][707]LogUObjectGlobals:Warning: 'Texture /Game/Architecture/wadou.wadou' 오브젝트를 찾는 데 실패했습니다.
+[2016.09.29-10.42.59:488][707]LogStreaming:Warning: Failed to read file 'D:\Data\Maya\Paper_Ninja\Props\ENV_Models\sourceimages\wadou.tga' error.
+[2016.09.29-10.42.59:489][707]LogStreaming:Warning: Failed to read file 'G:\ENSW\PaperNinja_Resource\Props/Meshes/D:\Data\Maya\Paper_Ninja\Props\ENV_Models\sourceimages\wadou.tga' error.
+[2016.09.29-10.42.59:489][707]LogStreaming:Warning: Failed to read file 'G:\ENSW\PaperNinja_Resource\Props/Meshes/wadou.tga' error.
+[2016.09.29-10.42.59:489][707]LogFbxMaterialImport:Warning: Unable to find TEXTure file wadou.tga. Tried:
+ - D:\Data\Maya\Paper_Ninja\Props\ENV_Models\sourceimages\wadou.tga
+ - G:\ENSW\PaperNinja_Resource\Props/Meshes/D:\Data\Maya\Paper_Ninja\Props\ENV_Models\sourceimages\wadou.tga
+ - G:\ENSW\PaperNinja_Resource\Props/Meshes/wadou.tga
+[2016.09.29-10.42.59:491][707]LogMaterial: Missing cached shader map for material blinn1, compiling. 
+[2016.09.29-10.42.59:502][707]LogFbx:Warning: Triangulating static mesh pCylinder1
+[2016.09.29-10.42.59:559][707]LogStaticMesh: SM_Coin 스태틱 메시 빌드중...
+[2016.09.29-10.42.59:572][707]LogStaticMesh: Built static mesh [0.01s] /Game/Architecture/SM_Coin.SM_Coin
+[2016.09.29-10.42.59:592][707]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_Gear.FBX)
+[2016.09.29-10.42.59:612][707]LogFbx: Loading FBX Scene from G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_Gear.FBX
+[2016.09.29-10.42.59:684][707]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.29-10.42.59:696][707]LogLinker:Warning: '/Game/Architecture/02_-_Default' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:696][707]LogLinker:Warning: '/Game/Architecture/02_-_Default' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:700][707]LogLinker:Warning: '/Game/Architecture/haguruma' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:700][707]LogLinker:Warning: '/Game/Architecture/haguruma' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:700][707]LogUObjectGlobals:Warning: 'Texture /Game/Architecture/haguruma.haguruma' 오브젝트를 찾는 데 실패했습니다.
+[2016.09.29-10.42.59:701][707]LogStreaming:Warning: Failed to read file 'C:\Users\daigohou_sachiko\Desktop\test\work\haguruma\haguruma.dds' error.
+[2016.09.29-10.42.59:701][707]LogStreaming:Warning: Failed to read file 'G:\ENSW\PaperNinja_Resource\Props/Meshes/..\..\..\..\Users\daigohou_sachiko\Desktop\test\work\haguruma\haguruma.dds' error.
+[2016.09.29-10.42.59:701][707]LogStreaming:Warning: Failed to read file 'G:\ENSW\PaperNinja_Resource\Props/Meshes/haguruma.dds' error.
+[2016.09.29-10.42.59:701][707]LogFbxMaterialImport:Warning: Unable to find TEXTure file haguruma.dds. Tried:
+ - C:\Users\daigohou_sachiko\Desktop\test\work\haguruma\haguruma.dds
+ - G:\ENSW\PaperNinja_Resource\Props/Meshes/..\..\..\..\Users\daigohou_sachiko\Desktop\test\work\haguruma\haguruma.dds
+ - G:\ENSW\PaperNinja_Resource\Props/Meshes/haguruma.dds
+[2016.09.29-10.42.59:705][707]LogMaterial: Missing cached shader map for material 02_-_Default, compiling. 
+[2016.09.29-10.42.59:720][707]LogStaticMesh: SM_Gear 스태틱 메시 빌드중...
+[2016.09.29-10.42.59:733][707]LogStaticMesh: Built static mesh [0.01s] /Game/Architecture/SM_Gear.SM_Gear
+[2016.09.29-10.42.59:751][707]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_GearShaft.fbx)
+[2016.09.29-10.42.59:770][707]LogFbx: Loading FBX Scene from G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_GearShaft.fbx
+[2016.09.29-10.42.59:778][707]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.29-10.42.59:781][707]LogLinker:Warning: '/Game/Architecture/body' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:782][707]LogLinker:Warning: '/Game/Architecture/body' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:787][707]LogLinker:Warning: '/Game/Architecture/hashira' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:788][707]LogLinker:Warning: '/Game/Architecture/hashira' 파일을 찾을 수 없습니다.
+[2016.09.29-10.42.59:788][707]LogUObjectGlobals:Warning: 'Texture /Game/Architecture/hashira.hashira' 오브젝트를 찾는 데 실패했습니다.
+[2016.09.29-10.42.59:788][707]LogStreaming:Warning: Failed to read file 'C:\Users\daigohou_sachiko\Desktop\test\work\haguruma\hashira.dds' error.
+[2016.09.29-10.42.59:788][707]LogStreaming:Warning: Failed to read file 'G:\ENSW\PaperNinja_Resource\Props/Meshes/..\..\..\..\Users\daigohou_sachiko\Desktop\test\work\haguruma\hashira.dds' error.
+[2016.09.29-10.42.59:788][707]LogStreaming:Warning: Failed to read file 'G:\ENSW\PaperNinja_Resource\Props/Meshes/hashira.dds' error.
+[2016.09.29-10.42.59:788][707]LogFbxMaterialImport:Warning: Unable to find TEXTure file hashira.dds. Tried:
+ - C:\Users\daigohou_sachiko\Desktop\test\work\haguruma\hashira.dds
+ - G:\ENSW\PaperNinja_Resource\Props/Meshes/..\..\..\..\Users\daigohou_sachiko\Desktop\test\work\haguruma\hashira.dds
+ - G:\ENSW\PaperNinja_Resource\Props/Meshes/hashira.dds
+[2016.09.29-10.42.59:792][707]LogMaterial: Missing cached shader map for material body, compiling. 
+[2016.09.29-10.42.59:806][707]LogFbx:Warning: Triangulating static mesh tree
+[2016.09.29-10.42.59:814][707]LogStaticMesh: SM_GearShaft 스태틱 메시 빌드중...
+[2016.09.29-10.42.59:819][707]LogStaticMesh: Built static mesh [0.00s] /Game/Architecture/SM_GearShaft.SM_GearShaft
+[2016.09.29-10.42.59:837][707]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_Scroll.fbx)
+[2016.09.29-10.42.59:859][707]LogFbx: Loading FBX Scene from G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_Scroll.fbx
+[2016.09.29-10.42.59:869][707]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.29-10.42.59:872][707]LogFbx:Warning: Triangulating static mesh group3
+[2016.09.29-10.42.59:951][707]LogStaticMesh: SM_Scroll 스태틱 메시 빌드중...
+[2016.09.29-10.42.59:969][707]LogStaticMesh: Built static mesh [0.02s] /Game/Architecture/SM_Scroll.SM_Scroll
+[2016.09.29-10.42.59:992][707]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_Shape_Cylinder100x10.fbx)
+[2016.09.29-10.43.00:016][707]LogFbx: Loading FBX Scene from G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_Shape_Cylinder100x10.fbx
+[2016.09.29-10.43.00:024][707]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.29-10.43.00:027][707]LogFbx:Warning: Triangulating static mesh Shape_Cylinder
+[2016.09.29-10.43.00:107][707]LogStaticMesh: SM_Shape_Cylinder100x10 스태틱 메시 빌드중...
+[2016.09.29-10.43.00:112][707]LogStaticMesh: Built static mesh [0.01s] /Game/Architecture/SM_Shape_Cylinder100x10.SM_Shape_Cylinder100x10
+[2016.09.29-10.43.00:130][707]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_Shape_Cylinder_Base.fbx)
+[2016.09.29-10.43.00:152][707]LogFbx: Loading FBX Scene from G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_Shape_Cylinder_Base.fbx
+[2016.09.29-10.43.00:161][707]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.29-10.43.00:164][707]LogFbx:Warning: Triangulating static mesh pCylinder3
+[2016.09.29-10.43.00:226][707]LogStaticMesh: SM_Shape_Cylinder_Base 스태틱 메시 빌드중...
+[2016.09.29-10.43.00:235][707]LogStaticMesh: Built static mesh [0.01s] /Game/Architecture/SM_Shape_Cylinder_Base.SM_Shape_Cylinder_Base
+[2016.09.29-10.43.00:254][707]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_Shuriken.fbx)
+[2016.09.29-10.43.00:274][707]LogFbx: Loading FBX Scene from G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_Shuriken.fbx
+[2016.09.29-10.43.00:281][707]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.29-10.43.00:284][707]LogFbx:Warning: Triangulating static mesh pCube19
+[2016.09.29-10.43.00:326][707]LogStaticMesh: SM_Shuriken 스태틱 메시 빌드중...
+[2016.09.29-10.43.00:343][707]LogStaticMesh: Built static mesh [0.02s] /Game/Architecture/SM_Shuriken.SM_Shuriken
+[2016.09.29-10.43.00:363][707]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_Signboard.fbx)
+[2016.09.29-10.43.00:384][707]LogFbx: Loading FBX Scene from G:\ENSW\PaperNinja_Resource\Props/Meshes/SM_Signboard.fbx
+[2016.09.29-10.43.00:391][707]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.29-10.43.00:431][707]LogLinker:Warning: '/Game/Architecture/ofure' 파일을 찾을 수 없습니다.
+[2016.09.29-10.43.00:431][707]LogLinker:Warning: '/Game/Architecture/ofure' 파일을 찾을 수 없습니다.
+[2016.09.29-10.43.00:435][707]LogUObjectGlobals:Warning: 'Texture /Game/Architecture/ofure.ofure' 오브젝트를 찾는 데 실패했습니다.
+[2016.09.29-10.43.00:435][707]LogStreaming:Warning: Failed to read file 'C:\Users\daigohou_sachiko\Desktop\test\work\haguruma\ofure.dds' error.
+[2016.09.29-10.43.00:435][707]LogStreaming:Warning: Failed to read file 'G:\ENSW\PaperNinja_Resource\Props/Meshes/ofure.dds' error.
+[2016.09.29-10.43.00:435][707]LogStreaming:Warning: Failed to read file 'G:\ENSW\PaperNinja_Resource\Props/Meshes/ofure.dds' error.
+[2016.09.29-10.43.00:435][707]LogFbxMaterialImport:Warning: Unable to find TEXTure file ofure.dds. Tried:
+ - C:\Users\daigohou_sachiko\Desktop\test\work\haguruma\ofure.dds
+ - G:\ENSW\PaperNinja_Resource\Props/Meshes/ofure.dds
+ - G:\ENSW\PaperNinja_Resource\Props/Meshes/ofure.dds
+[2016.09.29-10.43.00:439][707]LogMaterial: Missing cached shader map for material ofure, compiling. 
+[2016.09.29-10.43.00:457][707]LogStaticMesh: SM_Signboard 스태틱 메시 빌드중...
+[2016.09.29-10.43.00:470][707]LogStaticMesh: Built static mesh [0.01s] /Game/Architecture/SM_Signboard.SM_Signboard
+[2016.09.29-10.43.00:490][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Bonfire_D.tga)
+[2016.09.29-10.43.01:154][707]LogTexture:Display: 텍스처 빌드중: T_Bonfire_D (AutoDXT)
+[2016.09.29-10.43.03:747][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Bonfire_M.tga)
+[2016.09.29-10.43.04:379][707]LogTexture:Display: 텍스처 빌드중: T_Bonfire_M (AutoDXT)
+[2016.09.29-10.43.05:123][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Bonfire_N.tga)
+[2016.09.29-10.43.05:181][707]LogTexture:Display: 텍스처 빌드중: T_Bonfire_N (BC5)
+[2016.09.29-10.43.05:224][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Bonfire_R.tga)
+[2016.09.29-10.43.05:813][707]LogTexture:Display: 텍스처 빌드중: T_Bonfire_R (AutoDXT)
+[2016.09.29-10.43.07:028][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Carton_D.tga)
+[2016.09.29-10.43.07:225][707]LogTexture:Display: 텍스처 빌드중: T_Carton_D (AutoDXT)
+[2016.09.29-10.43.07:756][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Carton_M.tga)
+[2016.09.29-10.43.07:928][707]LogTexture:Display: 텍스처 빌드중: T_Carton_M (AutoDXT)
+[2016.09.29-10.43.08:048][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Carton_N.tga)
+[2016.09.29-10.43.08:103][707]LogTexture:Display: 텍스처 빌드중: T_Carton_N (BC5)
+[2016.09.29-10.43.08:149][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Carton_S.tga)
+[2016.09.29-10.43.08:201][707]LogTexture:Display: 텍스처 빌드중: T_Carton_S (AutoDXT)
+[2016.09.29-10.43.08:381][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Coin01_D.tga)
+[2016.09.29-10.43.08:415][707]LogTexture:Display: 텍스처 빌드중: T_Coin01_D (AutoDXT)
+[2016.09.29-10.43.08:627][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Coin01_N.tga)
+[2016.09.29-10.43.08:678][707]LogTexture:Display: 텍스처 빌드중: T_Coin01_N (BC5)
+[2016.09.29-10.43.08:720][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Coin01_R.tga)
+[2016.09.29-10.43.08:755][707]LogTexture:Display: 텍스처 빌드중: T_Coin01_R (AutoDXT)
+[2016.09.29-10.43.08:929][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Coin01_S.tga)
+[2016.09.29-10.43.08:964][707]LogTexture:Display: 텍스처 빌드중: T_Coin01_S (AutoDXT)
+[2016.09.29-10.43.09:130][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Cylinder100x10_D.tga)
+[2016.09.29-10.43.09:285][707]LogTexture:Display: 텍스처 빌드중: T_Cylinder100x10_D (AutoDXT)
+[2016.09.29-10.43.09:523][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Cylinder100x10_N.tga)
+[2016.09.29-10.43.09:572][707]LogTexture:Display: 텍스처 빌드중: T_Cylinder100x10_N (BC5)
+[2016.09.29-10.43.09:607][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_GearShaft_D.tga)
+[2016.09.29-10.43.09:640][707]LogTexture:Display: 텍스처 빌드중: T_GearShaft_D (AutoDXT)
+[2016.09.29-10.43.09:684][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Gear_D.TGA)
+[2016.09.29-10.43.09:837][707]LogTexture:Display: 텍스처 빌드중: T_Gear_D (AutoDXT)
+[2016.09.29-10.43.10:047][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Scroll_D.tga)
+[2016.09.29-10.43.10:089][707]LogTexture:Display: 텍스처 빌드중: T_Scroll_D (AutoDXT)
+[2016.09.29-10.43.10:271][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Shuriken_D.tga)
+[2016.09.29-10.43.10:872][707]LogTexture:Display: 텍스처 빌드중: T_Shuriken_D (AutoDXT)
+[2016.09.29-10.43.12:773][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Shuriken_MT.tga)
+[2016.09.29-10.43.13:388][707]LogTexture:Display: 텍스처 빌드중: T_Shuriken_MT (AutoDXT)
+[2016.09.29-10.43.14:418][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Shuriken_N.tga)
+[2016.09.29-10.43.15:102][707]LogTexture:Display: 텍스처 빌드중: T_Shuriken_N (BC5)
+[2016.09.29-10.43.15:533][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Shuriken_R.tga)
+[2016.09.29-10.43.16:135][707]LogTexture:Display: 텍스처 빌드중: T_Shuriken_R (AutoDXT)
+[2016.09.29-10.43.17:084][707]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 G:\ENSW\PaperNinja_Resource\Props/Textures/T_Signboard_D.tga)
+[2016.09.29-10.43.17:270][707]LogTexture:Display: 텍스처 빌드중: T_Signboard_D (AutoDXT)
+[2016.09.29-10.43.48:094][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/02_-_Default" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/02_-_Default.uasset" SILENT=true
+[2016.09.29-10.43.48:107][115]LogSavePackage: Save=9.85ms
+[2016.09.29-10.43.48:107][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/02_-_DefaultC8253EE44E6DBB2DCE59F3943CBA7522.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/02_-_Default.uasset'
+[2016.09.29-10.43.48:115][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/02_-_Default.uasset
+[2016.09.29-10.43.48:129][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/blinn1" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/blinn1.uasset" SILENT=true
+[2016.09.29-10.43.48:141][115]LogSavePackage: Save=9.52ms
+[2016.09.29-10.43.48:141][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/blinn1C5A461DC4C260F4071F516969BACE214.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/blinn1.uasset'
+[2016.09.29-10.43.48:147][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/blinn1.uasset
+[2016.09.29-10.43.48:161][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/body" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/body.uasset" SILENT=true
+[2016.09.29-10.43.48:174][115]LogSavePackage: Save=9.49ms
+[2016.09.29-10.43.48:174][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/body4DF25BA8405B780C90CF0BAC217D7BCD.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/body.uasset'
+[2016.09.29-10.43.48:179][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/body.uasset
+[2016.09.29-10.43.48:193][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/lambert2" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/lambert2.uasset" SILENT=true
+[2016.09.29-10.43.48:206][115]LogSavePackage: Save=9.55ms
+[2016.09.29-10.43.48:206][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/lambert2630CA5AE49F63E2468E38BB18599C83D.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/lambert2.uasset'
+[2016.09.29-10.43.48:213][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/lambert2.uasset
+[2016.09.29-10.43.48:228][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/ofure" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/ofure.uasset" SILENT=true
+[2016.09.29-10.43.48:241][115]LogSavePackage: Save=9.86ms
+[2016.09.29-10.43.48:241][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/ofure3F0A293F4A789AEBBD1E2AB8E4645F02.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/ofure.uasset'
+[2016.09.29-10.43.48:246][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/ofure.uasset
+[2016.09.29-10.43.48:261][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/phong1" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/phong1.uasset" SILENT=true
+[2016.09.29-10.43.48:274][115]LogSavePackage: Save=9.97ms
+[2016.09.29-10.43.48:274][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/phong17598DDAF48F06347CA77138BF868095A.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/phong1.uasset'
+[2016.09.29-10.43.48:280][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/phong1.uasset
+[2016.09.29-10.43.48:293][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_Bonfire" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Bonfire.uasset" SILENT=true
+[2016.09.29-10.43.48:306][115]LogSavePackage: Save=10.37ms
+[2016.09.29-10.43.48:306][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Bonfire84AB115747DADF660389CDB69FB5E3E0.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Bonfire.uasset'
+[2016.09.29-10.43.48:312][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Bonfire.uasset
+[2016.09.29-10.43.48:326][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_Box01" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Box01.uasset" SILENT=true
+[2016.09.29-10.43.48:338][115]LogSavePackage: Save=9.02ms
+[2016.09.29-10.43.48:338][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Box01F63A108641D41B0170402A87C9D51A2A.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Box01.uasset'
+[2016.09.29-10.43.48:343][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Box01.uasset
+[2016.09.29-10.43.48:357][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_Coin" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Coin.uasset" SILENT=true
+[2016.09.29-10.43.48:369][115]LogSavePackage: Save=10.03ms
+[2016.09.29-10.43.48:369][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Coin4D1FDA3F4CF25D027802229AAC640B18.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Coin.uasset'
+[2016.09.29-10.43.48:375][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Coin.uasset
+[2016.09.29-10.43.48:388][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_Gear" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Gear.uasset" SILENT=true
+[2016.09.29-10.43.48:401][115]LogSavePackage: Save=10.17ms
+[2016.09.29-10.43.48:401][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Gear84A11B1349D8CD7AB5BF66AF66E70AB2.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Gear.uasset'
+[2016.09.29-10.43.48:406][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Gear.uasset
+[2016.09.29-10.43.48:420][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_GearShaft" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_GearShaft.uasset" SILENT=true
+[2016.09.29-10.43.48:433][115]LogSavePackage: Save=10.39ms
+[2016.09.29-10.43.48:433][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_GearShaft175983134E6440D5C7C40186CE040980.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_GearShaft.uasset'
+[2016.09.29-10.43.48:438][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_GearShaft.uasset
+[2016.09.29-10.43.48:451][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_Scroll" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Scroll.uasset" SILENT=true
+[2016.09.29-10.43.48:463][115]LogSavePackage: Save=8.90ms
+[2016.09.29-10.43.48:463][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_ScrollAF82A51A4208D47B82F0589CDB16406F.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Scroll.uasset'
+[2016.09.29-10.43.48:468][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Scroll.uasset
+[2016.09.29-10.43.48:482][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_Shape_Cylinder100x10" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Shape_Cylinder100x10.uasset" SILENT=true
+[2016.09.29-10.43.48:493][115]LogSavePackage: Save=8.82ms
+[2016.09.29-10.43.48:493][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Shape_Cylinder100x109B33A6F2444028630422DF80B3A6BE8A.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Shape_Cylinder100x10.uasset'
+[2016.09.29-10.43.48:499][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Shape_Cylinder100x10.uasset
+[2016.09.29-10.43.48:512][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_Shape_Cylinder_Base" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Shape_Cylinder_Base.uasset" SILENT=true
+[2016.09.29-10.43.48:524][115]LogSavePackage: Save=8.91ms
+[2016.09.29-10.43.48:524][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Shape_Cylinder_BaseE688D8C54B0238FC02BD6AB2D969838C.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Shape_Cylinder_Base.uasset'
+[2016.09.29-10.43.48:529][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Shape_Cylinder_Base.uasset
+[2016.09.29-10.43.48:542][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_Shuriken" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Shuriken.uasset" SILENT=true
+[2016.09.29-10.43.48:554][115]LogSavePackage: Save=8.84ms
+[2016.09.29-10.43.48:554][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Shuriken4286CF5B47E1376FD8AB208CA53A42AA.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Shuriken.uasset'
+[2016.09.29-10.43.48:560][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Shuriken.uasset
+[2016.09.29-10.43.48:574][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_Signboard" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Signboard.uasset" SILENT=true
+[2016.09.29-10.43.48:586][115]LogSavePackage: Save=9.45ms
+[2016.09.29-10.43.48:586][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_SignboardC7ABB6404A058C7ABFC0179710DF046A.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Signboard.uasset'
+[2016.09.29-10.43.48:591][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Signboard.uasset
+[2016.09.29-10.43.48:602][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Bonfire_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Bonfire_D.uasset" SILENT=true
+[2016.09.29-10.43.49:170][115]LogSavePackage: Save=564.78ms
+[2016.09.29-10.43.49:170][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Bonfire_D09356BAF4C143BEBA0028CB8F47E6B04.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Bonfire_D.uasset'
+[2016.09.29-10.43.49:175][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Bonfire_D.uasset
+[2016.09.29-10.43.49:186][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Bonfire_M" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Bonfire_M.uasset" SILENT=true
+[2016.09.29-10.43.49:328][115]LogSavePackage: Save=138.99ms
+[2016.09.29-10.43.49:328][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Bonfire_M5E46B462454C5FF111A4A6A5AA0ED689.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Bonfire_M.uasset'
+[2016.09.29-10.43.49:333][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Bonfire_M.uasset
+[2016.09.29-10.43.49:345][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Bonfire_N" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Bonfire_N.uasset" SILENT=true
+[2016.09.29-10.43.49:398][115]LogSavePackage: Save=50.53ms
+[2016.09.29-10.43.49:398][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Bonfire_N2D1147704D617D1B6B2C4598635D4C71.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Bonfire_N.uasset'
+[2016.09.29-10.43.49:404][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Bonfire_N.uasset
+[2016.09.29-10.43.49:415][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Bonfire_R" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Bonfire_R.uasset" SILENT=true
+[2016.09.29-10.43.49:807][115]LogSavePackage: Save=389.79ms
+[2016.09.29-10.43.49:807][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Bonfire_R3981FDC54AB39853EB18B68818B6EDFD.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Bonfire_R.uasset'
+[2016.09.29-10.43.49:813][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Bonfire_R.uasset
+[2016.09.29-10.43.49:824][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Carton_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Carton_D.uasset" SILENT=true
+[2016.09.29-10.43.49:975][115]LogSavePackage: Save=147.14ms
+[2016.09.29-10.43.49:975][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Carton_D105EAFDB48907217F4AEF790A3542594.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Carton_D.uasset'
+[2016.09.29-10.43.49:980][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Carton_D.uasset
+[2016.09.29-10.43.49:990][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Carton_M" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Carton_M.uasset" SILENT=true
+[2016.09.29-10.43.50:031][115]LogSavePackage: Save=38.55ms
+[2016.09.29-10.43.50:031][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Carton_MC55547A1484F04CCA15237B7FF9FF333.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Carton_M.uasset'
+[2016.09.29-10.43.50:038][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Carton_M.uasset
+[2016.09.29-10.43.50:049][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Carton_N" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Carton_N.uasset" SILENT=true
+[2016.09.29-10.43.50:098][115]LogSavePackage: Save=45.76ms
+[2016.09.29-10.43.50:098][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Carton_N2CFE26FF4EB340FB33BC9BBD82985FD7.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Carton_N.uasset'
+[2016.09.29-10.43.50:103][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Carton_N.uasset
+[2016.09.29-10.43.50:115][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Carton_S" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Carton_S.uasset" SILENT=true
+[2016.09.29-10.43.50:166][115]LogSavePackage: Save=48.32ms
+[2016.09.29-10.43.50:166][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Carton_S9BDF151C4771411ABEA69B907D49C626.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Carton_S.uasset'
+[2016.09.29-10.43.50:171][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Carton_S.uasset
+[2016.09.29-10.43.50:183][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Coin01_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Coin01_D.uasset" SILENT=true
+[2016.09.29-10.43.50:229][115]LogSavePackage: Save=43.51ms
+[2016.09.29-10.43.50:229][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Coin01_D9254C9F54F37C536A354C789E7490249.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Coin01_D.uasset'
+[2016.09.29-10.43.50:235][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Coin01_D.uasset
+[2016.09.29-10.43.50:246][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Coin01_N" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Coin01_N.uasset" SILENT=true
+[2016.09.29-10.43.50:331][115]LogSavePackage: Save=81.67ms
+[2016.09.29-10.43.50:331][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Coin01_NA55CF7FA419A05D7803774B94528A50B.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Coin01_N.uasset'
+[2016.09.29-10.43.50:337][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Coin01_N.uasset
+[2016.09.29-10.43.50:348][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Coin01_R" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Coin01_R.uasset" SILENT=true
+[2016.09.29-10.43.50:387][115]LogSavePackage: Save=35.89ms
+[2016.09.29-10.43.50:387][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Coin01_R90CE44E34E699F1086DFD2937163F148.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Coin01_R.uasset'
+[2016.09.29-10.43.50:392][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Coin01_R.uasset
+[2016.09.29-10.43.50:404][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Coin01_S" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Coin01_S.uasset" SILENT=true
+[2016.09.29-10.43.50:444][115]LogSavePackage: Save=37.69ms
+[2016.09.29-10.43.50:444][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Coin01_S72C613724D22BD1344D050A15A6855BC.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Coin01_S.uasset'
+[2016.09.29-10.43.50:450][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Coin01_S.uasset
+[2016.09.29-10.43.50:461][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Cylinder100x10_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Cylinder100x10_D.uasset" SILENT=true
+[2016.09.29-10.43.50:569][115]LogSavePackage: Save=104.38ms
+[2016.09.29-10.43.50:569][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Cylinder100x10_D081901BD493F1246D6D76D978A7F8133.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Cylinder100x10_D.uasset'
+[2016.09.29-10.43.50:574][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Cylinder100x10_D.uasset
+[2016.09.29-10.43.50:586][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Cylinder100x10_N" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Cylinder100x10_N.uasset" SILENT=true
+[2016.09.29-10.43.50:634][115]LogSavePackage: Save=45.58ms
+[2016.09.29-10.43.50:635][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Cylinder100x10_N4C9F0F96444AB838C721A7B855531FAC.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Cylinder100x10_N.uasset'
+[2016.09.29-10.43.50:640][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Cylinder100x10_N.uasset
+[2016.09.29-10.43.50:652][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Gear_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Gear_D.uasset" SILENT=true
+[2016.09.29-10.43.50:705][115]LogSavePackage: Save=50.41ms
+[2016.09.29-10.43.50:705][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Gear_D7DFF00724B5B8D68C8ACB19930447D4A.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Gear_D.uasset'
+[2016.09.29-10.43.50:710][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Gear_D.uasset
+[2016.09.29-10.43.50:721][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_GearShaft_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_GearShaft_D.uasset" SILENT=true
+[2016.09.29-10.43.50:740][115]LogSavePackage: Save=15.12ms
+[2016.09.29-10.43.50:740][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_GearShaft_D63F6A28B4C98FD788293BBAAFCFA2C8F.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_GearShaft_D.uasset'
+[2016.09.29-10.43.50:747][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_GearShaft_D.uasset
+[2016.09.29-10.43.50:758][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Scroll_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Scroll_D.uasset" SILENT=true
+[2016.09.29-10.43.50:804][115]LogSavePackage: Save=43.03ms
+[2016.09.29-10.43.50:804][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Scroll_D4F77F5D04088A66EE55E429F42C78A59.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Scroll_D.uasset'
+[2016.09.29-10.43.50:810][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Scroll_D.uasset
+[2016.09.29-10.43.50:821][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Shuriken_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Shuriken_D.uasset" SILENT=true
+[2016.09.29-10.43.51:363][115]LogSavePackage: Save=538.61ms
+[2016.09.29-10.43.51:363][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Shuriken_D5FA0113C4115E76ABE20FBA9BA21E577.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Shuriken_D.uasset'
+[2016.09.29-10.43.51:369][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Shuriken_D.uasset
+[2016.09.29-10.43.51:380][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Shuriken_MT" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Shuriken_MT.uasset" SILENT=true
+[2016.09.29-10.43.51:806][115]LogSavePackage: Save=422.56ms
+[2016.09.29-10.43.51:806][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Shuriken_MT61CF4C1A42C4C985CD0949819EE1667F.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Shuriken_MT.uasset'
+[2016.09.29-10.43.51:811][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Shuriken_MT.uasset
+[2016.09.29-10.43.51:823][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Shuriken_N" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Shuriken_N.uasset" SILENT=true
+[2016.09.29-10.43.52:809][115]LogSavePackage: Save=983.83ms
+[2016.09.29-10.43.52:809][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Shuriken_N617FD29C46F63214372D9CB07AFF70B6.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Shuriken_N.uasset'
+[2016.09.29-10.43.52:815][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Shuriken_N.uasset
+[2016.09.29-10.43.52:826][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Shuriken_R" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Shuriken_R.uasset" SILENT=true
+[2016.09.29-10.43.53:244][115]LogSavePackage: Save=415.11ms
+[2016.09.29-10.43.53:244][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Shuriken_R8AE862CC4F6B6F2A5734FDAC9E2051D1.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Shuriken_R.uasset'
+[2016.09.29-10.43.53:250][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Shuriken_R.uasset
+[2016.09.29-10.43.53:262][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/T_Signboard_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Signboard_D.uasset" SILENT=true
+[2016.09.29-10.43.53:320][115]LogSavePackage: Save=54.25ms
+[2016.09.29-10.43.53:320][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Signboard_DE1F20211490F799EDD04B7AF3B9D3719.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Signboard_D.uasset'
+[2016.09.29-10.43.53:325][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/T_Signboard_D.uasset
+[2016.09.29-10.44.13:458][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Bonfire_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Bonfire_D.uasset" SILENT=true
+[2016.09.29-10.44.13:554][237]LogSavePackage: Save=89.91ms
+[2016.09.29-10.44.13:554][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Bonfire_DB594A36D40834792A9011288304168DD.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Bonfire_D.uasset'
+[2016.09.29-10.44.13:559][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Bonfire_D.uasset
+[2016.09.29-10.44.13:569][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Bonfire_M" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Bonfire_M.uasset" SILENT=true
+[2016.09.29-10.44.13:578][237]LogSavePackage: Save=6.07ms
+[2016.09.29-10.44.13:578][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Bonfire_M788B158E4B984751F5F624A1CC90365A.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Bonfire_M.uasset'
+[2016.09.29-10.44.13:584][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Bonfire_M.uasset
+[2016.09.29-10.44.13:595][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Bonfire_N" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Bonfire_N.uasset" SILENT=true
+[2016.09.29-10.44.13:615][237]LogSavePackage: Save=17.27ms
+[2016.09.29-10.44.13:615][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Bonfire_N54764AF74B8D1414607AB98A807B06AA.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Bonfire_N.uasset'
+[2016.09.29-10.44.13:620][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Bonfire_N.uasset
+[2016.09.29-10.44.13:631][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Bonfire_R" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Bonfire_R.uasset" SILENT=true
+[2016.09.29-10.44.13:690][237]LogSavePackage: Save=56.50ms
+[2016.09.29-10.44.13:690][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Bonfire_RD4098F664200E8E060208C8F161A7310.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Bonfire_R.uasset'
+[2016.09.29-10.44.13:695][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Bonfire_R.uasset
+[2016.09.29-10.44.13:705][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Carton_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Carton_D.uasset" SILENT=true
+[2016.09.29-10.44.13:735][237]LogSavePackage: Save=27.66ms
+[2016.09.29-10.44.13:735][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Carton_DDD394BED40E8E33F0F568CAEBB925E94.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Carton_D.uasset'
+[2016.09.29-10.44.13:740][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Carton_D.uasset
+[2016.09.29-10.44.13:747][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Carton_M" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Carton_M.uasset" SILENT=true
+[2016.09.29-10.44.13:756][237]LogSavePackage: Save=5.68ms
+[2016.09.29-10.44.13:756][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Carton_M2A8E7A5B453CAEC3CA565DB6E48C5F15.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Carton_M.uasset'
+[2016.09.29-10.44.13:761][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Carton_M.uasset
+[2016.09.29-10.44.13:772][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Carton_N" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Carton_N.uasset" SILENT=true
+[2016.09.29-10.44.13:790][237]LogSavePackage: Save=15.81ms
+[2016.09.29-10.44.13:791][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Carton_N386333F947266ECDF943A8A3806A5E38.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Carton_N.uasset'
+[2016.09.29-10.44.13:796][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Carton_N.uasset
+[2016.09.29-10.44.13:806][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Carton_S" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Carton_S.uasset" SILENT=true
+[2016.09.29-10.44.13:824][237]LogSavePackage: Save=15.56ms
+[2016.09.29-10.44.13:824][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Carton_SC7F097D84466CAAB6455C39D2D2ADE48.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Carton_S.uasset'
+[2016.09.29-10.44.13:829][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Carton_S.uasset
+[2016.09.29-10.44.13:840][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Coin01_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Coin01_D.uasset" SILENT=true
+[2016.09.29-10.44.13:861][237]LogSavePackage: Save=18.13ms
+[2016.09.29-10.44.13:861][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Coin01_D8C06FE974470C4187B9C2E8E830BC974.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Coin01_D.uasset'
+[2016.09.29-10.44.13:866][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Coin01_D.uasset
+[2016.09.29-10.44.13:877][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Coin01_N" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Coin01_N.uasset" SILENT=true
+[2016.09.29-10.44.13:905][237]LogSavePackage: Save=25.46ms
+[2016.09.29-10.44.13:906][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Coin01_N78804CB44B5C53AF2A934CB0DBEB5A20.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Coin01_N.uasset'
+[2016.09.29-10.44.13:910][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Coin01_N.uasset
+[2016.09.29-10.44.13:921][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Coin01_R" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Coin01_R.uasset" SILENT=true
+[2016.09.29-10.44.13:939][237]LogSavePackage: Save=14.57ms
+[2016.09.29-10.44.13:939][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Coin01_RFE95B3334B199FFCAAE5E3B29E50A7AA.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Coin01_R.uasset'
+[2016.09.29-10.44.13:943][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Coin01_R.uasset
+[2016.09.29-10.44.13:954][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Coin01_S" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Coin01_S.uasset" SILENT=true
+[2016.09.29-10.44.13:971][237]LogSavePackage: Save=14.63ms
+[2016.09.29-10.44.13:971][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Coin01_SCB470AEB492B33F7C4A7DEBB19389B4B.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Coin01_S.uasset'
+[2016.09.29-10.44.13:976][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Coin01_S.uasset
+[2016.09.29-10.44.13:986][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Cylinder100x10_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Cylinder100x10_D.uasset" SILENT=true
+[2016.09.29-10.44.14:010][237]LogSavePackage: Save=20.49ms
+[2016.09.29-10.44.14:010][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Cylinder100x10_DD6D89F1D415D8C9CB47114B6BA755899.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Cylinder100x10_D.uasset'
+[2016.09.29-10.44.14:015][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Cylinder100x10_D.uasset
+[2016.09.29-10.44.14:026][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Cylinder100x10_N" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Cylinder100x10_N.uasset" SILENT=true
+[2016.09.29-10.44.14:044][237]LogSavePackage: Save=15.26ms
+[2016.09.29-10.44.14:044][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Cylinder100x10_N993B7AD848026647243406951151F53F.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Cylinder100x10_N.uasset'
+[2016.09.29-10.44.14:049][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Cylinder100x10_N.uasset
+[2016.09.29-10.44.14:060][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Gear_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Gear_D.uasset" SILENT=true
+[2016.09.29-10.44.14:074][237]LogSavePackage: Save=11.22ms
+[2016.09.29-10.44.14:074][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Gear_D28E258414FA620ED7C9AD0970EF2E6F8.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Gear_D.uasset'
+[2016.09.29-10.44.14:079][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Gear_D.uasset
+[2016.09.29-10.44.14:088][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_GearShaft_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_GearShaft_D.uasset" SILENT=true
+[2016.09.29-10.44.14:097][237]LogSavePackage: Save=5.63ms
+[2016.09.29-10.44.14:097][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_GearShaft_D6EE101FF48DC202C36C780968F7B671F.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_GearShaft_D.uasset'
+[2016.09.29-10.44.14:103][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_GearShaft_D.uasset
+[2016.09.29-10.44.14:113][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Scroll_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Scroll_D.uasset" SILENT=true
+[2016.09.29-10.44.14:132][237]LogSavePackage: Save=16.37ms
+[2016.09.29-10.44.14:132][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Scroll_D93FEAA9841183DF2CC3434ADDACFC34C.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Scroll_D.uasset'
+[2016.09.29-10.44.14:137][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Scroll_D.uasset
+[2016.09.29-10.44.14:148][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Shuriken_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Shuriken_D.uasset" SILENT=true
+[2016.09.29-10.44.14:238][237]LogSavePackage: Save=87.16ms
+[2016.09.29-10.44.14:238][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Shuriken_DA2BB8C944623DEA17CBE66B460A81854.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Shuriken_D.uasset'
+[2016.09.29-10.44.14:243][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Shuriken_D.uasset
+[2016.09.29-10.44.14:253][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Shuriken_MT" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Shuriken_MT.uasset" SILENT=true
+[2016.09.29-10.44.14:329][237]LogSavePackage: Save=73.21ms
+[2016.09.29-10.44.14:329][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Shuriken_MTA91E69284F1103B37E320183364884E4.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Shuriken_MT.uasset'
+[2016.09.29-10.44.14:334][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Shuriken_MT.uasset
+[2016.09.29-10.44.14:346][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Shuriken_N" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Shuriken_N.uasset" SILENT=true
+[2016.09.29-10.44.14:501][237]LogSavePackage: Save=152.61ms
+[2016.09.29-10.44.14:501][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Shuriken_NB746DF164DEEF63213B1849242D89D85.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Shuriken_N.uasset'
+[2016.09.29-10.44.14:507][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Shuriken_N.uasset
+[2016.09.29-10.44.14:518][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Shuriken_R" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Shuriken_R.uasset" SILENT=true
+[2016.09.29-10.44.14:584][237]LogSavePackage: Save=63.46ms
+[2016.09.29-10.44.14:584][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Shuriken_R074F64A64F37B11D4E4B56B645B979DD.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Shuriken_R.uasset'
+[2016.09.29-10.44.14:590][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Shuriken_R.uasset
+[2016.09.29-10.44.14:601][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/T_Signboard_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Signboard_D.uasset" SILENT=true
+[2016.09.29-10.44.14:615][237]LogSavePackage: Save=11.30ms
+[2016.09.29-10.44.14:615][237]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Signboard_DEDCCA24A4D6C4F07324C9EA22A3BCABE.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Signboard_D.uasset'
+[2016.09.29-10.44.14:620][237]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/T_Signboard_D.uasset
+[2016.09.29-10.45.18:476][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Materials/02_-_Default" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/02_-_Default.uasset" SILENT=true
+[2016.09.29-10.45.18:490][961]LogSavePackage: Save=10.39ms
+[2016.09.29-10.45.18:490][961]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/02_-_Default487664F347631BE29218CBA22DCEAE20.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/02_-_Default.uasset'
+[2016.09.29-10.45.18:496][961]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/02_-_Default.uasset
+[2016.09.29-10.45.18:510][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Materials/blinn1" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/blinn1.uasset" SILENT=true
+[2016.09.29-10.45.18:524][961]LogSavePackage: Save=10.46ms
+[2016.09.29-10.45.18:524][961]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/blinn1BA78423348BDAC8472E9E18E0AB9D9AF.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/blinn1.uasset'
+[2016.09.29-10.45.18:529][961]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/blinn1.uasset
+[2016.09.29-10.45.18:544][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Materials/body" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/body.uasset" SILENT=true
+[2016.09.29-10.45.18:557][961]LogSavePackage: Save=9.78ms
+[2016.09.29-10.45.18:557][961]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/body5027A9A64F1F41C65F4DE3878E2CA1D0.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/body.uasset'
+[2016.09.29-10.45.18:562][961]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/body.uasset
+[2016.09.29-10.45.18:577][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Materials/lambert2" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/lambert2.uasset" SILENT=true
+[2016.09.29-10.45.18:589][961]LogSavePackage: Save=9.73ms
+[2016.09.29-10.45.18:589][961]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/lambert2BD56235D4FBE7811F29EA2A801182929.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/lambert2.uasset'
+[2016.09.29-10.45.18:595][961]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/lambert2.uasset
+[2016.09.29-10.45.18:609][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Materials/ofure" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/ofure.uasset" SILENT=true
+[2016.09.29-10.45.18:623][961]LogSavePackage: Save=10.25ms
+[2016.09.29-10.45.18:623][961]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/ofure1F9DE2E849C4D3C14408B2928D31BB05.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/ofure.uasset'
+[2016.09.29-10.45.18:628][961]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/ofure.uasset
+[2016.09.29-10.45.18:643][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Materials/phong1" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/phong1.uasset" SILENT=true
+[2016.09.29-10.45.18:656][961]LogSavePackage: Save=9.69ms
+[2016.09.29-10.45.18:656][961]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/phong1FC02015540F9BE09F21ED6A98A77375F.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/phong1.uasset'
+[2016.09.29-10.45.18:661][961]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/phong1.uasset
+[2016.09.29-10.45.18:917][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_Gear" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Gear.uasset" SILENT=true
+[2016.09.29-10.45.18:930][961]LogSavePackage: Save=4.40ms
+[2016.09.29-10.45.18:930][961]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Gear099AC53E4A0B38F19FF97E9F1BCE959A.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Gear.uasset'
+[2016.09.29-10.45.18:933][961]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Gear.uasset
+[2016.09.29-10.45.18:935][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_Coin" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Coin.uasset" SILENT=true
+[2016.09.29-10.45.18:949][961]LogSavePackage: Save=4.84ms
+[2016.09.29-10.45.18:950][961]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_CoinCDB251EF499A472DE9B214A0DFE378B6.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Coin.uasset'
+[2016.09.29-10.45.18:952][961]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Coin.uasset
+[2016.09.29-10.45.18:955][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_Shape_Cylinder100x10" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Shape_Cylinder100x10.uasset" SILENT=true
+[2016.09.29-10.45.18:969][961]LogSavePackage: Save=4.48ms
+[2016.09.29-10.45.18:969][961]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Shape_Cylinder100x10B69BFE964B4EC0A5F6D2599BD9F8AE80.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Shape_Cylinder100x10.uasset'
+[2016.09.29-10.45.18:972][961]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Shape_Cylinder100x10.uasset
+[2016.09.29-10.45.18:975][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_Shape_Cylinder_Base" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Shape_Cylinder_Base.uasset" SILENT=true
+[2016.09.29-10.45.18:989][961]LogSavePackage: Save=4.35ms
+[2016.09.29-10.45.18:989][961]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Shape_Cylinder_Base3312479B4606472D5EBD1F9C8EA7197A.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Shape_Cylinder_Base.uasset'
+[2016.09.29-10.45.18:991][961]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Shape_Cylinder_Base.uasset
+[2016.09.29-10.45.18:994][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_Shuriken" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Shuriken.uasset" SILENT=true
+[2016.09.29-10.45.19:009][961]LogSavePackage: Save=4.48ms
+[2016.09.29-10.45.19:009][961]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Shuriken363485964C0DFE601393B1BACE78595E.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Shuriken.uasset'
+[2016.09.29-10.45.19:011][961]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Shuriken.uasset
+[2016.09.29-10.45.19:014][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_GearShaft" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_GearShaft.uasset" SILENT=true
+[2016.09.29-10.45.19:029][961]LogSavePackage: Save=4.70ms
+[2016.09.29-10.45.19:029][961]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_GearShaft86AD55ED4A734170CB0155A50F5E400F.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_GearShaft.uasset'
+[2016.09.29-10.45.19:031][961]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_GearShaft.uasset
+[2016.09.29-10.45.19:034][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_Bonfire" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Bonfire.uasset" SILENT=true
+[2016.09.29-10.45.19:049][961]LogSavePackage: Save=4.80ms
+[2016.09.29-10.45.19:049][961]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Bonfire8BDE753F4CBE3C93B25CC3A0A85D7C13.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Bonfire.uasset'
+[2016.09.29-10.45.19:052][961]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Bonfire.uasset
+[2016.09.29-10.45.19:055][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_Signboard" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Signboard.uasset" SILENT=true
+[2016.09.29-10.45.19:070][961]LogSavePackage: Save=4.51ms
+[2016.09.29-10.45.19:070][961]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Signboard25E08CEE43F711476B9886A4310ED5E0.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Signboard.uasset'
+[2016.09.29-10.45.19:072][961]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Signboard.uasset
+[2016.09.29-10.45.19:075][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_Box01" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Box01.uasset" SILENT=true
+[2016.09.29-10.45.19:090][961]LogSavePackage: Save=4.34ms
+[2016.09.29-10.45.19:090][961]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Box010EAA79A64059A27F1193D5A71D3DC478.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Box01.uasset'
+[2016.09.29-10.45.19:092][961]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Box01.uasset
+[2016.09.29-10.45.19:094][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/SM_Scroll" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Scroll.uasset" SILENT=true
+[2016.09.29-10.45.19:110][961]LogSavePackage: Save=4.34ms
+[2016.09.29-10.45.19:110][961]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Scroll9224A404408F9C9F32E609BD6D766F23.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Scroll.uasset'
+[2016.09.29-10.45.19:113][961]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/SM_Scroll.uasset
+[2016.09.29-10.45.30:406][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Meshes/SM_Bonfire" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Bonfire.uasset" SILENT=true
+[2016.09.29-10.45.30:420][614]LogSavePackage: Save=10.42ms
+[2016.09.29-10.45.30:420][614]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Bonfire42FDA2B14612064895BE5CAAF1C1C434.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Bonfire.uasset'
+[2016.09.29-10.45.30:426][614]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Bonfire.uasset
+[2016.09.29-10.45.30:439][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Meshes/SM_Box01" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Box01.uasset" SILENT=true
+[2016.09.29-10.45.30:451][614]LogSavePackage: Save=9.02ms
+[2016.09.29-10.45.30:451][614]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Box01389D02964B2BFE61AB6B86A87FF3E449.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Box01.uasset'
+[2016.09.29-10.45.30:457][614]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Box01.uasset
+[2016.09.29-10.45.30:470][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Meshes/SM_Coin" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Coin.uasset" SILENT=true
+[2016.09.29-10.45.30:484][614]LogSavePackage: Save=10.20ms
+[2016.09.29-10.45.30:484][614]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Coin204C92344178AD826FA84E89D9BD298E.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Coin.uasset'
+[2016.09.29-10.45.30:489][614]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Coin.uasset
+[2016.09.29-10.45.30:502][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Meshes/SM_Gear" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Gear.uasset" SILENT=true
+[2016.09.29-10.45.30:515][614]LogSavePackage: Save=9.70ms
+[2016.09.29-10.45.30:515][614]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Gear5165FF114437A90B57F0C18528C148CC.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Gear.uasset'
+[2016.09.29-10.45.30:520][614]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Gear.uasset
+[2016.09.29-10.45.30:533][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Meshes/SM_GearShaft" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_GearShaft.uasset" SILENT=true
+[2016.09.29-10.45.30:547][614]LogSavePackage: Save=10.12ms
+[2016.09.29-10.45.30:547][614]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_GearShaftA29674394D88B78C4AB4EEB61BAE90CD.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_GearShaft.uasset'
+[2016.09.29-10.45.30:552][614]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_GearShaft.uasset
+[2016.09.29-10.45.30:565][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Meshes/SM_Scroll" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Scroll.uasset" SILENT=true
+[2016.09.29-10.45.30:578][614]LogSavePackage: Save=9.30ms
+[2016.09.29-10.45.30:578][614]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Scroll6A07243D43792C4CB68593B8FA3A1766.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Scroll.uasset'
+[2016.09.29-10.45.30:583][614]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Scroll.uasset
+[2016.09.29-10.45.30:609][614]LogSavePackage: Save=9.21ms
+[2016.09.29-10.45.30:609][614]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Shape_Cylinder100x103DB5E08A40E211F07FAEDDB9A9FE495A.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Shape_Cylinder100x10.uasset'
+[2016.09.29-10.45.30:614][614]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Shape_Cylinder100x10.uasset
+[2016.09.29-10.45.30:627][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Meshes/SM_Shape_Cylinder_Base" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Shape_Cylinder_Base.uasset" SILENT=true
+[2016.09.29-10.45.30:639][614]LogSavePackage: Save=9.07ms
+[2016.09.29-10.45.30:639][614]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Shape_Cylinder_BaseEAD6E52245325944841751AD781DE401.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Shape_Cylinder_Base.uasset'
+[2016.09.29-10.45.30:645][614]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Shape_Cylinder_Base.uasset
+[2016.09.29-10.45.30:659][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Meshes/SM_Shuriken" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Shuriken.uasset" SILENT=true
+[2016.09.29-10.45.30:670][614]LogSavePackage: Save=8.64ms
+[2016.09.29-10.45.30:671][614]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_ShurikenB9B226FC472CBAB303F4A6A2F1A1D202.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Shuriken.uasset'
+[2016.09.29-10.45.30:676][614]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Shuriken.uasset
+[2016.09.29-10.45.30:689][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Meshes/SM_Signboard" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Signboard.uasset" SILENT=true
+[2016.09.29-10.45.30:702][614]LogSavePackage: Save=9.50ms
+[2016.09.29-10.45.30:702][614]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Signboard18B10F0C4BBDED6449F49F83831237A2.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Signboard.uasset'
+[2016.09.29-10.45.30:707][614]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Signboard.uasset
+[2016.09.29-10.48.13:410][ 88]LogEditorFactories: Performing atomic reimport of [G:/ENSW/PaperNinja_Resource/Architecture/Meshes/SM_Wall.fbx]
+[2016.09.29-10.48.13:499][ 88]LogFbx: Loading FBX Scene from G:/ENSW/PaperNinja_Resource/Architecture/Meshes/SM_Wall.fbx
+[2016.09.29-10.48.13:509][ 88]LogFbx: FBX Scene Loaded Succesfully
+[2016.09.29-10.48.13:518][ 88]LogFbx:Warning: Triangulating static mesh SM_Wall_M2
+[2016.09.29-10.48.13:535][ 88]LogFbx:Warning: Triangulating mesh UCX_SM_Wall_M2 for collision model
+[2016.09.29-10.48.13:597][ 88]LogStaticMesh: SM_Wall 스태틱 메시 빌드중...
+[2016.09.29-10.48.13:601][ 88]LogStaticMesh: Built static mesh [0.00s] /Game/Architecture/Meshes/SM_Wall.SM_Wall
+[2016.09.29-10.48.13:620][ 88]LogEditorFactories: -- imported successfully
+[2016.09.29-10.48.44:822][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/Meshes/SM_Wall" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Meshes/SM_Wall.uasset" SILENT=true
+[2016.09.29-10.48.44:844][892]LogSavePackage: Save=8.84ms
+[2016.09.29-10.48.44:844][892]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Wall69C09CB44B5E5C135EFB7A820BE26F6C.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Meshes/SM_Wall.uasset'
+[2016.09.29-10.48.44:849][892]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Meshes/SM_Wall.uasset
+[2016.09.29-10.51.49:468][923]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Stage01/PNStage01_Top' took 0.047
+[2016.09.29-10.51.49:475][923]LogSavePackage: Save=2.35ms
+[2016.09.29-10.51.49:475][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Bonfire_Auto1610C6DB946A0AFE0BFC20C878D53A2F7.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_Bonfire_Auto1.uasset'
+[2016.09.29-10.51.49:477][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_Bonfire_Auto1.uasset
+[2016.09.29-10.51.49:483][923]LogSavePackage: Save=2.48ms
+[2016.09.29-10.51.49:483][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/lambert2_Auto1CB67F0CE41EB4F177B093C9234E299F1.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/lambert2_Auto1.uasset'
+[2016.09.29-10.51.49:486][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/lambert2_Auto1.uasset
+[2016.09.29-10.51.49:493][923]LogSavePackage: Save=2.25ms
+[2016.09.29-10.51.49:493][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Box01_Auto1F2A969284539B0857AEFA0ACDA1317BC.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_Box01_Auto1.uasset'
+[2016.09.29-10.51.49:495][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_Box01_Auto1.uasset
+[2016.09.29-10.51.49:500][923]LogSavePackage: Save=2.17ms
+[2016.09.29-10.51.49:501][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/phong1_Auto199AA269E436AC48B6FE6C58B39A8396C.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/phong1_Auto1.uasset'
+[2016.09.29-10.51.49:503][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/phong1_Auto1.uasset
+[2016.09.29-10.51.49:508][923]LogSavePackage: Save=2.06ms
+[2016.09.29-10.51.49:508][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Coin_Auto174961D9A409B9C76278D59995A644D02.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_Coin_Auto1.uasset'
+[2016.09.29-10.51.49:511][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_Coin_Auto1.uasset
+[2016.09.29-10.51.49:516][923]LogSavePackage: Save=2.04ms
+[2016.09.29-10.51.49:516][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/blinn1_Auto1BA53DAEE465A490B118BDEBDB7A433F8.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/blinn1_Auto1.uasset'
+[2016.09.29-10.51.49:518][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/blinn1_Auto1.uasset
+[2016.09.29-10.51.49:523][923]LogSavePackage: Save=2.02ms
+[2016.09.29-10.51.49:523][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Gear_Auto126B52B9D4636A5E47CCF70B13D5C2530.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_Gear_Auto1.uasset'
+[2016.09.29-10.51.49:526][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_Gear_Auto1.uasset
+[2016.09.29-10.51.49:531][923]LogSavePackage: Save=2.00ms
+[2016.09.29-10.51.49:531][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/02_-_Default_Auto13A5FFC2945C009E16F265DB17AF21F79.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/02_-_Default_Auto1.uasset'
+[2016.09.29-10.51.49:533][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/02_-_Default_Auto1.uasset
+[2016.09.29-10.51.49:538][923]LogSavePackage: Save=1.99ms
+[2016.09.29-10.51.49:538][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_GearShaft_Auto17CD60D2D42D575399181FD98ABB6A081.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_GearShaft_Auto1.uasset'
+[2016.09.29-10.51.49:540][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_GearShaft_Auto1.uasset
+[2016.09.29-10.51.49:542][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/body" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/body_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.09.29-10.51.49:546][923]LogSavePackage: Save=1.98ms
+[2016.09.29-10.51.49:546][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/body_Auto1945B33C94172200D49D3B3B029B919C2.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/body_Auto1.uasset'
+[2016.09.29-10.51.49:548][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/body_Auto1.uasset
+[2016.09.29-10.51.49:553][923]LogSavePackage: Save=1.96ms
+[2016.09.29-10.51.49:553][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Scroll_Auto1FC6DA4FD45AD83A0C4F6348BD9BFFD01.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_Scroll_Auto1.uasset'
+[2016.09.29-10.51.49:556][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_Scroll_Auto1.uasset
+[2016.09.29-10.51.49:561][923]LogSavePackage: Save=2.10ms
+[2016.09.29-10.51.49:561][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Shape_Cylinder100x10_Auto11E256144415EE9F907F3F1A4E9C64419.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_Shape_Cylinder100x10_Auto1.uasset'
+[2016.09.29-10.51.49:563][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_Shape_Cylinder100x10_Auto1.uasset
+[2016.09.29-10.51.49:569][923]LogSavePackage: Save=2.27ms
+[2016.09.29-10.51.49:569][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Shape_Cylinder_Base_Auto1841E38EA466458A8C00E738D948EFC03.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_Shape_Cylinder_Base_Auto1.uasset'
+[2016.09.29-10.51.49:571][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_Shape_Cylinder_Base_Auto1.uasset
+[2016.09.29-10.51.49:577][923]LogSavePackage: Save=2.10ms
+[2016.09.29-10.51.49:577][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Shuriken_Auto1A70CB4DF422154C6FB3374A39B1E33E1.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_Shuriken_Auto1.uasset'
+[2016.09.29-10.51.49:579][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_Shuriken_Auto1.uasset
+[2016.09.29-10.51.49:584][923]LogSavePackage: Save=2.10ms
+[2016.09.29-10.51.49:584][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Signboard_Auto12E440EC44D87E3DCAC3635846897DE0C.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_Signboard_Auto1.uasset'
+[2016.09.29-10.51.49:587][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/SM_Signboard_Auto1.uasset
+[2016.09.29-10.51.49:593][923]LogSavePackage: Save=2.32ms
+[2016.09.29-10.51.49:593][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/ofure_Auto15A4DC25E47068D1F79C0DAB2D68B10BE.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/ofure_Auto1.uasset'
+[2016.09.29-10.51.49:595][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/ofure_Auto1.uasset
+[2016.09.29-10.51.49:601][923]LogSavePackage: Save=2.19ms
+[2016.09.29-10.51.49:601][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Bonfire_D_Auto1414F11D04E22C1AAE0B0EEB44996F841.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Bonfire_D_Auto1.uasset'
+[2016.09.29-10.51.49:603][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Bonfire_D_Auto1.uasset
+[2016.09.29-10.51.49:610][923]LogSavePackage: Save=2.24ms
+[2016.09.29-10.51.49:610][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Bonfire_M_Auto19099B56146D2357390FB0B9676CCC176.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Bonfire_M_Auto1.uasset'
+[2016.09.29-10.51.49:612][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Bonfire_M_Auto1.uasset
+[2016.09.29-10.51.49:618][923]LogSavePackage: Save=2.18ms
+[2016.09.29-10.51.49:618][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Bonfire_N_Auto11A7911FE43AF9035C7DAA1B28357BA6E.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Bonfire_N_Auto1.uasset'
+[2016.09.29-10.51.49:620][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Bonfire_N_Auto1.uasset
+[2016.09.29-10.51.49:626][923]LogSavePackage: Save=2.20ms
+[2016.09.29-10.51.49:626][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Bonfire_R_Auto1CEA9887B4C7A20D2DBDC618AF2BBF9D1.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Bonfire_R_Auto1.uasset'
+[2016.09.29-10.51.49:628][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Bonfire_R_Auto1.uasset
+[2016.09.29-10.51.49:634][923]LogSavePackage: Save=2.45ms
+[2016.09.29-10.51.49:634][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Carton_D_Auto1D3C7697343676F6F73A573954290CBC0.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Carton_D_Auto1.uasset'
+[2016.09.29-10.51.49:636][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Carton_D_Auto1.uasset
+[2016.09.29-10.51.49:642][923]LogSavePackage: Save=2.21ms
+[2016.09.29-10.51.49:642][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Carton_M_Auto1703E63C647112654B8E9588858B3E891.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Carton_M_Auto1.uasset'
+[2016.09.29-10.51.49:644][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Carton_M_Auto1.uasset
+[2016.09.29-10.51.49:650][923]LogSavePackage: Save=2.33ms
+[2016.09.29-10.51.49:650][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Carton_N_Auto158CD9D1B4678EBEB0C5C4E9357AF2E6E.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Carton_N_Auto1.uasset'
+[2016.09.29-10.51.49:653][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Carton_N_Auto1.uasset
+[2016.09.29-10.51.49:658][923]LogSavePackage: Save=2.12ms
+[2016.09.29-10.51.49:658][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Carton_S_Auto1189484094FD6D4ED97016DA32E7DAD91.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Carton_S_Auto1.uasset'
+[2016.09.29-10.51.49:662][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Carton_S_Auto1.uasset
+[2016.09.29-10.51.49:668][923]LogSavePackage: Save=2.27ms
+[2016.09.29-10.51.49:668][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Coin01_D_Auto149F012A24B11ADE6C5CBB48AF899025E.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Coin01_D_Auto1.uasset'
+[2016.09.29-10.51.49:671][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Coin01_D_Auto1.uasset
+[2016.09.29-10.51.49:677][923]LogSavePackage: Save=2.16ms
+[2016.09.29-10.51.49:677][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Coin01_N_Auto1D87335BC48744147F1FEB1AC9DD19102.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Coin01_N_Auto1.uasset'
+[2016.09.29-10.51.49:680][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Coin01_N_Auto1.uasset
+[2016.09.29-10.51.49:686][923]LogSavePackage: Save=2.39ms
+[2016.09.29-10.51.49:686][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Coin01_R_Auto1F6F54A4B47FD33D3FF1AB9B13C5593B7.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Coin01_R_Auto1.uasset'
+[2016.09.29-10.51.49:688][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Coin01_R_Auto1.uasset
+[2016.09.29-10.51.49:694][923]LogSavePackage: Save=2.22ms
+[2016.09.29-10.51.49:694][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Coin01_S_Auto19B4FF63A40284053256D1E91931A5D17.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Coin01_S_Auto1.uasset'
+[2016.09.29-10.51.49:696][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Coin01_S_Auto1.uasset
+[2016.09.29-10.51.49:703][923]LogSavePackage: Save=2.51ms
+[2016.09.29-10.51.49:703][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Cylinder100x10_D_Auto104320FE847B964ECD4B787BD424490E8.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Cylinder100x10_D_Auto1.uasset'
+[2016.09.29-10.51.49:706][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Cylinder100x10_D_Auto1.uasset
+[2016.09.29-10.51.49:712][923]LogSavePackage: Save=2.41ms
+[2016.09.29-10.51.49:712][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Cylinder100x10_N_Auto1C10D0B1D4447AA4509A3FBBA5C7D094C.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Cylinder100x10_N_Auto1.uasset'
+[2016.09.29-10.51.49:714][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Cylinder100x10_N_Auto1.uasset
+[2016.09.29-10.51.49:721][923]LogSavePackage: Save=2.50ms
+[2016.09.29-10.51.49:721][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_GearShaft_D_Auto15FEE31D143CA19431C056E94354156A4.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_GearShaft_D_Auto1.uasset'
+[2016.09.29-10.51.49:724][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_GearShaft_D_Auto1.uasset
+[2016.09.29-10.51.49:730][923]LogSavePackage: Save=2.22ms
+[2016.09.29-10.51.49:730][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Gear_D_Auto14FC689FC4A4D2A1234BFA09D02090425.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Gear_D_Auto1.uasset'
+[2016.09.29-10.51.49:733][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Gear_D_Auto1.uasset
+[2016.09.29-10.51.49:738][923]LogSavePackage: Save=2.25ms
+[2016.09.29-10.51.49:738][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Scroll_D_Auto1F227DCF44CD5465C1C0E7388C837FB2D.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Scroll_D_Auto1.uasset'
+[2016.09.29-10.51.49:741][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Scroll_D_Auto1.uasset
+[2016.09.29-10.51.49:747][923]LogSavePackage: Save=2.29ms
+[2016.09.29-10.51.49:747][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Shuriken_D_Auto1C86E491944314AD0FBC30BBD863DF58B.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Shuriken_D_Auto1.uasset'
+[2016.09.29-10.51.49:749][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Shuriken_D_Auto1.uasset
+[2016.09.29-10.51.49:755][923]LogSavePackage: Save=2.32ms
+[2016.09.29-10.51.49:755][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Shuriken_MT_Auto1C705749D4BC350EB48F3DBBF030BA7D8.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Shuriken_MT_Auto1.uasset'
+[2016.09.29-10.51.49:757][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Shuriken_MT_Auto1.uasset
+[2016.09.29-10.51.49:763][923]LogSavePackage: Save=2.21ms
+[2016.09.29-10.51.49:763][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Shuriken_N_Auto170327D904BF8194CBD81F282064F495C.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Shuriken_N_Auto1.uasset'
+[2016.09.29-10.51.49:765][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Shuriken_N_Auto1.uasset
+[2016.09.29-10.51.49:771][923]LogSavePackage: Save=2.13ms
+[2016.09.29-10.51.49:771][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Shuriken_R_Auto1FF1B6B6C49E05657816D9B99FDC80383.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Shuriken_R_Auto1.uasset'
+[2016.09.29-10.51.49:774][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Shuriken_R_Auto1.uasset
+[2016.09.29-10.51.49:780][923]LogSavePackage: Save=2.26ms
+[2016.09.29-10.51.49:780][923]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Signboard_D_Auto191D8BE9746121461EB8F31A40D8FF6CF.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Signboard_D_Auto1.uasset'
+[2016.09.29-10.51.49:782][923]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Architecture/T_Signboard_D_Auto1.uasset
+[2016.09.29-10.51.49:782][923]LogFileHelpers: Auto-saving content packages took 0.313
+[2016.09.29-10.57.40:133][806]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2016.09.29-10.57.40:756][806]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2016.09.29-10.57.40:775][806]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.09.29-10.57.40:804][806]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.09.29-10.57.42:148][833]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 22 instructions
+[2016.09.29-10.57.42:148][833]MaterialEditorStats: 정보 Vertex shader: 29 instructions
+[2016.09.29-10.57.42:148][833]MaterialEditorStats: 정보 Texture samplers: 0/16
+[2016.09.29-10.58.32:638][729]LogMaterial: Missing cached shader map for material M_Bonfire, compiling. 
+[2016.09.29-10.58.39:487][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Materials/M_Bonfire" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/M_Bonfire.uasset" SILENT=true
+[2016.09.29-10.58.39:506][115]LogSavePackage: Save=14.82ms
+[2016.09.29-10.58.39:506][115]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/M_Bonfire07AB52274F239962C03FC0835211C1BB.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/M_Bonfire.uasset'
+[2016.09.29-10.58.39:514][115]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Materials/M_Bonfire.uasset
+[2016.09.29-10.59.01:188][954]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Meshes/SM_Bonfire" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Bonfire.uasset" SILENT=true
+[2016.09.29-10.59.01:209][954]LogSavePackage: Save=9.79ms
+[2016.09.29-10.59.01:209][954]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Bonfire0AD2708A4FAEF812411E9ABFE1BF4A00.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Bonfire.uasset'
+[2016.09.29-10.59.01:215][954]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Bonfire.uasset
+[2016.09.29-10.59.38:774][ 23]LogEditorTransaction: Undo 박스 콜리전 생성
+[2016.09.29-11.01.44:576][470]LogEditorTransaction: Undo Z 편집
+[2016.09.29-11.01.45:711][525]LogEditorTransaction: Undo Y 편집
+[2016.09.29-11.01.46:472][567]LogEditorTransaction: Undo X 편집
+[2016.09.29-11.01.46:920][593]LogEditorTransaction: Undo 벡터 프로퍼티 설정
+[2016.09.29-11.01.47:667][634]LogEditorTransaction: Undo 벡터 프로퍼티 설정
+[2016.09.29-11.01.48:009][653]LogEditorTransaction: Undo 벡터 프로퍼티 설정
+[2016.09.29-11.02.16:838][311]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Stage01/PNStage01_Top' took 0.007
+[2016.09.29-11.02.16:840][311]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Props/Meshes/SM_Bonfire] ([1] browsable assets)...
+[2016.09.29-11.02.16:840][311]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Meshes/SM_Bonfire]
+[2016.09.29-11.02.16:854][311]LogSavePackage: Save=4.69ms
+[2016.09.29-11.02.16:854][311]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Bonfire_Auto238174002463560376E67B8B8679258F9.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Props/Meshes/SM_Bonfire_Auto2.uasset'
+[2016.09.29-11.02.16:856][311]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Props/Meshes/SM_Bonfire_Auto2.uasset
+[2016.09.29-11.02.16:862][311]LogSavePackage: Save=2.57ms
+[2016.09.29-11.02.16:862][311]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/M_Bonfire_Auto2266EE8E8467B5145F24636B855BA90D5.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Props/Textures/M_Bonfire_Auto2.uasset'
+[2016.09.29-11.02.16:865][311]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Props/Textures/M_Bonfire_Auto2.uasset
+[2016.09.29-11.02.16:865][311]LogFileHelpers: Auto-saving content packages took 0.027
+[2016.09.29-11.03.16:453][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/02_-_Default" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/02_-_Default.uasset" SILENT=true
+[2016.09.29-11.03.16:459][ 17]LogSavePackage: Save=2.35ms
+[2016.09.29-11.03.16:459][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/02_-_Default34C6BA1E4541CA66D825E88E12891F81.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/02_-_Default.uasset'
+[2016.09.29-11.03.16:464][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/02_-_Default.uasset
+[2016.09.29-11.03.16:469][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/blinn1" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/blinn1.uasset" SILENT=true
+[2016.09.29-11.03.16:474][ 17]LogSavePackage: Save=2.21ms
+[2016.09.29-11.03.16:474][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/blinn1ABD4283C46EA766D983CA6B80CEC65B3.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/blinn1.uasset'
+[2016.09.29-11.03.16:480][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/blinn1.uasset
+[2016.09.29-11.03.16:484][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/body" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/body.uasset" SILENT=true
+[2016.09.29-11.03.16:489][ 17]LogSavePackage: Save=2.14ms
+[2016.09.29-11.03.16:489][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/bodyA68DC3B143BA5B115FAC85800094B4C3.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/body.uasset'
+[2016.09.29-11.03.16:495][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/body.uasset
+[2016.09.29-11.03.16:499][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/lambert2" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/lambert2.uasset" SILENT=true
+[2016.09.29-11.03.16:505][ 17]LogSavePackage: Save=2.20ms
+[2016.09.29-11.03.16:505][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/lambert2927AF9A44DB1089677C141904F6B21BA.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/lambert2.uasset'
+[2016.09.29-11.03.16:510][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/lambert2.uasset
+[2016.09.29-11.03.16:515][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/ofure" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/ofure.uasset" SILENT=true
+[2016.09.29-11.03.16:520][ 17]LogSavePackage: Save=2.23ms
+[2016.09.29-11.03.16:520][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/ofure09D548F7438EE60D04768FBC802CCEB9.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/ofure.uasset'
+[2016.09.29-11.03.16:525][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/ofure.uasset
+[2016.09.29-11.03.16:530][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/phong1" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/phong1.uasset" SILENT=true
+[2016.09.29-11.03.16:536][ 17]LogSavePackage: Save=3.10ms
+[2016.09.29-11.03.16:536][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/phong1BCB5404A4C33F9FD4FC32D9969E27405.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/phong1.uasset'
+[2016.09.29-11.03.16:541][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/phong1.uasset
+[2016.09.29-11.03.16:546][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/SM_Bonfire" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Bonfire.uasset" SILENT=true
+[2016.09.29-11.03.16:552][ 17]LogSavePackage: Save=3.63ms
+[2016.09.29-11.03.16:552][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_BonfireB0411F944F1CCC1B62E1CA9F59686346.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Bonfire.uasset'
+[2016.09.29-11.03.16:559][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Bonfire.uasset
+[2016.09.29-11.03.16:563][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/SM_Box01" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Box01.uasset" SILENT=true
+[2016.09.29-11.03.16:569][ 17]LogSavePackage: Save=2.86ms
+[2016.09.29-11.03.16:569][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Box01324A836D4022BD0E56C08CB41A498FE9.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Box01.uasset'
+[2016.09.29-11.03.16:575][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Box01.uasset
+[2016.09.29-11.03.16:579][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/SM_Coin" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Coin.uasset" SILENT=true
+[2016.09.29-11.03.16:583][ 17]LogSavePackage: Save=2.16ms
+[2016.09.29-11.03.16:583][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_CoinFDA29E06444AF30F15D55B88D5DB6329.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Coin.uasset'
+[2016.09.29-11.03.16:589][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Coin.uasset
+[2016.09.29-11.03.16:593][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/SM_Gear" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Gear.uasset" SILENT=true
+[2016.09.29-11.03.16:598][ 17]LogSavePackage: Save=2.08ms
+[2016.09.29-11.03.16:598][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Gear8C33AB1F47936797A9A0C5B9E3B66077.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Gear.uasset'
+[2016.09.29-11.03.16:604][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Gear.uasset
+[2016.09.29-11.03.16:608][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/SM_GearShaft" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_GearShaft.uasset" SILENT=true
+[2016.09.29-11.03.16:613][ 17]LogSavePackage: Save=2.14ms
+[2016.09.29-11.03.16:613][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_GearShaft938F70614586356AE6BBC18A1C13F404.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_GearShaft.uasset'
+[2016.09.29-11.03.16:619][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_GearShaft.uasset
+[2016.09.29-11.03.16:623][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/SM_Scroll" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Scroll.uasset" SILENT=true
+[2016.09.29-11.03.16:628][ 17]LogSavePackage: Save=2.31ms
+[2016.09.29-11.03.16:628][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Scroll4096EA5D4F445871EC432CAB94F5735A.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Scroll.uasset'
+[2016.09.29-11.03.16:633][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Scroll.uasset
+[2016.09.29-11.03.16:643][ 17]LogSavePackage: Save=2.23ms
+[2016.09.29-11.03.16:643][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Shape_Cylinder100x10864DCFFF4B552A3AC07736B08C529012.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Shape_Cylinder100x10.uasset'
+[2016.09.29-11.03.16:648][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Shape_Cylinder100x10.uasset
+[2016.09.29-11.03.16:653][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/SM_Shape_Cylinder_Base" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Shape_Cylinder_Base.uasset" SILENT=true
+[2016.09.29-11.03.16:658][ 17]LogSavePackage: Save=2.20ms
+[2016.09.29-11.03.16:658][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Shape_Cylinder_Base2D04FF3F4424D7FB48B8F3AAEFC27A0D.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Shape_Cylinder_Base.uasset'
+[2016.09.29-11.03.16:664][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Shape_Cylinder_Base.uasset
+[2016.09.29-11.03.16:668][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/SM_Shuriken" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Shuriken.uasset" SILENT=true
+[2016.09.29-11.03.16:673][ 17]LogSavePackage: Save=2.10ms
+[2016.09.29-11.03.16:673][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Shuriken658727464F4E6E420C48BB9CFF96E3D0.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Shuriken.uasset'
+[2016.09.29-11.03.16:678][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Shuriken.uasset
+[2016.09.29-11.03.16:682][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/SM_Signboard" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Signboard.uasset" SILENT=true
+[2016.09.29-11.03.16:687][ 17]LogSavePackage: Save=2.13ms
+[2016.09.29-11.03.16:687][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_SignboardDC5C59554EFFB95A866BF1A7BB8CA664.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Signboard.uasset'
+[2016.09.29-11.03.16:693][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/SM_Signboard.uasset
+[2016.09.29-11.03.16:697][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Bonfire_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Bonfire_D.uasset" SILENT=true
+[2016.09.29-11.03.16:702][ 17]LogSavePackage: Save=2.27ms
+[2016.09.29-11.03.16:702][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Bonfire_DB3873E97406CB65B8DA882AAB9D37305.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Bonfire_D.uasset'
+[2016.09.29-11.03.16:707][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Bonfire_D.uasset
+[2016.09.29-11.03.16:711][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Bonfire_M" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Bonfire_M.uasset" SILENT=true
+[2016.09.29-11.03.16:716][ 17]LogSavePackage: Save=2.30ms
+[2016.09.29-11.03.16:716][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Bonfire_MBF67B5804850F4344D4BFDAF50B9B725.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Bonfire_M.uasset'
+[2016.09.29-11.03.16:722][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Bonfire_M.uasset
+[2016.09.29-11.03.16:726][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Bonfire_N" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Bonfire_N.uasset" SILENT=true
+[2016.09.29-11.03.16:730][ 17]LogSavePackage: Save=2.16ms
+[2016.09.29-11.03.16:730][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Bonfire_NCFD0824846B7432D48B6CE9B9FE16005.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Bonfire_N.uasset'
+[2016.09.29-11.03.16:736][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Bonfire_N.uasset
+[2016.09.29-11.03.16:740][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Bonfire_R" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Bonfire_R.uasset" SILENT=true
+[2016.09.29-11.03.16:745][ 17]LogSavePackage: Save=2.12ms
+[2016.09.29-11.03.16:745][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Bonfire_R9546AC004DD949046E220AA5A1920BC6.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Bonfire_R.uasset'
+[2016.09.29-11.03.16:750][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Bonfire_R.uasset
+[2016.09.29-11.03.16:754][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Carton_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Carton_D.uasset" SILENT=true
+[2016.09.29-11.03.16:759][ 17]LogSavePackage: Save=2.23ms
+[2016.09.29-11.03.16:759][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Carton_D054C2AD4483C5A23410AF4B24A95EFC2.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Carton_D.uasset'
+[2016.09.29-11.03.16:765][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Carton_D.uasset
+[2016.09.29-11.03.16:769][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Carton_M" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Carton_M.uasset" SILENT=true
+[2016.09.29-11.03.16:774][ 17]LogSavePackage: Save=2.23ms
+[2016.09.29-11.03.16:774][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Carton_MA995E4FA48D8448ACDF02A9DAA06648B.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Carton_M.uasset'
+[2016.09.29-11.03.16:779][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Carton_M.uasset
+[2016.09.29-11.03.16:783][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Carton_N" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Carton_N.uasset" SILENT=true
+[2016.09.29-11.03.16:789][ 17]LogSavePackage: Save=2.63ms
+[2016.09.29-11.03.16:789][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Carton_N4E29EF374A48B0CCF2615AB6F2DFEB94.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Carton_N.uasset'
+[2016.09.29-11.03.16:794][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Carton_N.uasset
+[2016.09.29-11.03.16:798][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Carton_S" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Carton_S.uasset" SILENT=true
+[2016.09.29-11.03.16:803][ 17]LogSavePackage: Save=2.28ms
+[2016.09.29-11.03.16:803][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Carton_S2F687E8E4E533252E2B1CD809F3475D8.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Carton_S.uasset'
+[2016.09.29-11.03.16:808][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Carton_S.uasset
+[2016.09.29-11.03.16:812][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Coin01_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Coin01_D.uasset" SILENT=true
+[2016.09.29-11.03.16:817][ 17]LogSavePackage: Save=2.23ms
+[2016.09.29-11.03.16:817][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Coin01_D821C5874497A67C84A26C087CBED772C.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Coin01_D.uasset'
+[2016.09.29-11.03.16:822][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Coin01_D.uasset
+[2016.09.29-11.03.16:826][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Coin01_N" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Coin01_N.uasset" SILENT=true
+[2016.09.29-11.03.16:831][ 17]LogSavePackage: Save=2.22ms
+[2016.09.29-11.03.16:831][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Coin01_NA1C5C75C432F9A2BFF48F38962516646.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Coin01_N.uasset'
+[2016.09.29-11.03.16:836][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Coin01_N.uasset
+[2016.09.29-11.03.16:840][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Coin01_R" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Coin01_R.uasset" SILENT=true
+[2016.09.29-11.03.16:846][ 17]LogSavePackage: Save=2.66ms
+[2016.09.29-11.03.16:846][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Coin01_R92B7763041265E000361668424E002F1.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Coin01_R.uasset'
+[2016.09.29-11.03.16:851][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Coin01_R.uasset
+[2016.09.29-11.03.16:855][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Coin01_S" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Coin01_S.uasset" SILENT=true
+[2016.09.29-11.03.16:860][ 17]LogSavePackage: Save=2.10ms
+[2016.09.29-11.03.16:860][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Coin01_S5AA71F7C4A3CF8832462B6B086B26160.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Coin01_S.uasset'
+[2016.09.29-11.03.16:865][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Coin01_S.uasset
+[2016.09.29-11.03.16:870][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Cylinder100x10_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Cylinder100x10_D.uasset" SILENT=true
+[2016.09.29-11.03.16:875][ 17]LogSavePackage: Save=2.22ms
+[2016.09.29-11.03.16:875][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Cylinder100x10_DBC1636EC40421CE1BCB9EC86490CC33D.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Cylinder100x10_D.uasset'
+[2016.09.29-11.03.16:880][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Cylinder100x10_D.uasset
+[2016.09.29-11.03.16:884][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Cylinder100x10_N" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Cylinder100x10_N.uasset" SILENT=true
+[2016.09.29-11.03.16:889][ 17]LogSavePackage: Save=2.25ms
+[2016.09.29-11.03.16:889][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Cylinder100x10_N2169C9F643AAC37C9A1C25BB9B9F71D5.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Cylinder100x10_N.uasset'
+[2016.09.29-11.03.16:894][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Cylinder100x10_N.uasset
+[2016.09.29-11.03.16:898][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Gear_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Gear_D.uasset" SILENT=true
+[2016.09.29-11.03.16:903][ 17]LogSavePackage: Save=2.16ms
+[2016.09.29-11.03.16:903][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Gear_D197E06754DB083FC80E24C8E8CB4D988.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Gear_D.uasset'
+[2016.09.29-11.03.16:912][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Gear_D.uasset
+[2016.09.29-11.03.16:914][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_GearShaft_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_GearShaft_D.uasset" SILENT=true
+[2016.09.29-11.03.16:919][ 17]LogSavePackage: Save=2.19ms
+[2016.09.29-11.03.16:919][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_GearShaft_D78C9DE70453FB5291C7311A1F32F7611.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_GearShaft_D.uasset'
+[2016.09.29-11.03.16:924][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_GearShaft_D.uasset
+[2016.09.29-11.03.16:928][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Scroll_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Scroll_D.uasset" SILENT=true
+[2016.09.29-11.03.16:932][ 17]LogSavePackage: Save=2.16ms
+[2016.09.29-11.03.16:932][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Scroll_D8E20132A48F442058137598B57E716FF.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Scroll_D.uasset'
+[2016.09.29-11.03.16:938][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Scroll_D.uasset
+[2016.09.29-11.03.16:941][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Shuriken_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Shuriken_D.uasset" SILENT=true
+[2016.09.29-11.03.16:946][ 17]LogSavePackage: Save=2.08ms
+[2016.09.29-11.03.16:946][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Shuriken_DA37A910D46F0B80AF211B7B325852A83.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Shuriken_D.uasset'
+[2016.09.29-11.03.16:951][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Shuriken_D.uasset
+[2016.09.29-11.03.16:955][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Shuriken_MT" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Shuriken_MT.uasset" SILENT=true
+[2016.09.29-11.03.16:960][ 17]LogSavePackage: Save=2.21ms
+[2016.09.29-11.03.16:960][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Shuriken_MT42C92BB14F17608EE6367A82B2CF254C.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Shuriken_MT.uasset'
+[2016.09.29-11.03.16:965][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Shuriken_MT.uasset
+[2016.09.29-11.03.16:969][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Shuriken_N" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Shuriken_N.uasset" SILENT=true
+[2016.09.29-11.03.16:973][ 17]LogSavePackage: Save=2.11ms
+[2016.09.29-11.03.16:973][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Shuriken_N037C5CDC45C71B663B22D39A4201D857.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Shuriken_N.uasset'
+[2016.09.29-11.03.16:981][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Shuriken_N.uasset
+[2016.09.29-11.03.16:985][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Shuriken_R" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Shuriken_R.uasset" SILENT=true
+[2016.09.29-11.03.16:990][ 17]LogSavePackage: Save=2.31ms
+[2016.09.29-11.03.16:990][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Shuriken_R2E69C6F54323439517CDAFA3916B1B77.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Shuriken_R.uasset'
+[2016.09.29-11.03.16:995][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Shuriken_R.uasset
+[2016.09.29-11.03.16:999][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/T_Signboard_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Signboard_D.uasset" SILENT=true
+[2016.09.29-11.03.17:004][ 17]LogSavePackage: Save=2.31ms
+[2016.09.29-11.03.17:004][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/T_Signboard_DDF6BA300448A4769D111FC9FD2473CCA.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Signboard_D.uasset'
+[2016.09.29-11.03.17:009][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/T_Signboard_D.uasset
+[2016.09.29-11.03.17:012][ 17]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Textures/M_Bonfire" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/M_Bonfire.uasset" SILENT=true
+[2016.09.29-11.03.17:018][ 17]LogSavePackage: Save=2.49ms
+[2016.09.29-11.03.17:018][ 17]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/M_Bonfire8FF619EF4AA9E2487CB3FA825645AC33.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/M_Bonfire.uasset'
+[2016.09.29-11.03.17:023][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Textures/M_Bonfire.uasset
+[2016.09.29-11.03.42:946][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/Meshes/SM_Bonfire" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Bonfire.uasset" SILENT=true
+[2016.09.29-11.03.42:964][353]LogSavePackage: Save=6.22ms
+[2016.09.29-11.03.42:964][353]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Bonfire8B1D7E3B4736D9D96FD1A781F8CD311D.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Bonfire.uasset'
+[2016.09.29-11.03.42:972][353]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Props/Meshes/SM_Bonfire.uasset
+[2016.09.29-11.09.50:128][225]LogMaterial: Missing cached shader map for material M_Floor01_D, compiling. 
+[2016.09.29-11.10.20:807][959]LogMaterial: Missing cached shader map for material M_Floor01_Side, compiling. 
+[2016.09.29-11.10.36:970][828]LogMaterial: Missing cached shader map for material M_Wall01, compiling. 
+[2016.09.29-11.10.43:473][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/Materials/M_Wall01" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Materials/M_Wall01.uasset" SILENT=true
+[2016.09.29-11.10.43:491][146]LogSavePackage: Save=14.01ms
+[2016.09.29-11.10.43:491][146]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/M_Wall015A845E734CBBC3CA39826B84448FA66C.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Materials/M_Wall01.uasset'
+[2016.09.29-11.10.43:508][146]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Materials/M_Wall01.uasset
+[2016.09.29-11.10.43:529][146]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/Materials/M_Floor01_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Materials/M_Floor01_D.uasset" SILENT=true
+[2016.09.29-11.10.43:548][146]LogSavePackage: Save=14.89ms
+[2016.09.29-11.10.43:548][146]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/M_Floor01_DB455045B4773EFD34454388A1A4EE8C8.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Materials/M_Floor01_D.uasset'
+[2016.09.29-11.10.43:557][146]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Materials/M_Floor01_D.uasset
+[2016.09.29-11.10.43:593][146]LogSavePackage: Save=14.82ms
+[2016.09.29-11.10.43:593][146]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/M_Floor01_SideCAAC8A514EA1666222B39FA26208F0ED.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Materials/M_Floor01_Side.uasset'
+[2016.09.29-11.10.43:599][146]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Materials/M_Floor01_Side.uasset
+[2016.09.29-11.12.52:240][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/Materials/M_Wall" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Materials/M_Wall.uasset" SILENT=true
+[2016.09.29-11.12.52:255][745]LogSavePackage: Save=11.68ms
+[2016.09.29-11.12.52:255][745]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/M_WallDD3AE12342D65F389403A7997B40DFB4.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Materials/M_Wall.uasset'
+[2016.09.29-11.12.52:269][745]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Materials/M_Wall.uasset
+[2016.09.29-11.13.13:407][938]LogSavePackage: Save=2.91ms
+[2016.09.29-11.13.13:407][938]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/M_Floor01_Side4709C225443A9CF939558D81512D095D.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Textures/M_Floor01_Side.uasset'
+[2016.09.29-11.13.13:413][938]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Textures/M_Floor01_Side.uasset
+[2016.09.29-11.13.13:418][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/Textures/M_Floor01_D" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Textures/M_Floor01_D.uasset" SILENT=true
+[2016.09.29-11.13.13:425][938]LogSavePackage: Save=2.99ms
+[2016.09.29-11.13.13:425][938]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/M_Floor01_DE6DDFC0A4F403D715BE4A49BDE38B5A6.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Textures/M_Floor01_D.uasset'
+[2016.09.29-11.13.13:431][938]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Textures/M_Floor01_D.uasset
+[2016.09.29-11.13.13:447][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/Meshes/SM_Wall" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Meshes/SM_Wall.uasset" SILENT=true
+[2016.09.29-11.13.13:474][938]LogSavePackage: Save=13.13ms
+[2016.09.29-11.13.13:474][938]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_Wall9D40BCB9437161F7F0CA9F9C75BF7DE2.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Meshes/SM_Wall.uasset'
+[2016.09.29-11.13.13:482][938]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Meshes/SM_Wall.uasset
+[2016.09.29-11.13.13:485][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/Textures/M_Wall01" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Textures/M_Wall01.uasset" SILENT=true
+[2016.09.29-11.13.13:491][938]LogSavePackage: Save=2.86ms
+[2016.09.29-11.13.13:491][938]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/M_Wall011EDCF03F478757EF7F65D4AF5517B8A5.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Textures/M_Wall01.uasset'
+[2016.09.29-11.13.13:500][938]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Textures/M_Wall01.uasset
+[2016.09.29-11.14.16:502][262]LogLinker:Warning: '/Game/Architecture/Materials/blinn1' 파일을 찾을 수 없습니다.
+[2016.09.29-11.14.16:503][262]LogLinker:Warning: ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Meshes/SM_Floor.uasset 로드중 '/Game/Architecture/Materials/blinn1' 애셋에 대한 파일을 찾을 수 없습니다.
+[2016.09.29-11.14.16:503][262]LoadErrors:Error: 오류 /Game/Architecture/Meshes/SM_Floor : 애셋에 대한 파일을 찾을 수 없습니다. /Game/Architecture/Materials/blinn1
+[2016.09.29-11.14.16:503][262]LogLinker:Warning: '/Game/Architecture/Materials/lambert2' 파일을 찾을 수 없습니다.
+[2016.09.29-11.14.16:503][262]LogLinker:Warning: ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Meshes/SM_Floor.uasset 로드중 '/Game/Architecture/Materials/lambert2' 애셋에 대한 파일을 찾을 수 없습니다.
+[2016.09.29-11.14.16:503][262]LoadErrors:Error: 오류 /Game/Architecture/Meshes/SM_Floor : 애셋에 대한 파일을 찾을 수 없습니다. /Game/Architecture/Materials/lambert2
+[2016.09.29-11.14.16:503][262]LogLinker:Warning: '/Game/Architecture/Materials/blinn1' 파일을 찾을 수 없습니다.
+[2016.09.29-11.14.16:504][262]LogLinker:Warning: ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Meshes/SM_Floor.uasset 로드중 '/Game/Architecture/Materials/blinn1' 애셋에 대한 파일을 찾을 수 없습니다.
+[2016.09.29-11.14.16:504][262]LogLinker:Warning: '/Game/Architecture/Materials/lambert2' 파일을 찾을 수 없습니다.
+[2016.09.29-11.14.16:504][262]LogLinker:Warning: ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Meshes/SM_Floor.uasset 로드중 '/Game/Architecture/Materials/lambert2' 애셋에 대한 파일을 찾을 수 없습니다.
+[2016.09.29-11.14.16:504][262]LogLinker:Warning: '/Game/Architecture/Materials/blinn1' 파일을 찾을 수 없습니다.
+[2016.09.29-11.14.16:505][262]LoadErrors: 정보 로드에 실패했습니다. /Game/Architecture/Materials/blinn1.blinn1 레퍼런싱한 것: SM_Floor
+[2016.09.29-11.14.16:505][262]LogLinker:Warning: NULL 로드중 '/Game/Architecture/Materials/blinn1' 애셋에 대한 파일을 찾을 수 없습니다.
+[2016.09.29-11.14.16:545][262]LogLinker:Warning: '/Game/Architecture/Materials/lambert2' 파일을 찾을 수 없습니다.
+[2016.09.29-11.14.16:545][262]LoadErrors: 정보 로드에 실패했습니다. /Game/Architecture/Materials/lambert2.lambert2 레퍼런싱한 것: SM_Floor
+[2016.09.29-11.14.16:545][262]LogLinker:Warning: NULL 로드중 '/Game/Architecture/Materials/lambert2' 애셋에 대한 파일을 찾을 수 없습니다.
+[2016.09.29-11.19.11:269][891]LogLinker:Warning: '/Game/Architecture/Materials/lambert1' 파일을 찾을 수 없습니다.
+[2016.09.29-11.19.11:269][891]LogLinker:Warning: ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Meshes/SM_Plane128x128.uasset 로드중 '/Game/Architecture/Materials/lambert1' 애셋에 대한 파일을 찾을 수 없습니다.
+[2016.09.29-11.19.11:270][891]LoadErrors:Error: 오류 /Game/Architecture/Meshes/SM_Plane128x128 : 애셋에 대한 파일을 찾을 수 없습니다. /Game/Architecture/Materials/lambert1
+[2016.09.29-11.19.11:270][891]LogLinker:Warning: '/Game/Architecture/Materials/lambert1' 파일을 찾을 수 없습니다.
+[2016.09.29-11.19.11:270][891]LogLinker:Warning: ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Meshes/SM_Plane128x128.uasset 로드중 '/Game/Architecture/Materials/lambert1' 애셋에 대한 파일을 찾을 수 없습니다.
+[2016.09.29-11.19.11:271][891]LogLinker:Warning: '/Game/Architecture/Materials/lambert1' 파일을 찾을 수 없습니다.
+[2016.09.29-11.19.11:271][891]LoadErrors: 정보 로드에 실패했습니다. /Game/Architecture/Materials/lambert1.lambert1 레퍼런싱한 것: SM_Plane128x128
+[2016.09.29-11.19.11:271][891]LogLinker:Warning: NULL 로드중 '/Game/Architecture/Materials/lambert1' 애셋에 대한 파일을 찾을 수 없습니다.
+[2016.09.29-11.19.31:205][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/Materials/M_Floor" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Materials/M_Floor.uasset" SILENT=true
+[2016.09.29-11.19.31:224][ 28]LogSavePackage: Save=15.25ms
+[2016.09.29-11.19.31:224][ 28]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/M_Floor1581589441A391F262F21DABF5787535.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Materials/M_Floor.uasset'
+[2016.09.29-11.19.31:231][ 28]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Materials/M_Floor.uasset
+[2016.09.29-11.19.38:327][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/Materials/M_FloorSide" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Materials/M_FloorSide.uasset" SILENT=true
+[2016.09.29-11.19.38:347][437]LogSavePackage: Save=14.98ms
+[2016.09.29-11.19.38:347][437]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/M_FloorSide68EBC8564E5F1B5B0BA63BB356471730.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Materials/M_FloorSide.uasset'
+[2016.09.29-11.19.38:353][437]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Materials/M_FloorSide.uasset
+[2016.09.29-11.19.50:139][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/Meshes/SM_Floor" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Meshes/SM_Floor.uasset" SILENT=true
+[2016.09.29-11.19.50:165][111]LogSavePackage: Save=12.16ms
+[2016.09.29-11.19.50:165][111]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/SM_FloorDFB1A3574E71B4A41EC5479DBAD4DE7B.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Meshes/SM_Floor.uasset'
+[2016.09.29-11.19.50:174][111]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Architecture/Meshes/SM_Floor.uasset
+[2016.09.29-11.23.43:131][ 37]Cmd: QUIT_EDITOR
+[2016.09.29-11.23.43:173][ 37]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.09.29-11.23.43:202][ 37]LogExit: Preparing to exit.
+[2016.09.29-11.23.44:257][ 37]LogExit: Editor shut down
+[2016.09.29-11.23.44:258][ 37]LogExit: Transaction tracking system shut down
+[2016.09.29-11.23.44:467][ 37]LogObj: Freed 0b from 0 cluster array pools.
+[2016.09.29-11.23.44:467][ 37]LogExit: Object subsystem successfully closed.
+[2016.09.29-11.23.44:493][ 37]LogD3D11RHI: Shutdown
+[2016.09.29-11.23.44:493][ 37]LogD3D11RHI: CleanupD3DDevice
+[2016.09.29-11.23.44:577][ 37]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.09.29-11.23.44:616][ 37]LogModuleManager: Shutting down and abandoning module MaterialEditor (215)
+[2016.09.29-11.23.44:616][ 37]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (214)
+[2016.09.29-11.23.44:616][ 37]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.09.29-11.23.44:616][ 37]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.09.29-11.23.44:616][ 37]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.09.29-11.23.44:616][ 37]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.09.29-11.23.44:616][ 37]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.09.29-11.23.44:622][ 37]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.09.29-11.23.44:622][ 37]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.09.29-11.23.44:622][ 37]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.09.29-11.23.44:622][ 37]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.09.29-11.23.44:622][ 37]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.09.29-11.23.44:622][ 37]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.09.29-11.23.44:622][ 37]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.09.29-11.23.44:622][ 37]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.09.29-11.23.44:622][ 37]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.09.29-11.23.44:622][ 37]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.09.29-11.23.44:622][ 37]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.09.29-11.23.44:622][ 37]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.09.29-11.23.44:622][ 37]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.09.29-11.23.44:622][ 37]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.09.29-11.23.44:622][ 37]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.09.29-11.23.44:622][ 37]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.09.29-11.23.44:622][ 37]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.09.29-11.23.44:623][ 37]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.09.29-11.23.44:623][ 37]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.09.29-11.23.44:623][ 37]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.09.29-11.23.44:623][ 37]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.09.29-11.23.44:623][ 37]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.09.29-11.23.44:623][ 37]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.09.29-11.23.44:623][ 37]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.09.29-11.23.44:623][ 37]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.09.29-11.23.44:623][ 37]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.09.29-11.23.44:623][ 37]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.09.29-11.23.44:623][ 37]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.09.29-11.23.44:623][ 37]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.09.29-11.23.44:849][ 37]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.09.29-11.23.44:849][ 37]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.09.29-11.23.44:849][ 37]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.09.29-11.23.44:849][ 37]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.09.29-11.23.44:849][ 37]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.09.29-11.23.44:849][ 37]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.09.29-11.23.44:849][ 37]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.09.29-11.23.44:849][ 37]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.09.29-11.23.44:849][ 37]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.09.29-11.23.44:849][ 37]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.09.29-11.23.44:849][ 37]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.09.29-11.23.44:849][ 37]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.09.29-11.23.44:849][ 37]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.09.29-11.23.44:849][ 37]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.09.29-11.23.44:849][ 37]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.09.29-11.23.44:849][ 37]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.09.29-11.23.44:850][ 37]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.09.29-11.23.44:850][ 37]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.09.29-11.23.44:850][ 37]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.09.29-11.23.44:851][ 37]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.09.29-11.23.44:851][ 37]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.09.29-11.23.44:851][ 37]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.09.29-11.23.44:851][ 37]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.09.29-11.23.44:851][ 37]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.09.29-11.23.44:851][ 37]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.09.29-11.23.44:895][ 37]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.09.29-11.23.44:895][ 37]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.09.29-11.23.44:895][ 37]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.09.29-11.23.44:895][ 37]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.09.29-11.23.44:895][ 37]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.09.29-11.23.44:895][ 37]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.09.29-11.23.44:895][ 37]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.09.29-11.23.44:895][ 37]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.09.29-11.23.44:895][ 37]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.09.29-11.23.44:895][ 37]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.09.29-11.23.44:895][ 37]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.09.29-11.23.44:895][ 37]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.09.29-11.23.44:895][ 37]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.09.29-11.23.44:895][ 37]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.09.29-11.23.44:895][ 37]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.09.29-11.23.44:895][ 37]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.09.29-11.23.44:895][ 37]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.09.29-11.23.44:895][ 37]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.09.29-11.23.44:895][ 37]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.09.29-11.23.44:896][ 37]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.09.29-11.23.44:896][ 37]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.09.29-11.23.44:896][ 37]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.09.29-11.23.44:896][ 37]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.09.29-11.23.44:896][ 37]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.09.29-11.23.44:896][ 37]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.09.29-11.23.44:896][ 37]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.09.29-11.23.45:074][ 37]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.09.29-11.23.45:074][ 37]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.09.29-11.23.45:074][ 37]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.09.29-11.23.45:074][ 37]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.09.29-11.23.45:074][ 37]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.09.29-11.23.45:074][ 37]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.09.29-11.23.45:074][ 37]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.09.29-11.23.45:074][ 37]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.09.29-11.23.45:074][ 37]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.09.29-11.23.45:074][ 37]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.09.29-11.23.45:074][ 37]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.09.29-11.23.45:074][ 37]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.09.29-11.23.45:074][ 37]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.09.29-11.23.45:074][ 37]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.09.29-11.23.45:074][ 37]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.09.29-11.23.45:074][ 37]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.09.29-11.23.45:074][ 37]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.09.29-11.23.45:075][ 37]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.09.29-11.23.45:075][ 37]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.09.29-11.23.45:075][ 37]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.09.29-11.23.45:075][ 37]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.09.29-11.23.45:075][ 37]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.09.29-11.23.45:075][ 37]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.09.29-11.23.45:075][ 37]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.09.29-11.23.45:075][ 37]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.09.29-11.23.45:075][ 37]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.09.29-11.23.45:075][ 37]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.09.29-11.23.45:075][ 37]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.09.29-11.23.45:075][ 37]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.09.29-11.23.45:075][ 37]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.09.29-11.23.45:076][ 37]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.09.29-11.23.45:076][ 37]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.09.29-11.23.45:077][ 37]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.09.29-11.23.45:079][ 37]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.09.29-11.23.45:079][ 37]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.09.29-11.23.45:180][ 37]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.09.29-11.23.45:180][ 37]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.09.29-11.23.45:180][ 37]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.09.29-11.23.45:180][ 37]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.09.29-11.23.45:180][ 37]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.09.29-11.23.45:181][ 37]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.09.29-11.23.45:181][ 37]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.09.29-11.23.45:181][ 37]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.09.29-11.23.45:181][ 37]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.09.29-11.23.45:181][ 37]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.09.29-11.23.45:181][ 37]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.09.29-11.23.45:181][ 37]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.09.29-11.23.45:181][ 37]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.09.29-11.23.45:181][ 37]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.09.29-11.23.45:181][ 37]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.09.29-11.23.45:181][ 37]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.09.29-11.23.45:182][ 37]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.09.29-11.23.45:182][ 37]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.09.29-11.23.45:182][ 37]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.09.29-11.23.45:182][ 37]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.09.29-11.23.45:182][ 37]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.09.29-11.23.45:182][ 37]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.09.29-11.23.45:182][ 37]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.09.29-11.23.45:182][ 37]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.09.29-11.23.45:199][ 37]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.09.29-11.23.45:199][ 37]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.09.29-11.23.45:199][ 37]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.09.29-11.23.45:199][ 37]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.09.29-11.23.45:199][ 37]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.09.29-11.23.45:199][ 37]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.09.29-11.23.45:209][ 37]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.09.29-11.23.45:405][ 37]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.09.29-11.23.45:405][ 37]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.09.29-11.23.45:405][ 37]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.09.29-11.23.45:405][ 37]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.09.29-11.23.45:449][ 37]LogDerivedDataCache: Shutdown
+[2016.09.29-11.23.45:449][ 37]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.09.29-11.23.45:449][ 37]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.09.29-11.23.45:449][ 37]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.09.29-11.23.45:449][ 37]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.09.29-11.23.45:450][ 37]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.09.29-11.23.45:451][ 37]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.09.29-11.23.45:451][ 37]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.09.29-11.23.45:451][ 37]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.09.29-11.23.45:451][ 37]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.09.29-11.23.46:955][ 37]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.09.29-11.23.46:955][ 37]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.09.29-11.23.46:955][ 37]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.09.29-11.23.46:956][ 37]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.09.29-11.23.46:956][ 37]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.09.29-11.23.46:956][ 37]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.09.29-11.23.46:956][ 37]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.09.29-11.23.46:979][ 37]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.09.29-11.23.46:979][ 37]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.09.29-11.23.46:979][ 37]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.09.29-11.23.46:979][ 37]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.09.29-11.23.46:979][ 37]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.09.29-11.23.46:979][ 37]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.09.29-11.23.46:979][ 37]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.09.29-11.23.46:979][ 37]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.09.29-11.23.46:979][ 37]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.09.29-11.23.46:979][ 37]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.09.29-11.23.46:981][ 37]LogExit: Exiting.
+[2016.09.29-11.23.46:993][ 37]Log file closed, 09/29/16 20:23:46
