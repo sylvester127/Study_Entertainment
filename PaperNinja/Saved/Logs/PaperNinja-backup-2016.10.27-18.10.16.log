@@ -1,0 +1,682 @@
+﻿Log file open, 10/13/16 19:27:58
+LogInit:Display: Running engine for game: PaperNinja
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1824508333) SRandInit(-1824508332).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.074847
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: D:/DevelopmentKit/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.13-10.27.58:435][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.13-10.27.58:435][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.13-10.27.58:448][  0]LogInit: Computer: NARAMLOPTOP
+[2016.10.13-10.27.58:448][  0]LogInit: User: sylve
+[2016.10.13-10.27.58:448][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.13-10.27.58:448][  0]LogInit: High frequency timer resolution =2.728069 MHz
+[2016.10.13-10.27.58:448][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.10.13-10.27.58:448][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.13-10.27.58:448][  0]LogMemory: Process Physical Memory: 191.51 MB used, 191.51 MB peak
+[2016.10.13-10.27.58:448][  0]LogMemory: Process Virtual Memory: 195.31 MB used, 195.31 MB peak
+[2016.10.13-10.27.58:448][  0]LogMemory: Physical Memory: 4615.26 MB used, 8112.01 MB total
+[2016.10.13-10.27.58:448][  0]LogMemory: Virtual Memory: 553.24 MB used, 134217728.00 MB total
+[2016.10.13-10.27.58:508][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2016.10.13-10.27.58:553][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2016.10.13-10.27.58:554][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2016.10.13-10.27.58:554][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2016.10.13-10.27.58:554][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (D:/DevelopmentKit/Epic Games/4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2016.10.13-10.27.58:681][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.13-10.27.58:712][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 765M' (Feature Level 11_0)
+[2016.10.13-10.27.58:712][  0]LogD3D11RHI:       2019/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.10.13-10.27.58:721][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.10.13-10.27.58:721][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.10.13-10.27.58:723][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.10.13-10.27.58:723][  0]LogD3D11RHI:       0/0/4056 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.10.13-10.27.58:723][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.13-10.27.58:730][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.13-10.27.58:730][  0]LogD3D11RHI:     GPU DeviceId: 0x11e2 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.13-10.27.58:730][  0]LogWindows: EnumDisplayDevices:
+[2016.10.13-10.27.58:730][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2016.10.13-10.27.58:731][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.10.13-10.27.58:732][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2016.10.13-10.27.58:733][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2016.10.13-10.27.58:733][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 765M
+[2016.10.13-10.27.58:733][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2016.10.13-10.27.58:733][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.10.13-10.27.58:733][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.13-10.27.58:749][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.13-10.27.58:764][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.10.13-10.27.58:765][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Intermediate/Shaders/WorkingDirectory/6328/).
+[2016.10.13-10.27.58:765][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sylve/AppData/Local/Temp/UnrealShaderWorkingDir/832CCE674B21B716A6FBBBB1DB9C0EF5/'.
+[2016.10.13-10.27.58:765][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.13-10.27.59:954][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.13-10.27.59:966][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.13-10.27.59:976][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.13-10.27.59:990][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.13-10.28.00:001][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.13-10.28.00:011][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.13-10.28.00:020][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.13-10.28.00:033][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.13-10.28.00:047][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.13-10.28.00:056][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.13-10.28.00:065][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.13-10.28.00:084][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.13-10.28.00:084][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.13-10.28.00:086][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.13-10.28.00:111][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.13-10.28.00:119][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.13-10.28.00:128][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.13-10.28.00:137][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.13-10.28.00:147][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.13-10.28.00:147][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.13-10.28.00:241][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.13-10.28.00:304][  0]LogDerivedDataCache: Loaded boot cache 0.06s 48MB C:/Users/sylve/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.13-10.28.00:304][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/sylve/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.10.13-10.28.00:304][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.13-10.28.00:304][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.13-10.28.00:304][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.13-10.28.00:304][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.13-10.28.00:324][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.13-10.28.00:337][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sylve/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.13-10.28.00:566][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.13-10.28.00:566][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.13-10.28.00:773][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.13-10.28.00:773][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.13-10.28.00:773][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.13-10.28.01:068][  0]LogAssetRegistry: FAssetRegistry took 0.0224 seconds to start up
+[2016.10.13-10.28.01:116][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.045009 seconds
+[2016.10.13-10.28.01:123][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.10.13-10.28.01:123][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2016.10.13-10.28.01:123][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.13-10.28.01:128][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.13-10.28.01:324][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.13-10.28.01:324][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.13-10.28.02:558][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.13-10.28.02:854][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.10.13-10.28.02:856][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.10.13-10.28.02:870][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.10.13-10.28.02:883][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.10.13-10.28.03:206][  0]LogEngine: Initializing Engine...
+[2016.10.13-10.28.03:208][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.13-10.28.03:209][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.10.13-10.28.03:386][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.10.13-10.28.03:415][  0]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-10.28.03:458][  0]LogInit: FAudioDevice initialized.
+[2016.10.13-10.28.03:497][  0]LogDerivedDataCache: Saved boot cache 0.04s 48MB C:/Users/sylve/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.10.13-10.28.03:507][  0]LogInit: Texture streaming: Enabled
+[2016.10.13-10.28.03:532][  0]LogInit: Transaction tracking system initialized
+[2016.10.13-10.28.03:551][  0]BlueprintLog: New page: 에디터 로드
+[2016.10.13-10.28.03:631][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2016.10.13-10.28.03:707][  0]LogConsoleResponse:Display: 
+[2016.10.13-10.28.03:829][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.10.13-10.28.03:829][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.13-10.28.03:959][  0]LogFileCache: Scanning file cache for directory 'D:/sylve/Documents/Unreal Projects/PaperNinja/Content/' took 0.02s
+[2016.10.13-10.28.03:959][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.10.13-10.28.03:959][  0]Cmd: MAP LOAD FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Maps/Stage01/PNStage01_Top.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.13-10.28.03:960][  0]LightingResults: New page: 라이팅 빌드
+[2016.10.13-10.28.03:961][  0]MapCheck: New page: 맵 체크
+[2016.10.13-10.28.03:961][  0]LightingResults: New page: 라이팅 빌드
+[2016.10.13-10.28.03:979][  0]LogAIModule: Creating AISystem for world PNStage01_Top
+[2016.10.13-10.28.04:317][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.13-10.28.04:319][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.13-10.28.04:416][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 97.374ms.
+[2016.10.13-10.28.04:416][  0]LogFileHelpers: Loading map 'PNStage01_Top' took 0.457
+[2016.10.13-10.28.04:626][  0]LogCollectionManager: Loaded 0 collections in 0.001459 seconds
+[2016.10.13-10.28.04:670][  0]LogFileCache: Scanning file cache for directory 'D:/sylve/Documents/Unreal Projects/PaperNinja/Saved/Collections/' took 0.01s
+[2016.10.13-10.28.04:670][  0]LogFileCache: Scanning file cache for directory 'D:/sylve/Documents/Unreal Projects/PaperNinja/Content/Developers/sylve/Collections/' took 0.01s
+[2016.10.13-10.28.04:670][  0]LogFileCache: Scanning file cache for directory 'D:/sylve/Documents/Unreal Projects/PaperNinja/Content/Collections/' took 0.01s
+[2016.10.13-10.28.04:670][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.10.13-10.28.04:679][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2047 classes and 369 folders.
+[2016.10.13-10.28.04:683][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.13-10.28.04:683][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.13-10.28.04:684][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 12 classes and 0 folders.
+[2016.10.13-10.28.04:687][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.10.13-10.28.04:790][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.10.13-10.28.04:794][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.10.13-10.28.04:872][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0007 seconds. Added 1 classes and 3 folders.
+[2016.10.13-10.28.04:878][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.13-10.28.04:885][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2016.10.13-10.28.04:912][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2016.10.13-10.28.04:912][  0]LogLoad: Full Startup: 7.39 seconds (BP compile: 0.04 seconds)
+[2016.10.13-10.28.04:912][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.10.13-10.28.04:912][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.10.13-10.28.05:255][  0]LogOcInput: OculusInput pre-init called
+[2016.10.13-10.28.05:274][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.10.13-10.28.05:455][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.10.13-10.28.05:602][  1]LogAssetRegistry: Asset discovery search completed in 4.5562 seconds
+[2016.10.13-10.28.05:602][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.10.13-10.28.05:602][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2016.10.13-11.02.31:712][924]LogStaticMesh: SM_Bonfire 스태틱 메시 빌드중...
+[2016.10.13-11.02.31:804][924]LogStaticMesh: Built static mesh [0.09s] /Game/Props/SM_Bonfire.SM_Bonfire
+[2016.10.13-11.02.32:077][924]LogTexture:Display: 텍스처 빌드중: T_Bonfire_D (AutoDXT)
+[2016.10.13-11.02.34:089][924]LogMaterial: Missing cached shader map for material M_Bonfire, compiling. 
+[2016.10.13-11.02.34:151][924]LogActorFactory: Actor Factory created SM_Bonfire
+[2016.10.13-11.02.34:221][924]LogActorFactory: Actor Factory created SM_Bonfire
+[2016.10.13-11.02.37:035][ 81]LogActorFactory: Actor Factory created SM_Bonfire
+[2016.10.13-11.02.38:758][183]Cmd: TRANSACTION UNDO
+[2016.10.13-11.02.38:758][183]LogEditorTransaction: Undo 액터 생성
+[2016.10.13-11.02.42:341][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bonfire)
+[2016.10.13-11.03.00:295][459]LogActorFactory: Actor Factory created SM_Bonfire
+[2016.10.13-11.03.00:880][494]LogActorFactory: Actor Factory created SM_Bonfire
+[2016.10.13-11.03.11:534][125]LogActorFactory: Actor Factory created SM_Bonfire
+[2016.10.13-11.03.11:940][149]LogActorFactory: Actor Factory created SM_Bonfire
+[2016.10.13-11.04.10:050][613]LogSavePackage: Save=15.82ms
+[2016.10.13-11.04.10:050][613]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/PNStage01_Top79B827704C13422A93C0C28918C87AE9.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Maps/Stage01/PNStage01_Top.umap'
+[2016.10.13-11.04.10:059][613]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Maps/Stage01/PNStage01_Top.umap
+[2016.10.13-11.04.10:126][613]LogFileHelpers: Saving map 'PNStage01_Top' took 0.235
+[2016.10.13-11.04.10:262][613]LogSavePackage: Save=35.85ms
+[2016.10.13-11.04.10:262][613]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/PNStage01_GB97321E13429112BFD59919A71282ED03.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Maps/Stage01/PNStage01_GB.umap'
+[2016.10.13-11.04.10:268][613]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Maps/Stage01/PNStage01_GB.umap
+[2016.10.13-11.04.10:269][613]LogFileHelpers: Saving map 'PNStage01_GB' took 0.140
+[2016.10.13-11.04.55:995][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.13-11.04.55:995][346]PIE: New page: PIE 세션: PNStage01_Top (2016. 10. 14. 오전 5:04:55)
+[2016.10.13-11.04.55:995][346]LogPlayLevel: Creating play world package: /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top
+[2016.10.13-11.04.55:997][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001374s)
+[2016.10.13-11.04.55:998][346]LogAIModule: Creating AISystem for world PNStage01_Top
+[2016.10.13-11.04.55:998][346]LogPlayLevel: PIE: World Init took: (0.001367s)
+[2016.10.13-11.04.55:998][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Stage01/PNStage01_Top.PNStage01_Top to /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top (0.003002s)
+[2016.10.13-11.04.56:035][346]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-11.04.56:053][346]LogInit: FAudioDevice initialized.
+[2016.10.13-11.04.56:152][346]LogWorld: Game class is 'GameMode'
+[2016.10.13-11.04.56:175][346]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Stage01/PNStage01_GB.PNStage01_GB to /Game/Maps/Stage01/UEDPIE_0_PNStage01_GB.PNStage01_GB. OwningWorld: /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top
+[2016.10.13-11.04.56:191][346]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Stage01/PNStage01_SM.PNStage01_SM to /Game/Maps/Stage01/UEDPIE_0_PNStage01_SM.PNStage01_SM. OwningWorld: /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top
+[2016.10.13-11.04.56:220][346]LogWorld: Bringing World /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top up for play (max tick rate 60) at 2016.10.13-20.04.56
+[2016.10.13-11.04.56:234][346]LogWorld: Bringing up level for play took: 0.014753
+[2016.10.13-11.04.56:251][346]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2016.10.13-11.04.56:252][346]PIE: 정보 /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top 에 대한 에디터에서 플레이 시작 시간: -0.312
+[2016.10.13-11.05.13:995][387]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.13-11.05.13:995][387]PIE: New page: PIE 세션: PNStage01_Top (2016. 10. 14. 오전 5:05:13)
+[2016.10.13-11.05.13:995][387]LogPlayLevel: Creating play world package: /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top
+[2016.10.13-11.05.13:996][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001060s)
+[2016.10.13-11.05.13:996][387]LogAIModule: Creating AISystem for world PNStage01_Top
+[2016.10.13-11.05.13:996][387]LogPlayLevel: PIE: World Init took: (0.000589s)
+[2016.10.13-11.05.13:997][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Stage01/PNStage01_Top.PNStage01_Top to /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top (0.001855s)
+[2016.10.13-11.05.14:023][387]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-11.05.14:036][387]LogInit: FAudioDevice initialized.
+[2016.10.13-11.05.14:081][387]LogWorld: Game class is 'GameMode'
+[2016.10.13-11.05.14:084][387]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Stage01/PNStage01_GB.PNStage01_GB to /Game/Maps/Stage01/UEDPIE_0_PNStage01_GB.PNStage01_GB. OwningWorld: /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top
+[2016.10.13-11.05.14:096][387]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Stage01/PNStage01_SM.PNStage01_SM to /Game/Maps/Stage01/UEDPIE_0_PNStage01_SM.PNStage01_SM. OwningWorld: /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top
+[2016.10.13-11.05.14:112][387]LogWorld: Bringing World /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top up for play (max tick rate 60) at 2016.10.13-20.05.14
+[2016.10.13-11.05.14:113][387]LogWorld: Bringing up level for play took: 0.001457
+[2016.10.13-11.05.14:114][387]PIE: 정보 /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top 에 대한 에디터에서 플레이 시작 시간: -0.45
+[2016.10.13-11.05.26:485][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.13-11.05.26:485][123]PIE: New page: PIE 세션: PNStage01_Top (2016. 10. 14. 오전 5:05:26)
+[2016.10.13-11.05.26:486][123]LogPlayLevel: Creating play world package: /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top
+[2016.10.13-11.05.26:487][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001598s)
+[2016.10.13-11.05.26:488][123]LogAIModule: Creating AISystem for world PNStage01_Top
+[2016.10.13-11.05.26:488][123]LogPlayLevel: PIE: World Init took: (0.000526s)
+[2016.10.13-11.05.26:488][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Stage01/PNStage01_Top.PNStage01_Top to /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top (0.002371s)
+[2016.10.13-11.05.26:516][123]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-11.05.26:529][123]LogInit: FAudioDevice initialized.
+[2016.10.13-11.05.26:581][123]LogWorld: Game class is 'GameMode'
+[2016.10.13-11.05.26:583][123]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Stage01/PNStage01_GB.PNStage01_GB to /Game/Maps/Stage01/UEDPIE_0_PNStage01_GB.PNStage01_GB. OwningWorld: /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top
+[2016.10.13-11.05.26:595][123]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Stage01/PNStage01_SM.PNStage01_SM to /Game/Maps/Stage01/UEDPIE_0_PNStage01_SM.PNStage01_SM. OwningWorld: /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top
+[2016.10.13-11.05.26:612][123]LogWorld: Bringing World /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top.PNStage01_Top up for play (max tick rate 60) at 2016.10.13-20.05.26
+[2016.10.13-11.05.26:613][123]LogWorld: Bringing up level for play took: 0.001461
+[2016.10.13-11.05.26:614][123]PIE: 정보 /Game/Maps/Stage01/UEDPIE_0_PNStage01_Top 에 대한 에디터에서 플레이 시작 시간: 0.051
+[2016.10.13-11.05.28:749][246]Set new viewmode: Unlit
+[2016.10.13-11.21.52:121][558]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.13-11.21.52:183][558]LightingResults: New page: 라이팅 빌드
+[2016.10.13-11.21.52:188][558]LoadErrors: New page: 맵 로드중: Template_Default.umap
+[2016.10.13-11.21.52:304][558]MapCheck: New page: 맵 체크
+[2016.10.13-11.21.52:304][558]LightingResults: New page: 라이팅 빌드
+[2016.10.13-11.21.52:489][558]LogAIModule: Creating AISystem for world Untitled_1
+[2016.10.13-11.21.52:706][558]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.13-11.21.52:719][558]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.13-11.21.52:831][558]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 111.808ms.
+[2016.10.13-11.21.52:831][558]LogFileHelpers: Loading map 'Template_Default' took 0.778
+[2016.10.13-11.22.58:436][ 78]LogSavePackage: Save=25.37ms
+[2016.10.13-11.22.58:436][ 78]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Test_BasicBluePrintD5F5C965483C1284CCBA5F9B9994212B.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Maps/Test/Test_BasicBluePrint.umap'
+[2016.10.13-11.22.58:438][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Maps/Test/Test_BasicBluePrint.umap
+[2016.10.13-11.22.58:462][ 78]LogFileHelpers: Saving map 'Test_BasicBluePrint' took 1.065
+[2016.10.13-11.23.00:627][204]Cmd: PARTICLE RESET SELECTED
+[2016.10.13-11.23.00:633][204]LogEditorServer: Exec Particle!
+[2016.10.13-11.23.01:540][239]LogTexture:Display: 텍스처 빌드중: T_ColorGrid (AutoDXT)
+[2016.10.13-11.23.18:790][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.13-11.23.18:790][249]PIE: New page: PIE 세션: Test_BasicBluePrint (2016. 10. 14. 오전 5:23:18)
+[2016.10.13-11.23.18:790][249]LogPlayLevel: Creating play world package: /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint
+[2016.10.13-11.23.18:792][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002027s)
+[2016.10.13-11.23.18:793][249]LogAIModule: Creating AISystem for world Test_BasicBluePrint
+[2016.10.13-11.23.18:793][249]LogPlayLevel: PIE: World Init took: (0.000880s)
+[2016.10.13-11.23.18:793][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_BasicBluePrint.Test_BasicBluePrint to /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint.Test_BasicBluePrint (0.003214s)
+[2016.10.13-11.23.18:821][249]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-11.23.18:836][249]LogInit: FAudioDevice initialized.
+[2016.10.13-11.23.18:885][249]LogWorld: Game class is 'GameMode'
+[2016.10.13-11.23.18:888][249]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint.Test_BasicBluePrint up for play (max tick rate 60) at 2016.10.13-20.23.18
+[2016.10.13-11.23.18:888][249]LogWorld: Bringing up level for play took: 0.002063
+[2016.10.13-11.23.18:928][249]PIE: 정보 /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint 에 대한 에디터에서 플레이 시작 시간: 0.364
+[2016.10.13-11.23.53:699][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.10.13-11.23.56:604][493]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2016.10.13-11.24.04:879][972]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.10.13-11.24.05:230][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.13-11.24.05:230][981]PIE: New page: PIE 세션: Test_BasicBluePrint (2016. 10. 14. 오전 5:24:05)
+[2016.10.13-11.24.05:230][981]LogPlayLevel: Creating play world package: /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint
+[2016.10.13-11.24.05:233][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002576s)
+[2016.10.13-11.24.05:234][981]LogAIModule: Creating AISystem for world Test_BasicBluePrint
+[2016.10.13-11.24.05:234][981]LogPlayLevel: PIE: World Init took: (0.001148s)
+[2016.10.13-11.24.05:234][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_BasicBluePrint.Test_BasicBluePrint to /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint.Test_BasicBluePrint (0.004033s)
+[2016.10.13-11.24.05:261][981]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-11.24.05:278][981]LogInit: FAudioDevice initialized.
+[2016.10.13-11.24.05:331][981]LogWorld: Game class is 'GameMode'
+[2016.10.13-11.24.05:333][981]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint.Test_BasicBluePrint up for play (max tick rate 60) at 2016.10.13-20.24.05
+[2016.10.13-11.24.05:333][981]LogWorld: Bringing up level for play took: 0.001542
+[2016.10.13-11.24.05:335][981]PIE: 정보 /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint 에 대한 에디터에서 플레이 시작 시간: 0.772
+[2016.10.13-11.24.16:797][660]Cmd: toggleD
+[2016.10.13-11.24.17:019][660]Command not recognized: toggleD
+[2016.10.13-11.24.33:083][616]Cmd: ToggleDebugCamera
+[2016.10.13-11.25.30:543][ 13]LogSavePackage: Save=20.85ms
+[2016.10.13-11.25.30:543][ 13]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Test_BasicBluePrintF67E4C8E4067A22BD591B98799C2DA30.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Maps/Test/Test_BasicBluePrint.umap'
+[2016.10.13-11.25.30:549][ 13]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Maps/Test/Test_BasicBluePrint.umap
+[2016.10.13-11.25.30:592][ 13]LogFileHelpers: Saving map 'Test_BasicBluePrint' took 0.180
+[2016.10.13-11.34.11:968][345]Cmd: DELETE
+[2016.10.13-11.34.11:968][345]Cmd: ACTOR DELETE
+[2016.10.13-11.34.11:984][345]LogEditorActor: Deleted Actor: PNPlayerPawn_C
+[2016.10.13-11.34.12:005][345]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2016.10.13-11.34.18:563][656]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0067 seconds. Added 111 classes and 0 folders.
+[2016.10.13-11.34.20:056][656]LogTexture:Display: 텍스처 빌드중: TilePatine_N (BC5)
+[2016.10.13-11.34.20:102][656]LogTexture:Display: 텍스처 빌드중: TilePatine_D (AutoDXT)
+[2016.10.13-11.34.20:872][656]LogTexture:Display: 텍스처 빌드중: Blueprint_64x (BGRA8)
+[2016.10.13-11.34.23:178][758]LogRenderer: Reallocating scene render targets to support 1208x900 (Frame:43398).
+[2016.10.13-11.34.28:184][ 40]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2016.10.13-11.34.28:229][ 40]LogSavePackage: Save=35.14ms
+[2016.10.13-11.34.28:229][ 40]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/PNPlayerPawnD4FC59D046B8DB9F929247AD021BE113.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2016.10.13-11.34.28:239][ 40]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset
+[2016.10.13-11.34.55:532][492]LogSavePackage: Save=24.89ms
+[2016.10.13-11.34.55:532][492]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Test_BasicBluePrintE814E25C4469D57A4CE7A8891A3AED94.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Maps/Test/Test_BasicBluePrint.umap'
+[2016.10.13-11.34.55:538][492]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Maps/Test/Test_BasicBluePrint.umap
+[2016.10.13-11.35.07:245][180]Cmd: MAP LOAD FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Maps/Test/Test_BasicBluePrint.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.13-11.35.07:245][180]LightingResults: New page: 라이팅 빌드
+[2016.10.13-11.35.07:246][180]LoadErrors: New page: 맵 로드중: Test_BasicBluePrint.umap
+[2016.10.13-11.35.07:258][180]MapCheck: New page: 맵 체크
+[2016.10.13-11.35.07:258][180]LightingResults: New page: 라이팅 빌드
+[2016.10.13-11.35.07:313][180]LogAIModule: Creating AISystem for world Test_BasicBlueprint
+[2016.10.13-11.35.07:408][180]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.13-11.35.07:434][180]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.13-11.35.07:536][180]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 102.147ms.
+[2016.10.13-11.35.07:537][180]LogFileHelpers: Loading map 'Test_BasicBluePrint' took 0.292
+[2016.10.13-11.37.55:262][177]BlueprintLog: New page: PNPlayerPawn 컴파일
+[2016.10.13-11.37.55:663][177]BlueprintEditorCompileResults: 정보 [4198.13] PNPlayerPawn 컴파일에 성공했습니다! [소요시간 392 ms] (/Game/Blueprints/PNPlayerPawn.PNPlayerPawn)
+[2016.10.13-11.39.20:706][239]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.13-11.41.24:849][632]BlueprintLog: New page: PNPlayerPawn 컴파일
+[2016.10.13-11.41.25:118][632]BlueprintEditorCompileResults: 정보 [4407.59] PNPlayerPawn 컴파일에 성공했습니다! [소요시간 268 ms] (/Game/Blueprints/PNPlayerPawn.PNPlayerPawn)
+[2016.10.13-11.41.38:640][399]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.13-11.41.41:832][582]Cmd: UpdateLandscapeSetup
+[2016.10.13-11.42.46:722][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNGameMode" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNGameMode.uasset" SILENT=true
+[2016.10.13-11.42.46:742][321]LogSavePackage: Save=15.91ms
+[2016.10.13-11.42.46:742][321]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/PNGameModeCA0225DB4C3AE5BE6A5292925FB88C9F.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNGameMode.uasset'
+[2016.10.13-11.42.46:751][321]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNGameMode.uasset
+[2016.10.13-11.44.24:131][145]BlueprintLog: New page: PNGameMode 컴파일
+[2016.10.13-11.44.24:267][145]BlueprintEditorCompileResults: 정보 [4586.74] PNGameMode 컴파일에 성공했습니다! [소요시간 135 ms] (/Game/Blueprints/PNGameMode.PNGameMode)
+[2016.10.13-11.44.28:969][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNGameMode" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNGameMode.uasset" SILENT=true
+[2016.10.13-11.44.28:993][423]LogSavePackage: Save=12.91ms
+[2016.10.13-11.44.28:993][423]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/PNGameModeC29698AE4DE0305BCDBAA38264AD00A9.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNGameMode.uasset'
+[2016.10.13-11.44.29:002][423]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNGameMode.uasset
+[2016.10.13-11.44.36:790][873]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.13-11.44.38:228][954]Cmd: UpdateLandscapeSetup
+[2016.10.13-11.44.42:665][214]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.13-11.44.42:665][214]PIE: New page: PIE 세션: Test_BasicBluePrint (2016. 10. 14. 오전 5:44:42)
+[2016.10.13-11.44.42:665][214]LogPlayLevel: Creating play world package: /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint
+[2016.10.13-11.44.42:668][214]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002640s)
+[2016.10.13-11.44.42:669][214]LogAIModule: Creating AISystem for world Test_BasicBlueprint
+[2016.10.13-11.44.42:669][214]LogPlayLevel: PIE: World Init took: (0.000946s)
+[2016.10.13-11.44.42:669][214]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_BasicBluePrint.Test_BasicBlueprint to /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint.Test_BasicBlueprint (0.003888s)
+[2016.10.13-11.44.42:710][214]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-11.44.42:730][214]LogInit: FAudioDevice initialized.
+[2016.10.13-11.44.42:783][214]LogWorld: Game class is 'PNGameMode_C'
+[2016.10.13-11.44.42:786][214]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint.Test_BasicBlueprint up for play (max tick rate 60) at 2016.10.13-20.44.42
+[2016.10.13-11.44.42:923][214]LogWorld: Bringing up level for play took: 0.138680
+[2016.10.13-11.44.42:951][214]PIE: 정보 /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint 에 대한 에디터에서 플레이 시작 시간: 0.389
+[2016.10.13-11.44.50:523][640]Cmd: DELETE
+[2016.10.13-11.44.50:523][640]Cmd: ACTOR DELETE
+[2016.10.13-11.44.50:523][640]LogEditorActor: Deleted Actor: PNPlayerPawn_C
+[2016.10.13-11.44.50:544][640]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2016.10.13-11.44.53:481][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.13-11.44.53:481][813]PIE: New page: PIE 세션: Test_BasicBluePrint (2016. 10. 14. 오전 5:44:53)
+[2016.10.13-11.44.53:481][813]LogPlayLevel: Creating play world package: /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint
+[2016.10.13-11.44.53:483][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002252s)
+[2016.10.13-11.44.53:484][813]LogAIModule: Creating AISystem for world Test_BasicBlueprint
+[2016.10.13-11.44.53:484][813]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2016.10.13-11.44.53:484][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_BasicBluePrint.Test_BasicBlueprint to /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint.Test_BasicBlueprint (0.003319s)
+[2016.10.13-11.44.53:524][813]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-11.44.53:542][813]LogInit: FAudioDevice initialized.
+[2016.10.13-11.44.53:599][813]LogWorld: Game class is 'PNGameMode_C'
+[2016.10.13-11.44.53:602][813]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint.Test_BasicBlueprint up for play (max tick rate 60) at 2016.10.13-20.44.53
+[2016.10.13-11.44.53:602][813]LogWorld: Bringing up level for play took: 0.001518
+[2016.10.13-11.44.53:603][813]PIE: 정보 /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint 에 대한 에디터에서 플레이 시작 시간: 1.042
+[2016.10.13-11.45.56:226][134]LogSavePackage: Save=32.34ms
+[2016.10.13-11.45.56:226][134]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Test_BasicBluePrint_Auto11D2F18A644E8E5AD4454AF8EE26A1047.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Maps/Test/Test_BasicBluePrint_Auto1.umap'
+[2016.10.13-11.45.56:228][134]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Maps/Test/Test_BasicBluePrint_Auto1.umap
+[2016.10.13-11.45.56:238][134]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test/Test_BasicBluePrint' took 0.088
+[2016.10.13-11.45.56:238][134]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.088
+[2016.10.13-11.45.56:244][134]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/PNPlayerPawn] ([1] browsable assets)...
+[2016.10.13-11.45.56:290][134]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/PNPlayerPawn.PNPlayerPawn]
+[2016.10.13-11.45.56:290][134]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PNPlayerPawn]
+[2016.10.13-11.45.56:338][134]LogSavePackage: Save=40.74ms
+[2016.10.13-11.45.56:338][134]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/PNPlayerPawn_Auto17A7821D4488F83805DED8B9DCD79AE13.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Blueprints/PNPlayerPawn_Auto1.uasset'
+[2016.10.13-11.45.56:340][134]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Blueprints/PNPlayerPawn_Auto1.uasset
+[2016.10.13-11.45.56:340][134]LogFileHelpers: Auto-saving content packages took 0.097
+[2016.10.13-11.46.34:128][467]LogSavePackage: Save=21.45ms
+[2016.10.13-11.46.34:128][467]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Test_BasicBluePrint648C6DAB4CC7D6B53AED12A32ADA1ECE.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Maps/Test/Test_BasicBluePrint.umap'
+[2016.10.13-11.46.34:134][467]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Maps/Test/Test_BasicBluePrint.umap
+[2016.10.13-11.46.34:177][467]LogFileHelpers: Saving map 'Test_BasicBluePrint' took 0.208
+[2016.10.13-11.46.34:180][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2016.10.13-11.46.34:198][467]LogSavePackage: Save=12.17ms
+[2016.10.13-11.46.34:198][467]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/PNPlayerPawn02CA7F164979919F2C1475BD95F05D2C.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2016.10.13-11.46.34:203][467]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset
+[2016.10.13-11.46.34:207][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerController" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNPlayerController.uasset" SILENT=true
+[2016.10.13-11.46.34:223][467]LogSavePackage: Save=10.34ms
+[2016.10.13-11.46.34:223][467]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/PNPlayerControllerCBAC5A4E42C3B5F5AB25099B487B51F0.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNPlayerController.uasset'
+[2016.10.13-11.46.34:228][467]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNPlayerController.uasset
+[2016.10.13-11.46.49:592][361]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.13-11.46.54:324][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNGameMode" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNGameMode.uasset" SILENT=true
+[2016.10.13-11.46.54:339][636]LogSavePackage: Save=10.74ms
+[2016.10.13-11.46.54:339][636]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/PNGameMode16F6C6C14760A7ADD82F6F89FA5E8845.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNGameMode.uasset'
+[2016.10.13-11.46.54:346][636]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNGameMode.uasset
+[2016.10.13-11.46.55:547][708]BlueprintLog: New page: PNGameMode 컴파일
+[2016.10.13-11.46.55:677][708]BlueprintEditorCompileResults: 정보 [4738.15] PNGameMode 컴파일에 성공했습니다! [소요시간 129 ms] (/Game/Blueprints/PNGameMode.PNGameMode)
+[2016.10.13-11.48.02:726][562]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.13-11.55.47:403][135]BlueprintLog: New page: PNPlayerPawn 컴파일
+[2016.10.13-11.55.47:739][135]BlueprintEditorCompileResults: 정보 [5270.21] PNPlayerPawn 컴파일에 성공했습니다! [소요시간 335 ms] (/Game/Blueprints/PNPlayerPawn.PNPlayerPawn)
+[2016.10.13-11.56.34:312][916]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Test/Test_BasicBluePrint' took 0.018
+[2016.10.13-11.56.34:315][916]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/PNPlayerPawn] ([1] browsable assets)...
+[2016.10.13-11.56.34:328][916]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/PNPlayerPawn.PNPlayerPawn]
+[2016.10.13-11.56.34:328][916]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PNPlayerPawn]
+[2016.10.13-11.56.34:354][916]LogSavePackage: Save=19.31ms
+[2016.10.13-11.56.34:355][916]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/PNPlayerPawn_Auto2E81EAB384950CE0C056CBBB4B45D9C7C.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Blueprints/PNPlayerPawn_Auto2.uasset'
+[2016.10.13-11.56.34:357][916]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/Autosaves/Game/Blueprints/PNPlayerPawn_Auto2.uasset
+[2016.10.13-11.56.34:357][916]LogFileHelpers: Auto-saving content packages took 0.043
+[2016.10.13-11.56.36:985][ 74]BlueprintLog: New page: PNPlayerPawn 컴파일
+[2016.10.13-11.56.37:060][ 74]BlueprintEditorCompileResults: 정보 [5319.54] PNPlayerPawn 컴파일에 성공했습니다! [소요시간 75 ms] (/Game/Blueprints/PNPlayerPawn.PNPlayerPawn)
+[2016.10.13-11.56.44:457][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.13-11.56.44:458][507]PIE: New page: PIE 세션: Test_BasicBluePrint (2016. 10. 14. 오전 5:56:44)
+[2016.10.13-11.56.44:458][507]LogPlayLevel: Creating play world package: /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint
+[2016.10.13-11.56.44:462][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003623s)
+[2016.10.13-11.56.44:462][507]LogAIModule: Creating AISystem for world Test_BasicBlueprint
+[2016.10.13-11.56.44:462][507]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2016.10.13-11.56.44:462][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test/Test_BasicBluePrint.Test_BasicBlueprint to /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint.Test_BasicBlueprint (0.004691s)
+[2016.10.13-11.56.44:495][507]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.13-11.56.44:510][507]LogInit: FAudioDevice initialized.
+[2016.10.13-11.56.44:562][507]LogWorld: Game class is 'PNGameMode_C'
+[2016.10.13-11.56.44:564][507]LogWorld: Bringing World /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint.Test_BasicBlueprint up for play (max tick rate 60) at 2016.10.13-20.56.44
+[2016.10.13-11.56.44:564][507]LogWorld: Bringing up level for play took: 0.001341
+[2016.10.13-11.56.44:565][507]PIE: 정보 /Game/Maps/Test/UEDPIE_0_Test_BasicBluePrint 에 대한 에디터에서 플레이 시작 시간: 0.004
+[2016.10.13-11.56.54:658][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PNPlayerPawn" FILE="../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset" SILENT=true
+[2016.10.13-11.56.54:682][102]LogSavePackage: Save=18.77ms
+[2016.10.13-11.56.54:682][102]LogSavePackage: Moving '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Saved/PNPlayerPawn34E86D2F488616B4087E6AB0D24A636F.tmp' to '../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset'
+[2016.10.13-11.56.54:691][102]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/Unreal Projects/PaperNinja/Content/Blueprints/PNPlayerPawn.uasset
+[2016.10.13-11.57.55:242][828]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.10.13-11.57.55:739][829]Cmd: QUIT_EDITOR
+[2016.10.13-11.57.56:779][829]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.10.13-11.57.56:895][829]LogExit: Preparing to exit.
+[2016.10.13-11.57.58:227][829]LogExit: Editor shut down
+[2016.10.13-11.57.58:232][829]LogExit: Transaction tracking system shut down
+[2016.10.13-11.58.00:215][829]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.13-11.58.00:216][829]LogExit: Object subsystem successfully closed.
+[2016.10.13-11.58.00:482][829]LogD3D11RHI: Shutdown
+[2016.10.13-11.58.00:482][829]LogD3D11RHI: CleanupD3DDevice
+[2016.10.13-11.58.00:666][829]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.13-11.58.01:397][829]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (218)
+[2016.10.13-11.58.01:397][829]LogModuleManager: Shutting down and abandoning module BlueprintGraph (217)
+[2016.10.13-11.58.01:407][829]LogModuleManager: Shutting down and abandoning module NewLevelDialog (216)
+[2016.10.13-11.58.01:407][829]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (215)
+[2016.10.13-11.58.01:407][829]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (214)
+[2016.10.13-11.58.01:417][829]LogModuleManager: Shutting down and abandoning module CrashTracker (213)
+[2016.10.13-11.58.01:417][829]LogModuleManager: Shutting down and abandoning module WorldBrowser (212)
+[2016.10.13-11.58.01:427][829]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.10.13-11.58.01:427][829]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.10.13-11.58.01:440][829]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.10.13-11.58.01:468][829]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.10.13-11.58.01:468][829]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.10.13-11.58.01:468][829]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.10.13-11.58.01:482][829]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.10.13-11.58.01:487][829]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.10.13-11.58.01:496][829]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.10.13-11.58.01:508][829]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.10.13-11.58.01:508][829]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.10.13-11.58.01:508][829]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.10.13-11.58.01:508][829]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.10.13-11.58.01:508][829]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.10.13-11.58.01:525][829]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.10.13-11.58.01:538][829]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.10.13-11.58.01:538][829]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.10.13-11.58.01:550][829]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.10.13-11.58.01:550][829]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.10.13-11.58.01:555][829]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.10.13-11.58.01:565][829]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.10.13-11.58.01:579][829]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.10.13-11.58.01:579][829]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.10.13-11.58.01:579][829]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.10.13-11.58.01:579][829]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.10.13-11.58.01:579][829]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.10.13-11.58.01:593][829]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.10.13-11.58.01:611][829]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.10.13-11.58.01:620][829]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.10.13-11.58.01:620][829]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.10.13-11.58.01:626][829]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.10.13-11.58.01:626][829]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.10.13-11.58.02:006][829]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.10.13-11.58.02:042][829]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.10.13-11.58.02:042][829]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.10.13-11.58.02:042][829]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.10.13-11.58.02:048][829]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.10.13-11.58.02:048][829]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.10.13-11.58.02:059][829]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.10.13-11.58.02:069][829]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.10.13-11.58.02:079][829]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.10.13-11.58.02:094][829]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.10.13-11.58.02:102][829]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.10.13-11.58.02:112][829]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.10.13-11.58.02:122][829]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.10.13-11.58.02:122][829]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.10.13-11.58.02:134][829]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.10.13-11.58.02:145][829]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.10.13-11.58.02:156][829]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.10.13-11.58.02:156][829]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.10.13-11.58.02:177][829]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.10.13-11.58.02:178][829]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.10.13-11.58.02:188][829]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.10.13-11.58.02:204][829]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.10.13-11.58.02:222][829]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.10.13-11.58.02:233][829]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.10.13-11.58.02:234][829]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.10.13-11.58.02:294][829]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.10.13-11.58.02:301][829]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.10.13-11.58.02:321][829]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.10.13-11.58.02:335][829]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.10.13-11.58.02:335][829]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.10.13-11.58.02:348][829]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.10.13-11.58.02:348][829]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.10.13-11.58.02:383][829]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.10.13-11.58.02:393][829]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.10.13-11.58.02:393][829]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.10.13-11.58.02:395][829]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.10.13-11.58.02:405][829]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.10.13-11.58.02:411][829]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.10.13-11.58.02:448][829]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.10.13-11.58.02:458][829]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.10.13-11.58.02:468][829]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.10.13-11.58.02:468][829]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.10.13-11.58.02:468][829]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.10.13-11.58.02:468][829]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.10.13-11.58.02:468][829]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.10.13-11.58.02:468][829]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.10.13-11.58.02:468][829]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.10.13-11.58.02:468][829]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.10.13-11.58.02:468][829]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.10.13-11.58.02:474][829]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.10.13-11.58.02:474][829]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.10.13-11.58.02:717][829]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.10.13-11.58.02:731][829]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.10.13-11.58.02:731][829]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.10.13-11.58.02:731][829]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.10.13-11.58.02:731][829]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.10.13-11.58.02:731][829]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.10.13-11.58.02:731][829]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.10.13-11.58.02:732][829]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.10.13-11.58.02:732][829]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.10.13-11.58.02:732][829]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.10.13-11.58.02:732][829]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.10.13-11.58.02:747][829]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.10.13-11.58.02:747][829]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.10.13-11.58.02:747][829]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.10.13-11.58.02:747][829]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.10.13-11.58.02:747][829]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.10.13-11.58.02:757][829]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.10.13-11.58.02:758][829]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.10.13-11.58.02:779][829]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.10.13-11.58.02:798][829]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.10.13-11.58.02:798][829]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.10.13-11.58.02:811][829]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.10.13-11.58.02:823][829]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.10.13-11.58.02:834][829]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.10.13-11.58.02:840][829]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.10.13-11.58.02:840][829]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.10.13-11.58.02:853][829]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.10.13-11.58.02:853][829]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.10.13-11.58.02:862][829]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.10.13-11.58.02:907][829]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.10.13-11.58.02:947][829]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.10.13-11.58.02:979][829]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.10.13-11.58.02:996][829]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.10.13-11.58.03:000][829]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.10.13-11.58.03:013][829]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.10.13-11.58.03:115][829]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.10.13-11.58.03:115][829]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.10.13-11.58.03:137][829]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.10.13-11.58.03:137][829]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.10.13-11.58.03:137][829]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.10.13-11.58.03:158][829]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.10.13-11.58.03:158][829]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.10.13-11.58.03:164][829]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.10.13-11.58.03:164][829]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.10.13-11.58.03:164][829]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.10.13-11.58.03:176][829]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.10.13-11.58.03:176][829]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.10.13-11.58.03:176][829]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.10.13-11.58.03:219][829]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.10.13-11.58.03:220][829]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.10.13-11.58.03:239][829]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.10.13-11.58.03:268][829]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.10.13-11.58.03:268][829]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.10.13-11.58.03:268][829]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.10.13-11.58.03:290][829]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.10.13-11.58.03:322][829]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.10.13-11.58.03:358][829]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.10.13-11.58.03:390][829]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.10.13-11.58.03:390][829]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.10.13-11.58.03:396][829]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.10.13-11.58.03:396][829]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.10.13-11.58.03:396][829]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.10.13-11.58.03:396][829]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.10.13-11.58.03:396][829]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.10.13-11.58.03:396][829]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.10.13-11.58.03:408][829]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.10.13-11.58.03:687][829]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.10.13-11.58.03:687][829]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.10.13-11.58.03:688][829]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.10.13-11.58.03:705][829]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.10.13-11.58.03:763][829]LogDerivedDataCache: Shutdown
+[2016.10.13-11.58.03:763][829]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.10.13-11.58.03:776][829]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.10.13-11.58.03:788][829]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.10.13-11.58.03:796][829]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.10.13-11.58.03:806][829]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.10.13-11.58.03:806][829]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.10.13-11.58.03:811][829]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.10.13-11.58.03:821][829]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.10.13-11.58.03:821][829]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.10.13-11.58.03:821][829]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.10.13-11.58.03:821][829]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.10.13-11.58.03:821][829]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.10.13-11.58.03:834][829]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.10.13-11.58.03:845][829]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.10.13-11.58.03:854][829]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.10.13-11.58.03:854][829]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.10.13-11.58.03:867][829]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.10.13-11.58.03:876][829]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.10.13-11.58.03:876][829]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.10.13-11.58.03:876][829]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.10.13-11.58.03:877][829]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.10.13-11.58.03:877][829]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.10.13-11.58.03:877][829]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.10.13-11.58.03:888][829]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.10.13-11.58.03:888][829]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.10.13-11.58.03:888][829]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.10.13-11.58.03:888][829]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.10.13-11.58.03:888][829]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.10.13-11.58.03:888][829]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.10.13-11.58.03:888][829]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.10.13-11.58.03:888][829]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.10.13-11.58.03:895][829]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.10.13-11.58.03:908][829]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.10.13-11.58.03:919][829]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.10.13-11.58.03:919][829]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.10.13-11.58.03:925][829]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.10.13-11.58.03:925][829]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.10.13-11.58.03:938][829]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.10.13-11.58.03:946][829]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.10.13-11.58.11:456][829]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.10.13-11.58.11:468][829]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.10.13-11.58.11:483][829]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.10.13-11.58.11:483][829]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.13-11.58.11:494][829]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.13-11.58.11:494][829]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.13-11.58.11:494][829]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.13-11.58.11:531][829]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.13-11.58.11:542][829]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.13-11.58.11:542][829]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.13-11.58.11:542][829]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.13-11.58.11:542][829]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.13-11.58.11:542][829]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.13-11.58.11:542][829]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.13-11.58.11:551][829]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.13-11.58.11:560][829]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.13-11.58.11:572][829]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.13-11.58.11:608][829]LogExit: Exiting.
+[2016.10.13-11.58.11:647][829]Log file closed, 10/13/16 20:58:11
