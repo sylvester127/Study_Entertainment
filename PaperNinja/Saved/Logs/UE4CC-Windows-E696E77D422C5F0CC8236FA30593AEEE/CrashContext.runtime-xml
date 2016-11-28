@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<Version>1</Version>
+<ProcessId>16872</ProcessId>
+<IsInternalBuild>0</IsInternalBuild>
+<IsPerforceBuild>0</IsPerforceBuild>
+<IsSourceDistribution>0</IsSourceDistribution>
+<GameName>PaperNinja</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<EngineVersion>4.10.4-2872498+++depot+UE4-Releases+4.10</EngineVersion>
+<CommandLine> </CommandLine>
+<LanguageLCID>1042</LanguageLCID>
+<DefaultLocale>ko_KR</DefaultLocale>
+<IsUE4Release>1</IsUE4Release>
+<UserName></UserName>
+<BaseDir>D:/DevelopmentKit/Epic Games/4.10/Engine/Binaries/Win64/</BaseDir>
+<RootDir>D:/DevelopmentKit/Epic Games/4.10/</RootDir>
+<MachineId>87A6AF9D4023301E4EE99981CF3C496B</MachineId>
+<EpicAccountId>5757bc0e79d542efb21b5d5f30a43a1b</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<ErrorMessage>Ensure condition failed: Ar [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.10\Engine\Source\Developer\DirectoryWatcher\Private\FileCache.cpp] [Line: 511] 
+Unable to write file-cache for 'D:/sylve/Documents/Unreal Projects/Entertainment/PaperNinja/Content/' to 'D:/sylve/Documents/Unreal Projects/Entertainment/PaperNinja/Intermediate/ReimportCache/3688439234.bin'.
+</ErrorMessage>
+<MiscNumberOfCores>4</MiscNumberOfCores>
+<MiscNumberOfCoresIncludingHyperthreads>8</MiscNumberOfCoresIncludingHyperthreads>
+<MiscIs64bitOperatingSystem>1</MiscIs64bitOperatingSystem>
+<MiscCPUVendor>GenuineIntel</MiscCPUVendor>
+<MiscCPUBrand>Intel(R) Core(TM) i7-4810MQ CPU @ 2.80GHz</MiscCPUBrand>
+<MiscPrimaryGPUBrand>Intel(R) HD Graphics 4600</MiscPrimaryGPUBrand>
+<MiscOSVersionMajor>Windows 10</MiscOSVersionMajor>
+<MiscOSVersionMinor></MiscOSVersionMinor>
+<CrashDumpMode>0</CrashDumpMode>
+<MemoryStatsTotalPhysical>8506060800</MemoryStatsTotalPhysical>
+<MemoryStatsTotalVirtual>140737488224256</MemoryStatsTotalVirtual>
+<MemoryStatsPageSize>4096</MemoryStatsPageSize>
+<MemoryStatsTotalPhysicalGB>8</MemoryStatsTotalPhysicalGB>
+<MemoryStatsAvailablePhysical>1415401472</MemoryStatsAvailablePhysical>
+<MemoryStatsAvailableVirtual>140735576174592</MemoryStatsAvailableVirtual>
+<MemoryStatsUsedPhysical>733556736</MemoryStatsUsedPhysical>
+<MemoryStatsPeakUsedPhysical>779890688</MemoryStatsPeakUsedPhysical>
+<MemoryStatsUsedVirtual>1175408640</MemoryStatsUsedVirtual>
+<MemoryStatsPeakUsedVirtual>1229496320</MemoryStatsPeakUsedVirtual>
+<MemoryStatsbIsOOM>0</MemoryStatsbIsOOM>
+<MemoryStatsOOMAllocationSize>0</MemoryStatsOOMAllocationSize>
+<MemoryStatsOOMAllocationAlignment>0</MemoryStatsOOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+</PlatformProperties>
+</FGenericCrashContext>
