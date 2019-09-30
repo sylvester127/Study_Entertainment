@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>UE4CC-Windows-5A07A17943530AE4FD4B82A9E668130D_0001</CrashGUID>
+<ProcessId>20172</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<IsEnsure>true</IsEnsure>
+<IsAssert>false</IsAssert>
+<CrashType>Ensure</CrashType>
+<SecondsSinceStart>7300</SecondsSinceStart>
+<GameName>UE4-EntertainmentProject</GameName>
+<ExecutableName>UE4Editor</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Editor</EngineMode>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.13.2-3172292+++UE4+Release-4.13</EngineVersion>
+<CommandLine>&quot;D:\sylve\Documents\WorkSpace\Unreal Projects\Entertainment\EntertainmentProject.uproject&quot; </CommandLine>
+<LanguageLCID>1042</LanguageLCID>
+<AppDefaultLocale>ko_KR</AppDefaultLocale>
+<IsUE4Release>true</IsUE4Release>
+<UserName></UserName>
+<BaseDir>D:/Development Kit/Epic Games/4.13/Engine/Binaries/Win64/</BaseDir>
+<RootDir>D:/Development Kit/Epic Games/4.13/</RootDir>
+<MachineId>5E8916E24C62E40E3267F2B9F6F61BF5</MachineId>
+<EpicAccountId>5757bc0e79d542efb21b5d5f30a43a1b</EpicAccountId>
+<CallStack></CallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<ErrorMessage>Ensure condition failed: !NewTransform.ContainsNaN() [File:D:\Build\++UE4+Release-4.13+Compile\Sync\Engine\Source\Runtime\Engine\Private\PhysicsEngine\BodyInstance.cpp] [Line: 2845] &nl;SetBodyTransform contains NaN (/Game/SideScrollerBP/Maps/UEDPIE_0_Stage01.Stage01:PersistentLevel.DoubleJumpItem.StaticMeshComponent0)&nl;inf,192738059388812801571052023740649963520.000000,93135567390573044183199493175805739008.000000|0.000000,0.000000,0.000000|1.000000,1.000000,1.000000&nl;</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>4</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i5-4670 CPU @ 3.40GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 660</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>8525172736</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>2612932608</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>140733669421056</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>941936640</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>1414459392</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>2972172288</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>2981523456</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+</FGenericCrashContext>

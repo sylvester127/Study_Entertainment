@@ -1,0 +1,1019 @@
+﻿Log file open, 12/03/16 06:16:09
+LogInit:Display: Running engine for game: EntertainmentProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1046022718) SRandInit(-1046022718).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.147443
+LogPluginManager: Loaded Plugin Paper2D, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin RunebergVRPlugin, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Marketplace/RunebergVRPlugin/RunebergVRPlugin.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From D:/Development Kit/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  
+LogInit: Base directory: D:/Development Kit/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.12.02-21.16.10:228][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.02-21.16.10:228][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.02-21.16.10:303][  0]LogInit: Computer: NARAMPC
+[2016.12.02-21.16.10:303][  0]LogInit: User: sylve
+[2016.12.02-21.16.10:303][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.12.02-21.16.10:303][  0]LogInit: High frequency timer resolution =3.312647 MHz
+[2016.12.02-21.16.10:303][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.12.02-21.16.10:303][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.02-21.16.10:303][  0]LogMemory: Process Physical Memory: 257.68 MB used, 257.68 MB peak
+[2016.12.02-21.16.10:303][  0]LogMemory: Process Virtual Memory: 259.98 MB used, 259.98 MB peak
+[2016.12.02-21.16.10:303][  0]LogMemory: Physical Memory: 4545.96 MB used, 8130.24 MB total
+[2016.12.02-21.16.10:303][  0]LogMemory: Virtual Memory: 622.03 MB used, 134217728.00 MB total
+[2016.12.02-21.16.10:340][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2016.12.02-21.16.10:374][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (D:/Development Kit/Epic Games/4.13/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 
+무시합니다.)
+Localization Resource: (D:/Development Kit/Epic Games/4.13/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2016.12.02-21.16.10:374][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (D:/Development Kit/Epic Games/4.13/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (D:/Development Kit/Epic Games/4.13/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2016.12.02-21.16.11:576][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.02-21.16.11:628][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 660' (Feature Level 11_0)
+[2016.12.02-21.16.11:628][  0]LogD3D11RHI:       2016/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.12.02-21.16.11:634][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.12.02-21.16.11:634][  0]LogD3D11RHI:       0/0/4065 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.12.02-21.16.11:634][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.12.02-21.16.11:641][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.02-21.16.11:641][  0]LogD3D11RHI:     GPU DeviceId: 0x11c0 (for the marketing name, search the web for "GPU Device Id")
+[2016.12.02-21.16.11:641][  0]LogWindows: EnumDisplayDevices:
+[2016.12.02-21.16.11:642][  0]LogWindows:    0. 'NVIDIA GeForce GTX 660' (P:1 D:1)
+[2016.12.02-21.16.11:643][  0]LogWindows:    1. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2016.12.02-21.16.11:643][  0]LogWindows:    2. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2016.12.02-21.16.11:644][  0]LogWindows:    3. 'NVIDIA GeForce GTX 660' (P:0 D:0)
+[2016.12.02-21.16.11:645][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.12.02-21.16.11:645][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 660
+[2016.12.02-21.16.11:645][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
+[2016.12.02-21.16.11:645][  0]LogD3D11RHI:      Driver Date: 8-1-2016
+[2016.12.02-21.16.11:645][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.02-21.16.11:668][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.02-21.16.11:790][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.12.02-21.16.11:826][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Intermediate/Shaders/WorkingDirectory/7280/).
+[2016.12.02-21.16.11:826][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/sylve/AppData/Local/Temp/UnrealShaderWorkingDir/7AEF5D9A4F6946F79131318361A81214/'.
+[2016.12.02-21.16.11:826][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.02-21.16.16:837][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.02-21.16.16:858][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.02-21.16.16:879][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.02-21.16.16:888][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.02-21.16.16:911][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.02-21.16.16:967][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.02-21.16.17:030][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.02-21.16.17:085][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.02-21.16.17:131][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.02-21.16.17:174][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.02-21.16.17:213][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.02-21.16.17:302][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.12.02-21.16.17:302][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.02-21.16.17:308][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.02-21.16.17:519][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.02-21.16.17:549][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.12.02-21.16.17:574][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.12.02-21.16.17:591][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.02-21.16.17:602][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.02-21.16.17:660][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.02-21.16.17:660][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.02-21.16.19:322][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.02-21.16.19:731][  0]LogDerivedDataCache: Loaded boot cache 0.41s 62MB C:/Users/sylve/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.12.02-21.16.19:731][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/sylve/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.12.02-21.16.19:732][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.02-21.16.19:732][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.02-21.16.19:732][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.02-21.16.19:732][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.02-21.16.19:818][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.02-21.16.19:834][  0]LogDerivedDataCache: Using Local data cache path C:/Users/sylve/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.02-21.16.27:017][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.02-21.16.27:033][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.12.02-21.16.27:323][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.02-21.16.27:323][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.02-21.16.27:323][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.12.02-21.16.28:213][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.12.02-21.16.29:810][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: entertainmentproject, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 3731665078
+[2016.12.02-21.16.30:010][  0]LogAssetRegistry: FAssetRegistry took 0.1248 seconds to start up
+[2016.12.02-21.16.30:048][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Marketplace/RunebergVRPlugin/Content/. Error: 지정된 파일을 찾을 수 없습니다. (0x00000002)
+[2016.12.02-21.16.30:532][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.467701 seconds
+[2016.12.02-21.16.30:574][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.12.02-21.16.30:574][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2016.12.02-21.16.30:574][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.02-21.16.30:612][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.02-21.16.35:015][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.02-21.16.35:015][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.02-21.16.55:183][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.12.02-21.16.55:222][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.02-21.16.56:806][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.12.02-21.16.57:060][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.12.02-21.16.57:072][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.12.02-21.16.57:083][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.12.02-21.16.58:664][  0]LogEngine: Initializing Engine...
+[2016.12.02-21.16.58:679][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.12.02-21.16.58:990][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.12.02-21.16.59:097][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.02-21.16.59:200][  0]LogInit: FAudioDevice initialized.
+[2016.12.02-21.16.59:271][  0]LogDerivedDataCache: Saved boot cache 0.07s 62MB C:/Users/sylve/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.12.02-21.16.59:276][  0]LogInit: Texture streaming: Enabled
+[2016.12.02-21.16.59:446][  0]LogInit: Transaction tracking system initialized
+[2016.12.02-21.16.59:748][  0]BlueprintLog: New page: 에디터 로드
+[2016.12.02-21.17.00:786][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2016.12.02-21.17.01:621][  0]LogConsoleResponse:Display: 
+[2016.12.02-21.17.02:728][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.12.02-21.17.02:728][  0]LogCook:Display: Mobile HDR setting 1
+[2016.12.02-21.17.03:758][  0]LogFileCache: Scanning file cache for directory 'D:/sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/' took 0.14s
+[2016.12.02-21.17.05:409][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2016.12.02-21.17.05:432][  0]Cmd: MAP LOAD FILE="../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/SideScrollerBP/Maps/Stage01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.02-21.17.05:437][  0]LightingResults: New page: 라이팅 빌드
+[2016.12.02-21.17.05:554][  0]MapCheck: New page: 맵 체크
+[2016.12.02-21.17.05:554][  0]LightingResults: New page: 라이팅 빌드
+[2016.12.02-21.17.08:567][  0]LogMaterial: Missing cached shader map for material CharM_Gruntling, compiling. 
+[2016.12.02-21.17.08:568][  0]LogMaterial:Warning: Failed to compile Material /Game/Mannequin/Enemy_Gruntling/Materials/CharM_Gruntling.CharM_Gruntling for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-21.17.08:568][  0]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-21.17.08:728][  0]LogAIModule: Creating AISystem for world Stage01
+[2016.12.02-21.17.08:915][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.02-21.17.09:005][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.02-21.17.09:142][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 127.845ms.
+[2016.12.02-21.17.09:142][  0]LogFileHelpers: Loading map 'Stage01' took 3.711
+[2016.12.02-21.17.09:601][  0]LogCollectionManager: Loaded 0 collections in 0.001700 seconds
+[2016.12.02-21.17.09:788][  0]LogFileCache: Scanning file cache for directory 'D:/sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Saved/Collections/' took 0.07s
+[2016.12.02-21.17.09:788][  0]LogFileCache: Scanning file cache for directory 'D:/sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/Developers/sylve/Collections/' took 0.01s
+[2016.12.02-21.17.09:788][  0]LogFileCache: Scanning file cache for directory 'D:/sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/Collections/' took 0.01s
+[2016.12.02-21.17.09:788][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.12.02-21.17.09:811][  0]LogContentBrowser: Native class hierarchy populated in 0.0222 seconds. Added 2145 classes and 418 folders.
+[2016.12.02-21.17.09:831][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.12.02-21.17.09:832][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.001 s
+[2016.12.02-21.17.09:833][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0006 seconds. Added 12 classes and 0 folders.
+[2016.12.02-21.17.09:839][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.12.02-21.17.11:553][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.12.02-21.17.11:600][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.12.02-21.17.11:968][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.02-21.17.12:005][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2016.12.02-21.17.12:081][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2016.12.02-21.17.12:081][  0]LogLoad: (Engine Initialization) Total time: 64.29 seconds
+[2016.12.02-21.17.12:081][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.85 seconds
+[2016.12.02-21.17.12:092][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.12.02-21.17.12:092][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.12.02-21.17.12:433][  0]LogOcInput: OculusInput pre-init called
+[2016.12.02-21.17.12:547][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.12.02-21.17.12:927][  0]LogRenderer: Reallocating scene render targets to support 1208x584 (Frame:2).
+[2016.12.02-21.17.13:730][  3]LogAssetRegistry: Asset discovery search completed in 43.8443 seconds
+[2016.12.02-21.17.13:730][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.12.02-21.17.13:730][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2016.12.02-21.17.16:794][ 14]LogMaterial: Missing cached shader map for material CharM_Gruntling, compiling. 
+[2016.12.02-21.17.16:795][ 14]LogMaterial:Warning: Failed to compile Material /Engine/Transient.CharM_Gruntling for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-21.17.16:795][ 14]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-21.17.16:918][ 14]LogMaterial: Missing cached shader map for material CharM_Gruntling, compiling. 
+[2016.12.02-21.17.16:918][ 14]LogMaterial:Warning: Failed to compile Material /Engine/Transient.CharM_Gruntling for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-21.17.16:918][ 14]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-21.17.16:918][ 14]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.02-21.17.17:004][ 14]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.12.02-21.17.17:010][ 14]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.12.02-21.17.17:015][ 14]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.12.02-21.17.17:034][ 14]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2016.12.02-21.17.17:043][ 14]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_5, compiling. 
+[2016.12.02-21.17.17:053][ 14]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.12.02-21.17.17:068][ 14]MaterialEditorStats:Error: 오류 [SM5] (Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-21.17.31:434][456]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2016.12.02-21.17.31:600][457]LogRenderer: Reallocating scene render targets to support 1208x880 (Frame:1636).
+[2016.12.02-21.17.38:643][149]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.02-21.17.38:753][149]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.02-21.17.38:774][149]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.02-21.17.38:956][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.12.02-21.17.38:961][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.12.02-21.17.38:964][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.12.02-21.17.38:968][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2016.12.02-21.17.38:972][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_5, compiling. 
+[2016.12.02-21.17.38:976][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.12.02-21.17.42:789][545]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 46 instructions
+[2016.12.02-21.17.42:789][545]MaterialEditorStats: 정보 Vertex shader: 31 instructions
+[2016.12.02-21.17.42:789][545]MaterialEditorStats: 정보 Texture samplers: 4/16
+[2016.12.02-21.18.02:174][823]LogSavePackage: Save=62.95ms
+[2016.12.02-21.18.02:174][823]LogSavePackage: Moving '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Saved/T_Gruntling_Guardian_N929D43F4461B527DAB9C71A53E018AF7.tmp' to '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/Mannequin/Enemy_Gruntling/Textures/T_Gruntling_Guardian_N.uasset'
+[2016.12.02-21.18.02:179][823]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/Mannequin/Enemy_Gruntling/Textures/T_Gruntling_Guardian_N.uasset
+[2016.12.02-21.18.02:316][823]LogSavePackage: Save=13.15ms
+[2016.12.02-21.18.02:316][823]LogSavePackage: Moving '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Saved/CharM_Gruntling061A35D4473BABF3EFAE19BF2DA7AE19.tmp' to '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/Materials/CharM_Gruntling.uasset'
+[2016.12.02-21.18.02:319][823]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/Materials/CharM_Gruntling.uasset
+[2016.12.02-21.18.02:367][823]LogSavePackage: Save=13.34ms
+[2016.12.02-21.18.02:367][823]LogSavePackage: Moving '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Saved/CharM_Gruntling_Guardian14AA2FED44A40554CEBE259245FE0755.tmp' to '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Guardian/Materials/CharM_Gruntling_Guardian.uasset'
+[2016.12.02-21.18.02:369][823]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Guardian/Materials/CharM_Gruntling_Guardian.uasset
+[2016.12.02-21.18.02:431][823]LogSavePackage: Save=33.92ms
+[2016.12.02-21.18.02:431][823]LogSavePackage: Moving '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Saved/T_Gruntling_Guardian_DF3E7658F451F699A9BD3A0AC7F998A6C.tmp' to '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Guardian/Textures/T_Gruntling_Guardian_D.uasset'
+[2016.12.02-21.18.02:433][823]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Guardian/Textures/T_Gruntling_Guardian_D.uasset
+[2016.12.02-21.18.41:106][182]LogMaterial: Missing cached shader map for material CharM_Gruntling, compiling. 
+[2016.12.02-21.18.41:107][182]LogMaterial:Warning: Failed to compile Material /Engine/Transient.CharM_Gruntling for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-21.18.41:107][182]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-21.18.41:108][182]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.02-21.18.41:176][182]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.12.02-21.18.51:857][249]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.02-21.18.51:960][249]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.02-21.18.51:980][249]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.02-21.18.52:006][249]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2016.12.02-21.18.52:010][249]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.12.02-21.18.52:013][249]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2016.12.02-21.18.52:017][249]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2016.12.02-21.18.52:021][249]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_5, compiling. 
+[2016.12.02-21.18.52:025][249]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.12.02-21.18.56:510][616]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 46 instructions
+[2016.12.02-21.18.56:510][616]MaterialEditorStats: 정보 Vertex shader: 31 instructions
+[2016.12.02-21.18.56:510][616]MaterialEditorStats: 정보 Texture samplers: 4/16
+[2016.12.02-21.19.13:910][367]LogSavePackage: Save=30.11ms
+[2016.12.02-21.19.13:910][367]LogSavePackage: Moving '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Saved/T_Gruntling_Guardian_D156914144FCBF64AB069169CFDFEB4B9.tmp' to '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/Mannequin/Enemy_Gruntling/Textures/T_Gruntling_Guardian_D.uasset'
+[2016.12.02-21.19.13:915][367]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/Mannequin/Enemy_Gruntling/Textures/T_Gruntling_Guardian_D.uasset
+[2016.12.02-21.19.14:022][367]LogSavePackage: Save=4.48ms
+[2016.12.02-21.19.14:022][367]LogSavePackage: Moving '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Saved/CharM_Gruntling04743CF64301077A304A908ECB904471.tmp' to '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/Materials/CharM_Gruntling.uasset'
+[2016.12.02-21.19.14:024][367]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/Materials/CharM_Gruntling.uasset
+[2016.12.02-21.19.14:046][367]LogSavePackage: Save=4.34ms
+[2016.12.02-21.19.14:046][367]LogSavePackage: Moving '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Saved/CharM_Gruntling_GuardianAE8CB0854158AA46CA58E1BF8FA5F73F.tmp' to '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Guardian/Materials/CharM_Gruntling_Guardian.uasset'
+[2016.12.02-21.19.14:050][367]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Guardian/Materials/CharM_Gruntling_Guardian.uasset
+[2016.12.02-21.19.23:033][276]LogMaterial: Missing cached shader map for material CharM_Gruntling, compiling. 
+[2016.12.02-21.19.23:052][276]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.02-21.19.23:082][276]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.12.02-21.19.26:037][550]LogMaterialEditor: Saving and Compiling material CharM_Gruntling
+[2016.12.02-21.19.26:498][550]LogMaterial: Missing cached shader map for material CharM_Gruntling, compiling. 
+[2016.12.02-21.19.26:528][550]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.02-21.19.26:549][550]LogMaterial: Missing cached shader map for material CharM_Gruntling, compiling. 
+[2016.12.02-21.19.26:605][550]LogMaterial: Missing cached shader map for material CharM_Gruntling, compiling. 
+[2016.12.02-21.19.26:636][550]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.02-21.19.32:484][550]LogSavePackage: Save=30.27ms
+[2016.12.02-21.19.32:484][550]LogSavePackage: Moving '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Saved/CharM_Gruntling36E6DC1242ADB1022EA94C9E6A562B72.tmp' to '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/Mannequin/Enemy_Gruntling/Materials/CharM_Gruntling.uasset'
+[2016.12.02-21.19.32:489][550]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/Mannequin/Enemy_Gruntling/Materials/CharM_Gruntling.uasset
+[2016.12.02-21.19.32:494][550]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 77 instructions
+[2016.12.02-21.19.32:494][550]MaterialEditorStats: 정보 Vertex shader: 31 instructions
+[2016.12.02-21.19.32:494][550]MaterialEditorStats: 정보 Texture samplers: 7/16
+[2016.12.02-21.19.41:687][481]LogMaterial: Missing cached shader map for material CharM_Gruntling, compiling. 
+[2016.12.02-21.19.41:706][481]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.02-21.19.41:735][481]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2016.12.02-21.19.43:200][620]LogMaterialEditor: Saving and Compiling material CharM_Gruntling
+[2016.12.02-21.19.43:659][620]LogMaterial: Missing cached shader map for material CharM_Gruntling, compiling. 
+[2016.12.02-21.19.43:688][620]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.02-21.19.43:702][620]LogMaterial: Missing cached shader map for material CharM_Gruntling, compiling. 
+[2016.12.02-21.19.43:733][620]LogMaterial: Missing cached shader map for material CharM_Gruntling, compiling. 
+[2016.12.02-21.19.43:761][620]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.02-21.19.49:090][620]LogSavePackage: Save=12.75ms
+[2016.12.02-21.19.49:090][620]LogSavePackage: Moving '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Saved/CharM_Gruntling9286A30E444D08B1622F5EAEBCB2FB4A.tmp' to '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/Mannequin/Enemy_Gruntling/Materials/CharM_Gruntling.uasset'
+[2016.12.02-21.19.49:095][620]LogSavePackage:Display: Finished SavePackage ../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/Mannequin/Enemy_Gruntling/Materials/CharM_Gruntling.uasset
+[2016.12.02-21.19.49:107][620]MaterialEditorStats: 정보 Base pass shader with only dynamic lighting: 77 instructions
+[2016.12.02-21.19.49:107][620]MaterialEditorStats: 정보 Vertex shader: 31 instructions
+[2016.12.02-21.19.49:107][620]MaterialEditorStats: 정보 Texture samplers: 7/16
+[2016.12.02-21.20.18:156][848]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.12.02-21.20.19:772][848]LogAIModule: Creating AISystem for world Overview
+[2016.12.02-22.23.55:314][848]LogMaterial: Missing cached shader map for material M_CycRoom_01, compiling. 
+[2016.12.02-22.23.55:323][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Maps/LevelContent/Architecture/M_CycRoom_01.M_CycRoom_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.23.55:323][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.23.55:332][848]LogMaterial: Missing cached shader map for material M_1Meter_01, compiling. 
+[2016.12.02-22.23.55:359][848]LogMaterial: Missing cached shader map for material M_CycWall_01, compiling. 
+[2016.12.02-22.23.55:361][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Maps/LevelContent/Architecture/M_CycWall_01.M_CycWall_01 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.23.55:361][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.23.55:495][848]LogTexture:Display: 텍스처 빌드중: T_Enemy_Wolf_03_D (AutoDXT)
+[2016.12.02-22.24.00:404][848]LogTexture:Display: 텍스처 빌드중: T_Enemy_Wolf_Poison_D (AutoDXT)
+[2016.12.02-22.24.05:510][848]LogTexture:Display: 텍스처 빌드중: T_Enemy_Wolf_04_D (AutoDXT)
+[2016.12.02-22.24.10:469][848]LogMaterial: Missing cached shader map for material CharM_Enemy_Wolf, compiling. 
+[2016.12.02-22.24.10:469][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Wolf/Materials/CharM_Enemy_Wolf.CharM_Enemy_Wolf for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.10:469][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.10:469][848]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2016.12.02-22.24.10:471][848]LogMaterial: Missing cached shader map for material CharM_Enemy_Wolf, compiling. 
+[2016.12.02-22.24.10:472][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Wolf/Materials/CharM_Enemy_Wolf.CharM_Enemy_Wolf for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.10:472][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.10:472][848]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2016.12.02-22.24.10:474][848]LogMaterial: Missing cached shader map for material CharM_Enemy_Wolf, compiling. 
+[2016.12.02-22.24.10:474][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Wolf/Materials/CharM_Enemy_Wolf.CharM_Enemy_Wolf for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.10:474][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.10:474][848]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2016.12.02-22.24.10:476][848]LogMaterial: Missing cached shader map for material CharM_Enemy_Wolf, compiling. 
+[2016.12.02-22.24.10:476][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Wolf/Materials/CharM_Enemy_Wolf.CharM_Enemy_Wolf for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.10:476][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.10:476][848]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2016.12.02-22.24.10:608][848]LogTexture:Display: 텍스처 빌드중: T_Enemy_Wolf_01_D (AutoDXT)
+[2016.12.02-22.24.15:642][848]LogMaterial: Missing cached shader map for material CharM_Troll_Helmet, compiling. 
+[2016.12.02-22.24.15:642][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/Materials/CharM_Troll_Helmet.CharM_Troll_Helmet for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.15:642][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.15:644][848]LogMaterial: Missing cached shader map for material CharM_Troll_Helmet, compiling. 
+[2016.12.02-22.24.15:645][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/Materials/CharM_Troll_Helmet.CharM_Troll_Helmet for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.15:645][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.15:647][848]LogMaterial: Missing cached shader map for material CharM_Troll_Helmet, compiling. 
+[2016.12.02-22.24.15:647][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/Materials/CharM_Troll_Helmet.CharM_Troll_Helmet for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.15:647][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.15:650][848]LogTexture:Display: 텍스처 빌드중: T_Troll_Helmet_D (AutoDXT)
+[2016.12.02-22.24.15:684][848]LogMaterial: Missing cached shader map for material CharM_Troll, compiling. 
+[2016.12.02-22.24.15:685][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/Materials/CharM_Troll.CharM_Troll for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.15:685][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.15:687][848]LogMaterial: Missing cached shader map for material CharM_Troll, compiling. 
+[2016.12.02-22.24.15:687][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/Materials/CharM_Troll.CharM_Troll for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.15:687][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.15:690][848]LogMaterial: Missing cached shader map for material CharM_Troll, compiling. 
+[2016.12.02-22.24.15:690][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/Materials/CharM_Troll.CharM_Troll for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.15:690][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.15:731][848]LogTexture:Display: 텍스처 빌드중: T_Troll_D (AutoDXT)
+[2016.12.02-22.24.17:005][848]LogMaterial: Missing cached shader map for material CharM_Troll_Poison, compiling. 
+[2016.12.02-22.24.17:006][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/Materials/CharM_Troll_Poison.CharM_Troll_Poison for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.17:006][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.17:008][848]LogMaterial: Missing cached shader map for material CharM_Troll_Poison, compiling. 
+[2016.12.02-22.24.17:008][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/Materials/CharM_Troll_Poison.CharM_Troll_Poison for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.17:008][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.17:011][848]LogMaterial: Missing cached shader map for material CharM_Troll_Poison, compiling. 
+[2016.12.02-22.24.17:011][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Troll/Materials/CharM_Troll_Poison.CharM_Troll_Poison for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.17:011][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.17:050][848]LogTexture:Display: 텍스처 빌드중: T_Troll_Poison_D (AutoDXT)
+[2016.12.02-22.24.18:312][848]LogMaterial: Missing cached shader map for material M_Enemy_TaskMaster_Lantern, compiling. 
+[2016.12.02-22.24.18:313][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Task_Master/Materials/M_Enemy_TaskMaster_Lantern.M_Enemy_TaskMaster_Lantern for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.18:313][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.18:316][848]LogMaterial: Missing cached shader map for material M_Enemy_TaskMaster_Lantern, compiling. 
+[2016.12.02-22.24.18:316][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Task_Master/Materials/M_Enemy_TaskMaster_Lantern.M_Enemy_TaskMaster_Lantern for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.18:316][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.18:319][848]LogMaterial: Missing cached shader map for material M_Enemy_TaskMaster_Lantern, compiling. 
+[2016.12.02-22.24.18:319][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Task_Master/Materials/M_Enemy_TaskMaster_Lantern.M_Enemy_TaskMaster_Lantern for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.18:319][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.18:329][848]LogTexture:Display: 텍스처 빌드중: Enemy_Task_Master_lantern_D (AutoDXT)
+[2016.12.02-22.24.18:620][848]LogMaterial: Missing cached shader map for material M_Enemy_Task_Master, compiling. 
+[2016.12.02-22.24.18:620][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Task_Master/Materials/M_Enemy_Task_Master.M_Enemy_Task_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.18:620][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.18:622][848]LogMaterial: Missing cached shader map for material M_Enemy_Task_Master, compiling. 
+[2016.12.02-22.24.18:623][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Task_Master/Materials/M_Enemy_Task_Master.M_Enemy_Task_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.18:623][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.18:625][848]LogMaterial: Missing cached shader map for material M_Enemy_Task_Master, compiling. 
+[2016.12.02-22.24.18:625][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Task_Master/Materials/M_Enemy_Task_Master.M_Enemy_Task_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.18:625][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.18:741][848]LogTexture:Display: 텍스처 빌드중: Enemy_Task_Master_D (AutoDXT)
+[2016.12.02-22.24.22:484][848]LogMaterial: Missing cached shader map for material CharM_Spiderling_redish, compiling. 
+[2016.12.02-22.24.22:485][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Spiderling/Materials/CharM_Spiderling_redish.CharM_Spiderling_redish for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.22:485][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.22:487][848]LogMaterial: Missing cached shader map for material CharM_Spiderling_redish, compiling. 
+[2016.12.02-22.24.22:488][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Spiderling/Materials/CharM_Spiderling_redish.CharM_Spiderling_redish for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.22:488][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.22:490][848]LogMaterial: Missing cached shader map for material CharM_Spiderling_redish, compiling. 
+[2016.12.02-22.24.22:490][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Spiderling/Materials/CharM_Spiderling_redish.CharM_Spiderling_redish for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.22:490][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.22:523][848]LogTexture:Display: 텍스처 빌드중: T_Enemy_Spiderling_D (AutoDXT)
+[2016.12.02-22.24.23:811][848]LogMaterial: Missing cached shader map for material CharM_Spiderling, compiling. 
+[2016.12.02-22.24.23:811][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Spiderling/Materials/CharM_Spiderling.CharM_Spiderling for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.23:811][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.23:813][848]LogMaterial: Missing cached shader map for material CharM_Spiderling, compiling. 
+[2016.12.02-22.24.23:813][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Spiderling/Materials/CharM_Spiderling.CharM_Spiderling for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.23:813][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.23:815][848]LogMaterial: Missing cached shader map for material CharM_Spiderling, compiling. 
+[2016.12.02-22.24.23:816][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Spiderling/Materials/CharM_Spiderling.CharM_Spiderling for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.23:816][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.23:818][848]LogMaterial: Missing cached shader map for material CharM_Spiderling, compiling. 
+[2016.12.02-22.24.23:818][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Spiderling/Materials/CharM_Spiderling.CharM_Spiderling for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.23:818][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.23:822][848]LogMaterial: Missing cached shader map for material CharM_Spiderling_Magma, compiling. 
+[2016.12.02-22.24.23:822][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Spiderling/Materials/CharM_Spiderling_Magma.CharM_Spiderling_Magma for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.23:822][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.23:824][848]LogMaterial: Missing cached shader map for material CharM_Spiderling_Magma, compiling. 
+[2016.12.02-22.24.23:825][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Spiderling/Materials/CharM_Spiderling_Magma.CharM_Spiderling_Magma for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.23:825][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.23:826][848]LogMaterial: Missing cached shader map for material CharM_Spiderling_Magma, compiling. 
+[2016.12.02-22.24.23:827][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Spiderling/Materials/CharM_Spiderling_Magma.CharM_Spiderling_Magma for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.23:827][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.23:837][848]LogTexture:Display: 텍스처 빌드중: T_Enemy_Spiderling_Magma_D (AutoDXT)
+[2016.12.02-22.24.24:155][848]LogMaterial: Missing cached shader map for material CharM_Robo_Golem, compiling. 
+[2016.12.02-22.24.24:156][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Robo_Golem/Materials/CharM_Robo_Golem.CharM_Robo_Golem for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.24:156][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.24:158][848]LogMaterial: Missing cached shader map for material CharM_Robo_Golem, compiling. 
+[2016.12.02-22.24.24:158][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Robo_Golem/Materials/CharM_Robo_Golem.CharM_Robo_Golem for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.24:158][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.24:160][848]LogMaterial: Missing cached shader map for material CharM_Robo_Golem, compiling. 
+[2016.12.02-22.24.24:160][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Robo_Golem/Materials/CharM_Robo_Golem.CharM_Robo_Golem for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.24:160][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.24:311][848]LogTexture:Display: 텍스처 빌드중: T_Robo_Golem_D (AutoDXT)
+[2016.12.02-22.24.29:590][848]LogMaterial: Missing cached shader map for material M_Master_Grunt_Weapon, compiling. 
+[2016.12.02-22.24.29:590][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Materials/M_Master_Grunt_Weapon.M_Master_Grunt_Weapon for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.29:591][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.29:593][848]LogMaterial: Missing cached shader map for material M_Master_Grunt_Weapon, compiling. 
+[2016.12.02-22.24.29:594][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Materials/M_Master_Grunt_Weapon.M_Master_Grunt_Weapon for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.29:594][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.29:596][848]LogMaterial: Missing cached shader map for material M_Master_Grunt_Weapon, compiling. 
+[2016.12.02-22.24.29:596][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Materials/M_Master_Grunt_Weapon.M_Master_Grunt_Weapon for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.29:596][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.29:635][848]LogTexture:Display: 텍스처 빌드중: T_Master_Grunt_Blade_D (AutoDXT)
+[2016.12.02-22.24.30:833][848]LogMaterial: Missing cached shader map for material CharM_Master_Grunt, compiling. 
+[2016.12.02-22.24.30:834][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Materials/CharM_Master_Grunt.CharM_Master_Grunt for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.30:834][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.30:836][848]LogMaterial: Missing cached shader map for material CharM_Master_Grunt, compiling. 
+[2016.12.02-22.24.30:836][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Materials/CharM_Master_Grunt.CharM_Master_Grunt for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.30:836][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.30:838][848]LogMaterial: Missing cached shader map for material CharM_Master_Grunt, compiling. 
+[2016.12.02-22.24.30:839][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Master_Grunt/Materials/CharM_Master_Grunt.CharM_Master_Grunt for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.30:839][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.30:975][848]LogTexture:Display: 텍스처 빌드중: T_Master_Grunt_D (AutoDXT)
+[2016.12.02-22.24.36:116][848]LogMaterial: Missing cached shader map for material M_Gruntling_weapons, compiling. 
+[2016.12.02-22.24.36:116][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Weapons/Materials/M_Gruntling_weapons.M_Gruntling_weapons for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.36:116][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.36:118][848]LogMaterial: Missing cached shader map for material M_Gruntling_weapons, compiling. 
+[2016.12.02-22.24.36:119][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Weapons/Materials/M_Gruntling_weapons.M_Gruntling_weapons for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.36:119][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.36:121][848]LogMaterial: Missing cached shader map for material M_Gruntling_weapons, compiling. 
+[2016.12.02-22.24.36:121][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Weapons/Materials/M_Gruntling_weapons.M_Gruntling_weapons for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.36:121][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.36:123][848]LogMaterial: Missing cached shader map for material M_Gruntling_weapons, compiling. 
+[2016.12.02-22.24.36:124][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Weapons/Materials/M_Gruntling_weapons.M_Gruntling_weapons for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.36:124][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.36:133][848]LogTexture:Display: 텍스처 빌드중: T_PickAxe_D (AutoDXT)
+[2016.12.02-22.24.36:404][848]LogMaterial: Missing cached shader map for material CharM_Gruntling_Scud_C, compiling. 
+[2016.12.02-22.24.36:404][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Scud/Materials/CharM_Gruntling_Scud_C.CharM_Gruntling_Scud_C for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.36:404][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.36:406][848]LogMaterial: Missing cached shader map for material CharM_Gruntling_Scud_C, compiling. 
+[2016.12.02-22.24.36:406][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Scud/Materials/CharM_Gruntling_Scud_C.CharM_Gruntling_Scud_C for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.36:406][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.36:408][848]LogMaterial: Missing cached shader map for material CharM_Gruntling_Scud_C, compiling. 
+[2016.12.02-22.24.36:408][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Scud/Materials/CharM_Gruntling_Scud_C.CharM_Gruntling_Scud_C for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.36:408][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.36:410][848]LogMaterial: Missing cached shader map for material CharM_Gruntling_Scud_C, compiling. 
+[2016.12.02-22.24.36:411][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Scud/Materials/CharM_Gruntling_Scud_C.CharM_Gruntling_Scud_C for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.36:411][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.36:462][848]LogMaterial: Missing cached shader map for material CharM_Gruntling_Glacer, compiling. 
+[2016.12.02-22.24.36:462][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Glacer/Materials/CharM_Gruntling_Glacer.CharM_Gruntling_Glacer for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.36:462][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.36:464][848]LogMaterial: Missing cached shader map for material CharM_Gruntling_Glacer, compiling. 
+[2016.12.02-22.24.36:464][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Glacer/Materials/CharM_Gruntling_Glacer.CharM_Gruntling_Glacer for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.36:464][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.36:466][848]LogMaterial: Missing cached shader map for material CharM_Gruntling_Glacer, compiling. 
+[2016.12.02-22.24.36:467][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Glacer/Materials/CharM_Gruntling_Glacer.CharM_Gruntling_Glacer for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.36:467][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.36:469][848]LogMaterial: Missing cached shader map for material CharM_Gruntling_Glacer, compiling. 
+[2016.12.02-22.24.36:469][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Glacer/Materials/CharM_Gruntling_Glacer.CharM_Gruntling_Glacer for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.36:469][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.36:501][848]LogTexture:Display: 텍스처 빌드중: T_Gruntling_Glacer_D (AutoDXT)
+[2016.12.02-22.24.37:475][848]LogMaterial: Missing cached shader map for material CharM_Gruntling_Avalanche, compiling. 
+[2016.12.02-22.24.37:476][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Avalanche/Materials/CharM_Gruntling_Avalanche.CharM_Gruntling_Avalanche for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:476][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:478][848]LogMaterial: Missing cached shader map for material CharM_Gruntling_Avalanche, compiling. 
+[2016.12.02-22.24.37:478][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Avalanche/Materials/CharM_Gruntling_Avalanche.CharM_Gruntling_Avalanche for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:478][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:480][848]LogMaterial: Missing cached shader map for material CharM_Gruntling_Avalanche, compiling. 
+[2016.12.02-22.24.37:480][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Avalanche/Materials/CharM_Gruntling_Avalanche.CharM_Gruntling_Avalanche for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:480][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:482][848]LogMaterial: Missing cached shader map for material CharM_Gruntling_Avalanche, compiling. 
+[2016.12.02-22.24.37:482][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Avalanche/Materials/CharM_Gruntling_Avalanche.CharM_Gruntling_Avalanche for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:482][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:484][848]LogMaterial: Missing cached shader map for material CharM_Gruntling_Avalanche, compiling. 
+[2016.12.02-22.24.37:485][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Avalanche/Materials/CharM_Gruntling_Avalanche.CharM_Gruntling_Avalanche for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:485][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:500][848]LogMaterial: Missing cached shader map for material CharM_Greater_Spider_Ice, compiling. 
+[2016.12.02-22.24.37:500][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Materials/CharM_Greater_Spider_Ice.CharM_Greater_Spider_Ice for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:500][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:503][848]LogMaterial: Missing cached shader map for material CharM_Greater_Spider_Ice, compiling. 
+[2016.12.02-22.24.37:503][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Materials/CharM_Greater_Spider_Ice.CharM_Greater_Spider_Ice for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:503][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:505][848]LogMaterial: Missing cached shader map for material CharM_Greater_Spider_Ice, compiling. 
+[2016.12.02-22.24.37:505][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Materials/CharM_Greater_Spider_Ice.CharM_Greater_Spider_Ice for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:505][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:519][848]LogMaterial: Missing cached shader map for material CharM_Greater_Spider, compiling. 
+[2016.12.02-22.24.37:519][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Materials/CharM_Greater_Spider.CharM_Greater_Spider for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:519][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:521][848]LogMaterial: Missing cached shader map for material CharM_Greater_Spider, compiling. 
+[2016.12.02-22.24.37:521][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Materials/CharM_Greater_Spider.CharM_Greater_Spider for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:521][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:523][848]LogMaterial: Missing cached shader map for material CharM_Greater_Spider, compiling. 
+[2016.12.02-22.24.37:523][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Great_Spider/Materials/CharM_Greater_Spider.CharM_Greater_Spider for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:523][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:526][848]LogMaterial: Missing cached shader map for material CharM_Greater_SpiderBoss_Ice, compiling. 
+[2016.12.02-22.24.37:526][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Greater_Spider_Boss/Materials/CharM_Greater_SpiderBoss_Ice.CharM_Greater_SpiderBoss_Ice for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:526][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:529][848]LogMaterial: Missing cached shader map for material CharM_Greater_SpiderBoss_Ice, compiling. 
+[2016.12.02-22.24.37:529][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Greater_Spider_Boss/Materials/CharM_Greater_SpiderBoss_Ice.CharM_Greater_SpiderBoss_Ice for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:529][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:546][848]LogMaterial: Missing cached shader map for material CharM_Greater_Spider_BossFire, compiling. 
+[2016.12.02-22.24.37:546][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Greater_Spider_Boss/Materials/CharM_Greater_Spider_BossFire.CharM_Greater_Spider_BossFire for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:546][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:549][848]LogMaterial: Missing cached shader map for material CharM_Greater_Spider_BossFire, compiling. 
+[2016.12.02-22.24.37:549][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Greater_Spider_Boss/Materials/CharM_Greater_Spider_BossFire.CharM_Greater_Spider_BossFire for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:549][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:551][848]LogMaterial: Missing cached shader map for material CharM_Greater_Spider_BossFire, compiling. 
+[2016.12.02-22.24.37:551][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Greater_Spider_Boss/Materials/CharM_Greater_Spider_BossFire.CharM_Greater_Spider_BossFire for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:551][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:554][848]LogMaterial: Missing cached shader map for material CharM_Greater_Spider_BossFire, compiling. 
+[2016.12.02-22.24.37:554][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Greater_Spider_Boss/Materials/CharM_Greater_Spider_BossFire.CharM_Greater_Spider_BossFire for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:554][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:561][848]LogMaterial: Missing cached shader map for material CharM_Greater_Spider_Boss, compiling. 
+[2016.12.02-22.24.37:561][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Greater_Spider_Boss/Materials/CharM_Greater_Spider_Boss.CharM_Greater_Spider_Boss for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:561][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:564][848]LogMaterial: Missing cached shader map for material CharM_Greater_Spider_Boss, compiling. 
+[2016.12.02-22.24.37:564][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Greater_Spider_Boss/Materials/CharM_Greater_Spider_Boss.CharM_Greater_Spider_Boss for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:564][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:566][848]LogMaterial: Missing cached shader map for material CharM_Greater_Spider_Boss, compiling. 
+[2016.12.02-22.24.37:566][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Greater_Spider_Boss/Materials/CharM_Greater_Spider_Boss.CharM_Greater_Spider_Boss for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:566][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:568][848]LogMaterial: Missing cached shader map for material CharM_Greater_Spider_Boss, compiling. 
+[2016.12.02-22.24.37:569][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Greater_Spider_Boss/Materials/CharM_Greater_Spider_Boss.CharM_Greater_Spider_Boss for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:569][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:595][848]LogMaterial: Missing cached shader map for material CharM_Fire_Golem, compiling. 
+[2016.12.02-22.24.37:595][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Golem/Materials/CharM_Fire_Golem.CharM_Fire_Golem for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:595][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:597][848]LogMaterial: Missing cached shader map for material CharM_Fire_Golem, compiling. 
+[2016.12.02-22.24.37:598][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Golem/Materials/CharM_Fire_Golem.CharM_Fire_Golem for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:598][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:600][848]LogMaterial: Missing cached shader map for material CharM_Fire_Golem, compiling. 
+[2016.12.02-22.24.37:600][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Golem/Materials/CharM_Fire_Golem.CharM_Fire_Golem for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:600][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:604][848]LogMaterial: Missing cached shader map for material CharM_Golem_Weapon, compiling. 
+[2016.12.02-22.24.37:604][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Golem/Materials/CharM_Golem_Weapon.CharM_Golem_Weapon for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:604][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:606][848]LogMaterial: Missing cached shader map for material CharM_Golem_Weapon, compiling. 
+[2016.12.02-22.24.37:607][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Golem/Materials/CharM_Golem_Weapon.CharM_Golem_Weapon for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:607][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:609][848]LogMaterial: Missing cached shader map for material CharM_Golem_Weapon, compiling. 
+[2016.12.02-22.24.37:609][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Golem/Materials/CharM_Golem_Weapon.CharM_Golem_Weapon for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:609][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:641][848]LogMaterial: Missing cached shader map for material CharM_Frost_Giant, compiling. 
+[2016.12.02-22.24.37:641][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/Materials/CharM_Frost_Giant.CharM_Frost_Giant for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:641][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:644][848]LogMaterial: Missing cached shader map for material CharM_Frost_Giant, compiling. 
+[2016.12.02-22.24.37:644][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/Materials/CharM_Frost_Giant.CharM_Frost_Giant for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:644][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:646][848]LogMaterial: Missing cached shader map for material CharM_Frost_Giant, compiling. 
+[2016.12.02-22.24.37:646][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Frost_Giant/Materials/CharM_Frost_Giant.CharM_Frost_Giant for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:647][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:664][848]LogMaterial: Missing cached shader map for material Weapon, compiling. 
+[2016.12.02-22.24.37:664][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/Materials/Weapon.Weapon for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:664][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:666][848]LogMaterial: Missing cached shader map for material Weapon, compiling. 
+[2016.12.02-22.24.37:667][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/Materials/Weapon.Weapon for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:667][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:669][848]LogMaterial: Missing cached shader map for material Weapon, compiling. 
+[2016.12.02-22.24.37:669][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/Materials/Weapon.Weapon for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:669][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:680][848]LogMaterial: Missing cached shader map for material M_Enemy_Forge_King, compiling. 
+[2016.12.02-22.24.37:680][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/Materials/M_Enemy_Forge_King.M_Enemy_Forge_King for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:680][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:683][848]LogMaterial: Missing cached shader map for material M_Enemy_Forge_King, compiling. 
+[2016.12.02-22.24.37:683][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/Materials/M_Enemy_Forge_King.M_Enemy_Forge_King for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:683][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:685][848]LogMaterial: Missing cached shader map for material M_Enemy_Forge_King, compiling. 
+[2016.12.02-22.24.37:685][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/Materials/M_Enemy_Forge_King.M_Enemy_Forge_King for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:685][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:688][848]LogMaterial: Missing cached shader map for material M_Enemy_Forge_King, compiling. 
+[2016.12.02-22.24.37:688][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Forge_King/Materials/M_Enemy_Forge_King.M_Enemy_Forge_King for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:688][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:691][848]LogMaterial: Missing cached shader map for material CharM_Creature_Spider_Fire, compiling. 
+[2016.12.02-22.24.37:691][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Materials/CharM_Creature_Spider_Fire.CharM_Creature_Spider_Fire for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:691][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:693][848]LogMaterial: Missing cached shader map for material CharM_Creature_Spider_Fire, compiling. 
+[2016.12.02-22.24.37:694][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Materials/CharM_Creature_Spider_Fire.CharM_Creature_Spider_Fire for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:694][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:696][848]LogMaterial: Missing cached shader map for material CharM_Creature_Spider_Fire, compiling. 
+[2016.12.02-22.24.37:696][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Materials/CharM_Creature_Spider_Fire.CharM_Creature_Spider_Fire for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:696][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:698][848]LogMaterial: Missing cached shader map for material CharM_Creature_Spider_Fire, compiling. 
+[2016.12.02-22.24.37:698][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Materials/CharM_Creature_Spider_Fire.CharM_Creature_Spider_Fire for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:698][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:712][848]LogMaterial: Missing cached shader map for material CharM_Creature_Spider, compiling. 
+[2016.12.02-22.24.37:713][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Materials/CharM_Creature_Spider.CharM_Creature_Spider for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:713][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:715][848]LogMaterial: Missing cached shader map for material CharM_Creature_Spider, compiling. 
+[2016.12.02-22.24.37:715][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Materials/CharM_Creature_Spider.CharM_Creature_Spider for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:715][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:718][848]LogMaterial: Missing cached shader map for material CharM_Creature_Spider, compiling. 
+[2016.12.02-22.24.37:718][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Creature_Spider/Materials/CharM_Creature_Spider.CharM_Creature_Spider for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:718][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:730][848]LogMaterial: Missing cached shader map for material M_Clot_Worm, compiling. 
+[2016.12.02-22.24.37:730][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Clot_Worm/Materials/M_Clot_Worm.M_Clot_Worm for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:730][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:733][848]LogMaterial: Missing cached shader map for material M_Clot_Worm, compiling. 
+[2016.12.02-22.24.37:733][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Clot_Worm/Materials/M_Clot_Worm.M_Clot_Worm for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:733][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:735][848]LogMaterial: Missing cached shader map for material M_Clot_Worm, compiling. 
+[2016.12.02-22.24.37:735][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Clot_Worm/Materials/M_Clot_Worm.M_Clot_Worm for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:735][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:739][848]LogMaterial: Missing cached shader map for material M_EnemyChicken, compiling. 
+[2016.12.02-22.24.37:739][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Chicken/Materials/M_EnemyChicken.M_EnemyChicken for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:740][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:742][848]LogMaterial: Missing cached shader map for material M_EnemyChicken, compiling. 
+[2016.12.02-22.24.37:742][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Chicken/Materials/M_EnemyChicken.M_EnemyChicken for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:742][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:745][848]LogMaterial: Missing cached shader map for material M_EnemyChicken, compiling. 
+[2016.12.02-22.24.37:745][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Chicken/Materials/M_EnemyChicken.M_EnemyChicken for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:745][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:748][848]LogMaterial: Missing cached shader map for material M_EnemyChicken, compiling. 
+[2016.12.02-22.24.37:748][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Chicken/Materials/M_EnemyChicken.M_EnemyChicken for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:748][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:759][848]LogMaterial: Missing cached shader map for material M_Bear_Master, compiling. 
+[2016.12.02-22.24.37:759][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Materials/M_Bear_Master.M_Bear_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:759][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:759][848]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2016.12.02-22.24.37:761][848]LogMaterial: Missing cached shader map for material M_Bear_Master, compiling. 
+[2016.12.02-22.24.37:762][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Materials/M_Bear_Master.M_Bear_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:762][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:762][848]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2016.12.02-22.24.37:764][848]LogMaterial: Missing cached shader map for material M_Bear_Master, compiling. 
+[2016.12.02-22.24.37:764][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Bear/Materials/M_Bear_Master.M_Bear_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:764][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:764][848]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2016.12.02-22.24.37:768][848]LogMaterial: Missing cached shader map for material CharM_Gruntling, compiling. 
+[2016.12.02-22.24.37:769][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/Materials/CharM_Gruntling.CharM_Gruntling for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:769][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:771][848]LogMaterial: Missing cached shader map for material CharM_Gruntling, compiling. 
+[2016.12.02-22.24.37:771][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling/Materials/CharM_Gruntling.CharM_Gruntling for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:771][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:772][848]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_11' or package '/Engine/Transient'.
+[2016.12.02-22.24.37:774][848]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_10' or package '/Engine/Transient'.
+[2016.12.02-22.24.37:777][848]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_0' or package '/Engine/Transient'.
+[2016.12.02-22.24.37:777][848]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_0' or package '/Engine/Transient'.
+[2016.12.02-22.24.37:828][848]LogMaterial: Missing cached shader map for material M_Elemental_Robot_Master, compiling. 
+[2016.12.02-22.24.37:830][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Elemental_Robot/Materials/M_Elemental_Robot_Master.M_Elemental_Robot_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:830][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:830][848]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2016.12.02-22.24.37:838][848]LogMaterial: Missing cached shader map for material M_Elemental_Robot_Master, compiling. 
+[2016.12.02-22.24.37:839][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Elemental_Robot/Materials/M_Elemental_Robot_Master.M_Elemental_Robot_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:839][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:839][848]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2016.12.02-22.24.37:847][848]LogMaterial: Missing cached shader map for material M_Elemental_Robot_Master, compiling. 
+[2016.12.02-22.24.37:848][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Elemental_Robot/Materials/M_Elemental_Robot_Master.M_Elemental_Robot_Master for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:848][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:848][848]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2016.12.02-22.24.37:858][848]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.02-22.24.37:859][848]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:859][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:859][848]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (3 / 2)
+[2016.12.02-22.24.37:867][848]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.02-22.24.37:868][848]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:868][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:868][848]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PreviewMaterial_1' or package '/Engine/Transient'.
+[2016.12.02-22.24.37:873][848]LogMaterial: Missing cached shader map for material CharM_Gruntling_Guardian, compiling. 
+[2016.12.02-22.24.37:874][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Guardian/Materials/CharM_Gruntling_Guardian.CharM_Gruntling_Guardian for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:874][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.24.37:879][848]LogMaterial: Missing cached shader map for material CharM_Gruntling_Guardian, compiling. 
+[2016.12.02-22.24.37:879][848]LogMaterial:Warning: Failed to compile Material /Game/InfinityBladeAdversaries/Enemy/Enemy_Gruntling_Guardian/Materials/CharM_Gruntling_Guardian.CharM_Gruntling_Guardian for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.02-22.24.37:879][848]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
+[2016.12.02-22.25.16:544][848]LogDirectoryWatcher: A directory notification failed for '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2016.12.02-22.25.16:544][848]LogDirectoryWatcher: A directory notification failed for 'D:/sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2016.12.02-22.25.24:855][606]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2016.12.02-22.25.25:367][607]Cmd: QUIT_EDITOR
+[2016.12.02-22.25.25:901][607]LogExit: Preparing to exit.
+[2016.12.02-22.25.27:088][607]LogDirectoryWatcher: A directory notification for 'D:/sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/' was aborted.
+[2016.12.02-22.25.27:186][607]LogExit: Editor shut down
+[2016.12.02-22.25.27:186][607]LogExit: Transaction tracking system shut down
+[2016.12.02-22.25.29:253][607]LogObj: Freed 0b from 0 cluster array pools.
+[2016.12.02-22.25.29:253][607]LogExit: Object subsystem successfully closed.
+[2016.12.02-22.25.29:425][607]LogD3D11RHI: Shutdown
+[2016.12.02-22.25.29:425][607]LogD3D11RHI: CleanupD3DDevice
+[2016.12.02-22.25.29:575][607]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.02-22.25.30:586][607]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (236)
+[2016.12.02-22.25.30:603][607]LogModuleManager: Shutting down and abandoning module MaterialEditor (235)
+[2016.12.02-22.25.30:603][607]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (234)
+[2016.12.02-22.25.30:614][607]LogModuleManager: Shutting down and abandoning module CrashTracker (233)
+[2016.12.02-22.25.30:626][607]LogModuleManager: Shutting down and abandoning module SceneOutliner (232)
+[2016.12.02-22.25.30:626][607]LogModuleManager: Shutting down and abandoning module WidgetCarousel (231)
+[2016.12.02-22.25.30:626][607]LogModuleManager: Shutting down and abandoning module AddContentDialog (230)
+[2016.12.02-22.25.30:656][607]LogDirectoryWatcher: A directory notification for 'D:/Development Kit/Epic Games/4.13/FeaturePacks/' was aborted.
+[2016.12.02-22.25.30:660][607]LogModuleManager: Shutting down and abandoning module GameplayTags (229)
+[2016.12.02-22.25.30:660][607]LogModuleManager: Shutting down and abandoning module EditorWidgets (228)
+[2016.12.02-22.25.30:660][607]LogModuleManager: Shutting down and abandoning module CollectionManager (227)
+[2016.12.02-22.25.30:668][607]LogDirectoryWatcher: A directory notification for 'D:/sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/Collections/' was aborted.
+[2016.12.02-22.25.30:668][607]LogDirectoryWatcher: A directory notification for 'D:/sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/Developers/sylve/Collections/' was aborted.
+[2016.12.02-22.25.30:669][607]LogDirectoryWatcher: A directory notification for 'D:/sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Saved/Collections/' was aborted.
+[2016.12.02-22.25.30:669][607]LogModuleManager: Shutting down and abandoning module StatsViewer (226)
+[2016.12.02-22.25.30:689][607]LogModuleManager: Shutting down and abandoning module FoliageEdit (225)
+[2016.12.02-22.25.30:698][607]LogModuleManager: Shutting down and abandoning module LandscapeEditor (224)
+[2016.12.02-22.25.30:727][607]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (223)
+[2016.12.02-22.25.30:727][607]LogModuleManager: Shutting down and abandoning module ActorPickerMode (222)
+[2016.12.02-22.25.30:727][607]LogModuleManager: Shutting down and abandoning module GeometryMode (221)
+[2016.12.02-22.25.30:727][607]LogModuleManager: Shutting down and abandoning module TextureAlignMode (220)
+[2016.12.02-22.25.30:727][607]LogModuleManager: Shutting down and abandoning module BspMode (219)
+[2016.12.02-22.25.30:735][607]LogModuleManager: Shutting down and abandoning module HardwareSurvey (218)
+[2016.12.02-22.25.30:743][607]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (217)
+[2016.12.02-22.25.30:743][607]LogModuleManager: Shutting down and abandoning module SequenceRecorder (216)
+[2016.12.02-22.25.30:766][607]LogModuleManager: Shutting down and abandoning module AutomationWorker (215)
+[2016.12.02-22.25.30:775][607]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (214)
+[2016.12.02-22.25.30:786][607]LogModuleManager: Shutting down and abandoning module PlacementMode (213)
+[2016.12.02-22.25.30:805][607]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (212)
+[2016.12.02-22.25.30:827][607]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (211)
+[2016.12.02-22.25.30:827][607]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (210)
+[2016.12.02-22.25.30:827][607]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (209)
+[2016.12.02-22.25.30:827][607]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (208)
+[2016.12.02-22.25.30:827][607]LogModuleManager: Shutting down and abandoning module Media (207)
+[2016.12.02-22.25.30:827][607]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (206)
+[2016.12.02-22.25.30:827][607]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (205)
+[2016.12.02-22.25.30:827][607]LogModuleManager: Shutting down and abandoning module CharacterAI (204)
+[2016.12.02-22.25.30:827][607]LogModuleManager: Shutting down and abandoning module SmartSnapping (203)
+[2016.12.02-22.25.30:827][607]LogModuleManager: Shutting down and abandoning module SessionServices (202)
+[2016.12.02-22.25.30:828][607]LogModuleManager: Shutting down and abandoning module ViewportSnapping (201)
+[2016.12.02-22.25.30:828][607]LogModuleManager: Shutting down and abandoning module ViewportInteraction (200)
+[2016.12.02-22.25.30:828][607]LogModuleManager: Shutting down and abandoning module LogVisualizer (199)
+[2016.12.02-22.25.30:845][607]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (198)
+[2016.12.02-22.25.30:856][607]LogModuleManager: Shutting down and abandoning module IntroTutorials (197)
+[2016.12.02-22.25.30:880][607]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (196)
+[2016.12.02-22.25.30:880][607]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (195)
+[2016.12.02-22.25.30:889][607]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (194)
+[2016.12.02-22.25.30:889][607]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (193)
+[2016.12.02-22.25.31:910][607]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (192)
+[2016.12.02-22.25.31:931][607]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (191)
+[2016.12.02-22.25.31:931][607]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (190)
+[2016.12.02-22.25.31:931][607]LogModuleManager: Shutting down and abandoning module NiagaraEditor (189)
+[2016.12.02-22.25.31:952][607]LogModuleManager: Shutting down and abandoning module MergeActors (188)
+[2016.12.02-22.25.31:969][607]LogModuleManager: Shutting down and abandoning module SizeMap (187)
+[2016.12.02-22.25.31:977][607]LogModuleManager: Shutting down and abandoning module TreeMap (186)
+[2016.12.02-22.25.31:988][607]LogModuleManager: Shutting down and abandoning module ReferenceViewer (185)
+[2016.12.02-22.25.31:988][607]LogModuleManager: Shutting down and abandoning module LocalizationService (184)
+[2016.12.02-22.25.32:001][607]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (183)
+[2016.12.02-22.25.32:021][607]LogModuleManager: Shutting down and abandoning module HardwareTargeting (182)
+[2016.12.02-22.25.32:036][607]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (181)
+[2016.12.02-22.25.32:051][607]LogModuleManager: Shutting down and abandoning module UndoHistory (180)
+[2016.12.02-22.25.32:063][607]LogModuleManager: Shutting down and abandoning module UserFeedback (179)
+[2016.12.02-22.25.32:063][607]LogModuleManager: Shutting down and abandoning module XmlParser (178)
+[2016.12.02-22.25.32:075][607]LogModuleManager: Shutting down and abandoning module Blutility (177)
+[2016.12.02-22.25.32:085][607]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (176)
+[2016.12.02-22.25.32:095][607]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (175)
+[2016.12.02-22.25.32:096][607]LogModuleManager: Shutting down and abandoning module InputBindingEditor (174)
+[2016.12.02-22.25.32:126][607]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (173)
+[2016.12.02-22.25.32:127][607]LogModuleManager: Shutting down and abandoning module SettingsEditor (172)
+[2016.12.02-22.25.32:146][607]LogModuleManager: Shutting down and abandoning module ProjectLauncher (171)
+[2016.12.02-22.25.32:160][607]LogModuleManager: Shutting down and abandoning module SessionFrontend (170)
+[2016.12.02-22.25.32:169][607]LogModuleManager: Shutting down and abandoning module ProfilerClient (169)
+[2016.12.02-22.25.32:192][607]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (168)
+[2016.12.02-22.25.32:192][607]LogModuleManager: Shutting down and abandoning module DeviceManager (167)
+[2016.12.02-22.25.32:257][607]LogModuleManager: Shutting down and abandoning module AutomationController (166)
+[2016.12.02-22.25.32:272][607]LogModuleManager: Shutting down and abandoning module AutomationWindow (165)
+[2016.12.02-22.25.32:289][607]LogModuleManager: Shutting down and abandoning module Layers (164)
+[2016.12.02-22.25.32:308][607]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (163)
+[2016.12.02-22.25.32:308][607]LogModuleManager: Shutting down and abandoning module DetailCustomizations (162)
+[2016.12.02-22.25.32:308][607]LogModuleManager: Shutting down and abandoning module PackagesDialog (161)
+[2016.12.02-22.25.32:308][607]LogModuleManager: Shutting down and abandoning module AnimGraph (160)
+[2016.12.02-22.25.32:319][607]LogModuleManager: Shutting down and abandoning module Persona (159)
+[2016.12.02-22.25.32:352][607]LogModuleManager: Shutting down and abandoning module Kismet (158)
+[2016.12.02-22.25.32:362][607]LogModuleManager: Shutting down and abandoning module GraphEditor (157)
+[2016.12.02-22.25.32:362][607]LogModuleManager: Shutting down and abandoning module ClassViewer (156)
+[2016.12.02-22.25.32:376][607]LogModuleManager: Shutting down and abandoning module Toolbox (155)
+[2016.12.02-22.25.32:383][607]LogModuleManager: Shutting down and abandoning module ModuleUI (154)
+[2016.12.02-22.25.32:397][607]LogModuleManager: Shutting down and abandoning module MovieSceneTools (153)
+[2016.12.02-22.25.32:430][607]LogModuleManager: Shutting down and abandoning module OutputLog (152)
+[2016.12.02-22.25.32:440][607]LogModuleManager: Shutting down and abandoning module GammaUI (151)
+[2016.12.02-22.25.32:454][607]LogModuleManager: Shutting down and abandoning module Documentation (150)
+[2016.12.02-22.25.32:455][607]LogModuleManager: Shutting down and abandoning module Niagara (149)
+[2016.12.02-22.25.32:467][607]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (148)
+[2016.12.02-22.25.32:467][607]LogModuleManager: Shutting down and abandoning module AnalyticsET (147)
+[2016.12.02-22.25.32:467][607]LogModuleManager: Shutting down and abandoning module PortalServices (146)
+[2016.12.02-22.25.32:467][607]LogModuleManager: Shutting down and abandoning module PortalRpc (145)
+[2016.12.02-22.25.32:468][607]LogModuleManager: Shutting down and abandoning module MessagingRpc (144)
+[2016.12.02-22.25.32:468][607]LogModuleManager: Shutting down and abandoning module GameplayDebugger (143)
+[2016.12.02-22.25.32:491][607]LogModuleManager: Shutting down and abandoning module AITestSuite (142)
+[2016.12.02-22.25.32:500][607]LogModuleManager: Shutting down and abandoning module AIModule (141)
+[2016.12.02-22.25.32:500][607]LogModuleManager: Shutting down and abandoning module ProfilerService (140)
+[2016.12.02-22.25.32:693][607]LogModuleManager: Shutting down and abandoning module TaskGraph (139)
+[2016.12.02-22.25.32:712][607]LogModuleManager: Shutting down and abandoning module SlateRemote (138)
+[2016.12.02-22.25.32:712][607]LogModuleManager: Shutting down and abandoning module SteamVRController (137)
+[2016.12.02-22.25.32:713][607]LogModuleManager: Shutting down and abandoning module SteamVR (136)
+[2016.12.02-22.25.32:713][607]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (135)
+[2016.12.02-22.25.32:726][607]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (134)
+[2016.12.02-22.25.32:726][607]LogModuleManager: Shutting down and abandoning module OculusLibrary (133)
+[2016.12.02-22.25.32:726][607]LogModuleManager: Shutting down and abandoning module OculusInput (132)
+[2016.12.02-22.25.32:726][607]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (131)
+[2016.12.02-22.25.32:726][607]LogModuleManager: Shutting down and abandoning module CableComponent (130)
+[2016.12.02-22.25.32:726][607]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (129)
+[2016.12.02-22.25.32:727][607]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (127)
+[2016.12.02-22.25.32:748][607]LogModuleManager: Shutting down and abandoning module RunebergVRPlugin (126)
+[2016.12.02-22.25.32:748][607]LogModuleManager: Shutting down and abandoning module HTML5Networking (125)
+[2016.12.02-22.25.32:748][607]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (124)
+[2016.12.02-22.25.32:748][607]LogModuleManager: Shutting down and abandoning module GeometryCache (123)
+[2016.12.02-22.25.32:748][607]LogModuleManager: Shutting down and abandoning module AlembicLibrary (122)
+[2016.12.02-22.25.32:748][607]LogModuleManager: Shutting down and abandoning module AlembicImporter (121)
+[2016.12.02-22.25.32:757][607]LogModuleManager: Shutting down and abandoning module SuperSearch (120)
+[2016.12.02-22.25.32:757][607]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (119)
+[2016.12.02-22.25.32:758][607]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (118)
+[2016.12.02-22.25.32:758][607]LogModuleManager: Shutting down and abandoning module PluginBrowser (117)
+[2016.12.02-22.25.32:777][607]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (116)
+[2016.12.02-22.25.32:792][607]LogModuleManager: Shutting down and abandoning module EpicSurvey (115)
+[2016.12.02-22.25.32:799][607]LogModuleManager: Shutting down and abandoning module DesktopPlatform (114)
+[2016.12.02-22.25.32:814][607]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (113)
+[2016.12.02-22.25.32:828][607]LogModuleManager: Shutting down and abandoning module UObjectPlugin (112)
+[2016.12.02-22.25.32:828][607]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (111)
+[2016.12.02-22.25.32:845][607]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (110)
+[2016.12.02-22.25.32:864][607]LogModuleManager: Shutting down and abandoning module SourceControl (109)
+[2016.12.02-22.25.32:872][607]LogModuleManager: Shutting down and abandoning module GitSourceControl (108)
+[2016.12.02-22.25.32:882][607]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (107)
+[2016.12.02-22.25.32:882][607]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (106)
+[2016.12.02-22.25.32:892][607]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (105)
+[2016.12.02-22.25.32:892][607]LogModuleManager: Shutting down and abandoning module MeshPaint (104)
+[2016.12.02-22.25.32:892][607]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (103)
+[2016.12.02-22.25.32:903][607]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (102)
+[2016.12.02-22.25.32:919][607]LogModuleManager: Shutting down and abandoning module HotReload (101)
+[2016.12.02-22.25.32:950][607]LogModuleManager: Shutting down and abandoning module MainFrame (100)
+[2016.12.02-22.25.32:950][607]LogModuleManager: Shutting down and abandoning module LevelEditor (99)
+[2016.12.02-22.25.32:952][607]LogModuleManager: Shutting down and abandoning module ContentBrowser (98)
+[2016.12.02-22.25.32:955][607]LogModuleManager: Shutting down and abandoning module Paper2DEditor (97)
+[2016.12.02-22.25.32:972][607]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
+[2016.12.02-22.25.33:073][607]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
+[2016.12.02-22.25.33:411][607]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.12.02-22.25.33:411][607]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.12.02-22.25.33:419][607]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.12.02-22.25.33:431][607]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2016.12.02-22.25.33:446][607]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2016.12.02-22.25.33:446][607]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2016.12.02-22.25.33:459][607]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2016.12.02-22.25.33:469][607]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.12.02-22.25.33:469][607]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.12.02-22.25.33:469][607]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.12.02-22.25.33:469][607]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.12.02-22.25.33:500][607]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.12.02-22.25.33:500][607]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.12.02-22.25.33:519][607]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.12.02-22.25.33:554][607]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.12.02-22.25.33:554][607]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.12.02-22.25.33:554][607]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.12.02-22.25.33:572][607]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.12.02-22.25.33:601][607]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.12.02-22.25.33:615][607]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.12.02-22.25.33:635][607]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.12.02-22.25.33:636][607]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.12.02-22.25.33:647][607]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.12.02-22.25.33:648][607]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.12.02-22.25.33:648][607]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.12.02-22.25.33:648][607]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2016.12.02-22.25.33:648][607]LogModuleManager: Shutting down and abandoning module Core (67)
+[2016.12.02-22.25.33:648][607]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2016.12.02-22.25.33:648][607]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.12.02-22.25.33:648][607]LogDirectoryWatcher: A directory notification for '../../../../../../sylve/Documents/WorkSpace/Unreal Projects/Entertainment/Content/' was aborted.
+[2016.12.02-22.25.33:648][607]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.12.02-22.25.33:649][607]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2016.12.02-22.25.33:871][607]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2016.12.02-22.25.33:871][607]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2016.12.02-22.25.33:871][607]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2016.12.02-22.25.33:887][607]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2016.12.02-22.25.33:901][607]LogDerivedDataCache: Shutdown
+[2016.12.02-22.25.33:901][607]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2016.12.02-22.25.33:913][607]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2016.12.02-22.25.33:930][607]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2016.12.02-22.25.33:938][607]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2016.12.02-22.25.33:947][607]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2016.12.02-22.25.33:947][607]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2016.12.02-22.25.33:960][607]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.12.02-22.25.33:960][607]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2016.12.02-22.25.33:969][607]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2016.12.02-22.25.33:969][607]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2016.12.02-22.25.33:969][607]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2016.12.02-22.25.33:969][607]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2016.12.02-22.25.33:976][607]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2016.12.02-22.25.33:986][607]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2016.12.02-22.25.33:996][607]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2016.12.02-22.25.33:996][607]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2016.12.02-22.25.34:025][607]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2016.12.02-22.25.34:037][607]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2016.12.02-22.25.34:046][607]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2016.12.02-22.25.34:046][607]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2016.12.02-22.25.34:046][607]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2016.12.02-22.25.34:046][607]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2016.12.02-22.25.34:046][607]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2016.12.02-22.25.34:046][607]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2016.12.02-22.25.34:046][607]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2016.12.02-22.25.34:046][607]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2016.12.02-22.25.34:046][607]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2016.12.02-22.25.34:046][607]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2016.12.02-22.25.34:046][607]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2016.12.02-22.25.34:046][607]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2016.12.02-22.25.34:046][607]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2016.12.02-22.25.34:046][607]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2016.12.02-22.25.34:054][607]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2016.12.02-22.25.34:064][607]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2016.12.02-22.25.34:076][607]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.12.02-22.25.34:076][607]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.12.02-22.25.34:076][607]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.12.02-22.25.34:076][607]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.12.02-22.25.34:076][607]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.12.02-22.25.34:087][607]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2016.12.02-22.25.34:087][607]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2016.12.02-22.25.34:087][607]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2016.12.02-22.25.34:087][607]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.12.02-22.25.34:099][607]LogOnline:Display: Unloading online subsystem: NULL
+[2016.12.02-22.25.34:119][607]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.12.02-22.25.34:120][607]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.12.02-22.25.34:120][607]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B94DD3262-46D9-3FF2-71BA-9E8D99821CA9%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=5e8916e24c62e40e3267f2b9f6f61bf5%7C5757bc0e79d542efb21b5d5f30a43a1b%7Cf65156fc-44b3-437e-b727-a1d66a165721&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.12.02-22.25.34:138][607]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.12.02-22.25.34:153][607]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.02-22.25.34:153][607]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.02-22.25.34:153][607]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.02-22.25.34:153][607]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.02-22.25.34:173][607]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.02-22.25.34:181][607]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.02-22.25.34:181][607]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.02-22.25.34:181][607]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.02-22.25.34:181][607]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.02-22.25.34:181][607]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.02-22.25.34:181][607]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.02-22.25.34:189][607]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.02-22.25.34:196][607]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.02-22.25.34:204][607]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.02-22.25.34:233][607]LogExit: Exiting.
+[2016.12.02-22.25.34:238][607]Log file closed, 12/03/16 07:25:34
